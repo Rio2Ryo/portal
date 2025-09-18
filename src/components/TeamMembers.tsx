@@ -17,22 +17,6 @@ export default function TeamMembers() {
       image: "/errol-perera-new-DFc7csDu.jpeg",
       company: "Revoganix株式会社",
       companyColor: "text-green-400"
-    },
-    {
-      name: "松浦 亮介（Matsuura Ryosuke）",
-      title: "Algae International Japan株式会社 代表取締役",
-      description: "京都大学大学院にて数理工学を専攻。大手IT企業での豊富な研究開発経験を経て、デジタルマーケティング分野に転身し、現在はサステナビリティとイノベーション分野のイニシアチブをリードしています。技術的専門性とビジネス手腕の独特な組み合わせにより、テクノロジーと環境ソリューションの融合における主要な推進力として位置づけられています。",
-      image: "/matsuura-ryosuke-new.jpeg",
-      company: "Algae International Japan株式会社",
-      companyColor: "text-purple-400"
-    },
-    {
-      name: "熊木 景（Kumaki Kei）",
-      title: "dotpb株式会社 代表取締役",
-      description: "日本のペット教育分野において日本一の実績を獲得しています。デジタル領域への専門性の拡張に成功し、高度なマーケティングおよびブランディング戦略を適用して、複数の産業において新たな価値を創造しています。その実績は、専門的知識をより広範な市場応用へとスケールする卓越した能力を実証しています。",
-      image: "/kumaki-kei-new.jpeg",
-      company: "dotpb株式会社",
-      companyColor: "text-orange-400"
     }
   ]
 

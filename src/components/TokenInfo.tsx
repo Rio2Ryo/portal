@@ -63,45 +63,12 @@ export default function TokenInfo() {
           </div>
         </div>
 
-        {/* Token Features */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          <div className="bg-orange-500/10 border border-orange-500/30 rounded-xl p-8 text-center">
-            <div className="w-16 h-16 bg-orange-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
-              <span className="text-2xl">💰</span>
-            </div>
-            <h3 className="text-xl font-bold text-orange-400 mb-4">資金調達手段</h3>
-            <p className="text-gray-300 text-sm">
-              IEOおよび市場流通により、世界各国での生産拠点構築・拡張資金を調達
-            </p>
-          </div>
-
-          <div className="bg-green-500/10 border border-green-500/30 rounded-xl p-8 text-center">
-            <div className="w-16 h-16 bg-green-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
-              <span className="text-2xl">🔒</span>
-            </div>
-            <h3 className="text-xl font-bold text-green-400 mb-4">ステーキング参加</h3>
-            <p className="text-gray-300 text-sm">
-              投資家がMVTトークンを預け入れ、運営施設からの実際のCO₂吸収指標に基づくNFT報酬を受け取ることができるスマートコントラクトベースのステーキングプール
-            </p>
-          </div>
-
-          <div className="bg-blue-500/10 border border-blue-500/30 rounded-xl p-8 text-center">
-            <div className="w-16 h-16 bg-blue-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
-              <span className="text-2xl">🎨</span>
-            </div>
-            <h3 className="text-xl font-bold text-blue-400 mb-4">NFT取引</h3>
-            <p className="text-gray-300 text-sm">
-              CO₂吸収連動NFTはパートナーおよびオープンマーケットプレイスにて自由に取引可能であり、環境貢献検証と二次市場取引による経済的価値の両方を創出
-            </p>
-          </div>
-        </div>
-
 
         {/* Pre-registration Section */}
         <div className="text-center">
           <div className="bg-gradient-to-b from-orange-500/10 to-red-500/10 border border-orange-500/20 rounded-2xl p-12 max-w-3xl mx-auto mt-16">
             <h3 className="text-3xl font-bold text-white text-center mb-8">
-              事前登録受付中
+              登録受付中
             </h3>
             <p className="text-gray-300 text-center mb-8 text-lg">
               プレセールなどの最新情報を受け取る

@@ -5,12 +5,10 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import ProjectOverview from '@/components/ProjectOverview'
 import IndustryApproach from '@/components/IndustryApproach'
-import PlatformOverview from '@/components/PlatformOverview'
 import TeamMembers from '@/components/TeamMembers'
 import Partners from '@/components/Partners'
 import TokenInfo from '@/components/TokenInfo'
 import FAQ from '@/components/FAQ'
-import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import LoadingScreen from '@/components/LoadingScreen'
 
@@ -34,12 +32,10 @@ export default function Home() {
         <Hero />
         <ProjectOverview />
         <IndustryApproach />
-        <PlatformOverview />
         <TeamMembers />
         <Partners />
         <TokenInfo />
         <FAQ />
-        <Contact />
         <Footer />
       </main>
     </>
