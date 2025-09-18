@@ -76,7 +76,7 @@ export default function TokenInfo() {
             <div className="flex justify-center">
               <button
                 onClick={() => window.location.href = 'mailto:info@mothervegetables.com'}
-                className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
+                className="bg-gradient-to-r from-green-400 to-green-700 hover:from-green-600 hover:to-green-800 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
               >
                 登録する
               </button>

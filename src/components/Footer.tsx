@@ -17,7 +17,7 @@ export default function Footer() {
                 height={120}
               />
             </div>
-            <h3 className="text-emerald-400 font-bold text-xl mb-4">MOTHER VEGETABLES</h3>
+            {/*<h3 className="text-emerald-400 font-bold text-xl mb-4">MOTHER VEGETABLES</h3>*/}
             <p className="text-gray-300 text-sm mb-4">
               地球最初の生命体による地球再生プロジェクト
             </p>
