@@ -198,7 +198,7 @@ export default function Partners() {
             3. パートナー・提携組織
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
-            包括的なパートナーシップ
+            パートナーシップ
           </h2>
         </div>
 

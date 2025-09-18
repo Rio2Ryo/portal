@@ -94,7 +94,7 @@ export default function IndustryApproach() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h3 className="text-2xl font-bold text-white text-center mb-8">
-            地球再生の8つの産業アプローチ
+            8つの産業アプローチ
           </h3>
           <p className="text-sm md:text-base text-gray-300 max-w-4xl mx-auto">
             「マザーベジタブル」は多様な産業応用が期待されており、以下の8つの分野にて展開が始まっています。
