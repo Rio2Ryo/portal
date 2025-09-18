@@ -18,14 +18,23 @@ export default function Footer() {
               />
             </div>
             {/*<h3 className="text-emerald-400 font-bold text-xl mb-4">MOTHER VEGETABLES</h3>*/}
-            <p className="text-gray-300 text-sm mb-4">
+            {/*<p className="text-gray-300 text-sm mb-4">
               地球最初の生命体による地球再生プロジェクト
-            </p>
+            </p>*/}
             <div className="flex space-x-4">
               <a href="https://x.com/mv_organization" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-emerald-400 transition-colors">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
                 </svg>
+              </a>
+              <a href="https://t.me/+uUCQ2MB8Y_03NTg1" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-emerald-400 transition-colors">
+                <Image
+                  src="/Telegram_logo.svg"
+                  alt="Telegram"
+                  width={24}
+                  height={24}
+                  className="w-6 h-6"
+                />
               </a>
               {/*<a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-emerald-400 transition-colors">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
