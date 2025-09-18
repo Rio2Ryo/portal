@@ -1,5 +1,12 @@
 import Image from 'next/image'
 
+interface Partner {
+  name: string;
+  description: string;
+  image: string;
+  subtitle?: string;
+}
+
 export default function Partners() {
   const governmentPartners = [
     {
@@ -329,8 +336,8 @@ export default function Partners() {
                   />
                 </div>
                 <h4 className="text-lg font-bold text-white mb-2">{partner.name}</h4>
-                {partner.subtitle && (
-                  <p className="text-orange-400 text-sm font-semibold mb-3">{partner.subtitle}</p>
+                {(partner as Partner).subtitle && (
+                  <p className="text-orange-400 text-sm font-semibold mb-3">{(partner as Partner).subtitle}</p>
                 )}
                 <p className="text-gray-300 text-xs leading-relaxed">{partner.description}</p>
               </div>
