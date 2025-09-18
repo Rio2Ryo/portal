@@ -71,10 +71,10 @@ export default function Footer() {
               © 2025 MOTHER VEGETABLES PROJECT. All rights reserved.
             </div>
             <div className="flex flex-wrap gap-4 text-sm">
-              <Link href="/privacy" className="text-gray-400 hover:text-emerald-400 transition-colors">プライバシーポリシー</Link>
-              <Link href="/terms" className="text-gray-400 hover:text-emerald-400 transition-colors">利用規約</Link>
-              <Link href="/legal" className="text-gray-400 hover:text-emerald-400 transition-colors">特定商取引法に基づく表記</Link>
-              <Link href="/patents" className="text-gray-400 hover:text-emerald-400 transition-colors">特許情報</Link>
+              {/*<Link href="/privacy" className="text-gray-400 hover:text-emerald-400 transition-colors">プライバシーポリシー</Link>*/}
+               {/*<Link href="/terms" className="text-gray-400 hover:text-emerald-400 transition-colors">利用規約</Link>*/}
+              <Link href="/https://www.dotpb.jp/specified-commercial-transactions-act" className="text-gray-400 hover:text-emerald-400 transition-colors">特定商取引法に基づく表記</Link>
+               {/*<Link href="/patents" className="text-gray-400 hover:text-emerald-400 transition-colors">特許情報</Link>*/}
             </div>
           </div>
         </div>
