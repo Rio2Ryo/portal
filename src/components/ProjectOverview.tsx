@@ -41,10 +41,11 @@ export default function ProjectOverview() {
               <div className="p-6 bg-green-500/10 border border-green-500/30 rounded-lg mb-6">
                 <h4 className="text-lg font-bold text-green-400 mb-3">{t({ JP: '驚異的なカーボンクレジット', EN: 'Amazing Carbon Credits' })}</h4>
                 <p className="text-gray-300">
-                  {t({
-                    JP: <>MOTHER VEGETABLESのCO₂吸収効率は天然芝と比較すると<span className="text-green-400 font-bold"> およそ700倍</span>となるため、世界中に建設できれば地球温暖化問題を急速に解決できる可能性を秘めています。</>,
-                    EN: <>The CO₂ absorption efficiency of MOTHER VEGETABLES is <span className="text-green-400 font-bold">approximately 700 times</span> that of natural grass, which holds the potential to rapidly solve global warming issues if deployed worldwide.</>
-                  })}
+                  {t({ JP: 'MOTHER VEGETABLESのCO₂吸収効率は天然芝と比較すると', EN: 'The CO₂ absorption efficiency of MOTHER VEGETABLES is ' })}
+                  <span className="text-green-400 font-bold">
+                    {t({ JP: ' およそ700倍', EN: 'approximately 700 times' })}
+                  </span>
+                  {t({ JP: 'となるため、世界中に建設できれば地球温暖化問題を急速に解決できる可能性を秘めています。', EN: ' that of natural grass, which holds the potential to rapidly solve global warming issues if deployed worldwide.' })}
                 </p>
                 <div className="mt-4 flex justify-center gap-4">
                   <div className="w-full max-w-xs h-48 rounded-xl overflow-hidden shadow-lg">
