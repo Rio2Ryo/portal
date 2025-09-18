@@ -58,7 +58,7 @@ export default function ProjectOverview() {
                     />
                   </div>
                 </div>
-                <div className="p-4 mt-6">
+                <div className="pt-4 pb-4 mt-6">
                 <p className="text-gray-300 text-sm leading-relaxed">
                   本プロジェクトは実証フェーズを完了し、マレーシアにて秘密裏にパイロットプラントが24時間365日稼働中です。マザーベジタブル培養技術による均一化生産システムを確立し、CO₂の安定的吸収を実証済み。さらにASEAN諸国の政府機関や大学・研究機関との戦略的パートナーシップにより、国際的な協力体制を構築。「既に稼働している実証施設」と「国際的な官学連携」が本プロジェクトの強力な競争優位性となっています。
                 </p>
@@ -80,7 +80,7 @@ export default function ProjectOverview() {
               </div>
 
               {/* 地球最初の生命体とは */}
-              <div className="p-6 bg-green-500/10 border border-green-500/30 rounded-lg">
+              <div className="pt-6 pb-6 bg-green-500/10 border border-green-500/30 rounded-lg">
                 <h4 className="text-lg font-bold text-green-400 mb-3">地球最初の生命体とは</h4>
                 <p className="text-gray-300">
                   地球の最初の生物を創った「マザーベジタブル」の構造を分析して現在に再現した生命体を示します。
