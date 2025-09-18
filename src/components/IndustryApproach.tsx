@@ -4,7 +4,7 @@ export default function IndustryApproach() {
       id: 1,
       title: "食品分野",
       subtitle: "生命力の向上",
-      description: "スピルリナ等の高栄養スーパーフードにより人類の栄養状態を根本から改善します。",
+      description: "人間の必須栄養素を多く含んだ高栄養スーパーフードにより人類の栄養状態を根本から改善します。",
       details: "機能性食品原材料は病気予防と健康寿命の延伸に貢献します。",
       icon: "🌱",
       color: "emerald"
@@ -51,7 +51,7 @@ export default function IndustryApproach() {
       subtitle: "クリーンエネルギー",
       description: "バイオディーゼル、バイオエタノール、バイオガスの生産により化石燃料からの完全脱却を目指します。",
       details: "カーボンニュートラルによりCO₂排出量実質ゼロを実現します。",
-      icon: "⚡",
+      icon: "♻️",
       color: "green"
     },
     {
@@ -89,18 +89,15 @@ export default function IndustryApproach() {
   }
 
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-900 to-black">
+    <section className="py-32 bg-gradient-to-b from-gray-900 to-black">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="inline-block bg-emerald-500/20 border border-emerald-500/50 text-emerald-400 px-4 py-2 rounded-full text-sm mb-4">
-            産業展開
-          </span>
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
+          <h3 className="text-2xl font-bold text-white text-center mb-8">
             地球再生の8つの産業アプローチ
-          </h2>
-          <p className="text-xl text-gray-300 max-w-4xl mx-auto">
-            AIB社の「マザーベジタブル」は多様な産業応用が期待されており、以下の8つの分野にて展開が始まっています。
+          </h3>
+          <p className="text-sm md:text-base text-gray-300 max-w-4xl mx-auto">
+            「マザーベジタブル」は多様な産業応用が期待されており、以下の8つの分野にて展開が始まっています。
           </p>
         </div>
 
@@ -125,27 +122,6 @@ export default function IndustryApproach() {
           ))}
         </div>
 
-        {/* 施設数と環境改善効果の関係 */}
-        <div className="bg-gray-800/50 backdrop-blur-md border border-emerald-500/20 rounded-xl p-8">
-          <h3 className="text-3xl font-bold text-white text-center mb-8">施設数と環境改善効果の関係</h3>
-          
-          <div className="max-w-4xl mx-auto space-y-6 text-gray-300">
-            <p className="text-lg">
-              藻類培養技術を用いた均一化生産システムの施設は太陽光発電および蓄電システムを有しており、自社エネルギーにて24時間365日稼働し、
-              CO₂の安定的かつ効率的な吸収を実証済みであり、技術の商業化に向けた確固たるエビデンスを有しています。
-            </p>
-            
-            <div className="bg-emerald-500/10 border border-emerald-500/30 rounded-lg p-6">
-              <p className="text-lg font-semibold text-emerald-400 mb-4">
-                MOTHER VEGETABLES施設の建設数と地球の健康改善効果は完全に比例関係にあります。
-              </p>
-              <p>
-                1つの施設が年間X トンのCO₂削減を実現する場合、10の施設では10倍、100の施設では100倍、1000の施設では1000倍の効果が得られます。
-                この数学的な比例関係により、施設を建設すればするほど大気中CO₂濃度が低下し、酸素濃度が向上します。
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   )

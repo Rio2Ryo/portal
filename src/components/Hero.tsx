@@ -10,6 +10,13 @@ export default function Hero() {
     }
   }
 
+  const scrollToToken = () => {
+    const element = document.getElementById('token')
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   const downloadWhitepaper = () => {
     const link = document.createElement('a')
     link.href = '/0912_whitepaper_ja.pdf'
@@ -20,9 +27,9 @@ export default function Hero() {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden z-base pt-20 md:pt-24">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0" style={{ zIndex: -1 }}>
+      <div className="absolute inset-0">
         <Image
           src="/hero-earth-regeneration-Dnk2z_VF.png"
           alt="Earth Regeneration"
@@ -30,99 +37,104 @@ export default function Hero() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="absolute inset-0 bg-black/60"></div>
       </div>
 
       {/* Content */}
-      <div className="relative text-center px-4 max-w-6xl mx-auto mt-8 md:mt-12" style={{ zIndex: 10 }}>
-        {/* Main Title */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 md:mb-8">
-          <span className="text-emerald-400">MOTHER VEGETABLES</span>
-          <br />
-          <span className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">PROJECT</span>
-        </h1>
+      <div className="relative z-10 text-center max-w-7xl mx-auto px-4 transition-all duration-1500 pt-40 md:pt-48 lg:pt-56">
+        {/* Title Section - Single Component */}
+        <div className="mb-12">
+          <div
+            className="inline-block"
+            style={{
+              background: 'linear-gradient(135deg, #4ade80 0%, #22c55e 50%, #16a34a 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text',
+              filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3)) drop-shadow(0 2px 4px rgba(34, 197, 94, 0.2))',
+            }}
+          >
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight">
+              <div style={{ letterSpacing: '0.02em', marginBottom: '-0.1em' }}>MOTHER VEGETABLES</div>
+              <div style={{ letterSpacing: '0.15em' }}>PROJECT</div>
+            </h1>
+          </div>
+          <div className="w-40 md:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-6 opacity-80"></div>
+        </div>
 
         {/* Subtitle */}
-        <div className="mb-12">
-          <p className="text-xl md:text-2xl text-white mb-4">地球最初の生命体による</p>
-          <p className="text-2xl md:text-3xl text-emerald-400 font-bold mb-8">地球再生プロジェクト</p>
-          
-          <div className="max-w-4xl mx-auto space-y-4 text-base sm:text-lg md:text-xl text-gray-200">
-            <p>35億年前の地球最初の生命体「マザーベジタブル」を世界各地に展開することで、</p>
-            <p>CO₂を削減しながら人類と生物の健康を向上させる、</p>
-            <p>作れば作るほど地球を良くしていく<span className="text-emerald-400 font-bold">循環型システム</span></p>
-          </div>
+        <div className="mt-6 mb-12">
+          <p className="text-lg md:text-xl text-white mb-2 font-light">
+            地球最初の生命体による
+          </p>
+          <p className="text-xl md:text-2xl text-green-400 font-semibold">
+            地球再生プロジェクト
+          </p>
         </div>
 
-        {/* Statistics */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mb-12">
-          <div className="bg-black/40 backdrop-blur-md border border-emerald-500/30 rounded-lg p-4 sm:p-5 md:p-6">
-            <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-emerald-400 mb-2">700倍</div>
-            <div className="text-white">
-              <div className="font-semibold">CO₂吸収効率</div>
-              <div className="text-sm text-gray-300">vs 天然芝</div>
-            </div>
-          </div>
-          
-          <div className="bg-black/40 backdrop-blur-md border border-emerald-500/30 rounded-lg p-4 sm:p-5 md:p-6">
-            <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-emerald-400 mb-2">24/7</div>
-            <div className="text-white">
-              <div className="font-semibold">連続稼働</div>
-              <div className="text-sm text-gray-300">365日間</div>
-            </div>
-          </div>
-          
-          <div className="bg-black/40 backdrop-blur-md border border-emerald-500/30 rounded-lg p-4 sm:p-5 md:p-6">
-            <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-emerald-400 mb-2">8分野</div>
-            <div className="text-white">
-              <div className="font-semibold">産業展開</div>
-              <div className="text-sm text-gray-300">グローバル</div>
-            </div>
-          </div>
-        </div>
-
-        {/* Version Badge */}
-        <div className="mb-8">
-          <span className="inline-block bg-emerald-500/20 border border-emerald-500/50 text-emerald-400 px-4 py-2 rounded-full text-sm">
-            ✨ Version 1.0.0 - 革命的環境技術
-          </span>
+        {/* Description - Not in Box */}
+        <div className="max-w-4xl mx-auto mb-12 mt-16 space-y-4">
+          <p className="text-lg md:text-xl text-white leading-relaxed">
+            35億年前の地球最初の生命体
+          </p>
+          <p className="text-xl md:text-2xl text-green-400 leading-relaxed font-semibold">
+            「マザーベジタブル」
+          </p>
+          <p className="text-lg md:text-xl text-white leading-relaxed mt-8">
+            を全世界に供給する
+          </p>
+          <p className="text-lg md:text-xl text-white leading-relaxed mt-12">
+            それを生成する
+          </p>
+          <p className="text-xl md:text-2xl text-green-400 leading-relaxed font-semibold">
+            「マザーベジタブルファクトリー」
+          </p>
+          <p className="text-lg md:text-xl text-white leading-relaxed mt-4">
+            はCO2を削減しながら<br />
+            地球と生命の生きる環境を<br />
+            改善していくことを目的とする
+          </p>
         </div>
 
         {/* Action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex flex-col gap-4 max-w-xl mx-auto mb-16">
+          {/* Token Info Button */}
           <button
-            onClick={scrollToDetails}
-            className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+            onClick={scrollToToken}
+            className="group relative overflow-hidden bg-gradient-to-r from-green-500 via-green-600 to-green-500 p-[2px] rounded-lg transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-green-500/30"
           >
-            ▶ プロジェクト詳細を見る
+            <div className="relative bg-black/90 rounded-lg px-8 py-4 transition-all duration-300 group-hover:bg-black/70">
+              <div className="flex items-center justify-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-green-400">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 6v6l4 2"></path>
+                </svg>
+                <span className="text-white font-bold text-lg tracking-wide">トークン情報</span>
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
+            </div>
           </button>
-          <button
-            onClick={() => document.getElementById('token')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
-          >
-            🪙 トークン情報
-          </button>
+
+          {/* Whitepaper Button */}
           <button
             onClick={downloadWhitepaper}
-            className="bg-cyan-500 hover:bg-cyan-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+            className="group relative overflow-hidden bg-gradient-to-r from-green-500 via-green-600 to-green-500 p-[2px] rounded-lg transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-green-500/30"
           >
-            📄 ホワイトペーパー
+            <div className="relative bg-black/90 rounded-lg px-8 py-4 transition-all duration-300 group-hover:bg-black/70">
+              <div className="flex items-center justify-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-green-400">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" x2="12" y1="15" y2="3"></line>
+                </svg>
+                <span className="text-white font-bold text-lg tracking-wide">ホワイトペーパー</span>
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
+            </div>
           </button>
         </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2" style={{ zIndex: 10 }}>
-          <div className="text-white text-center">
-            <p className="text-sm mb-2">詳細を見る</p>
-            <div className="animate-bounce">
-              <svg className="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-              </svg>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   )
 }
-

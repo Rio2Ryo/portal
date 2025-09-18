@@ -11,134 +11,112 @@ export default function TokenInfo() {
   }
 
   return (
-    <section id="token" className="py-20 bg-gradient-to-b from-gray-900 to-black">
+    <section id="token" className="py-32 bg-gradient-to-b from-gray-900 to-black">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="inline-block bg-orange-500/20 border border-orange-500/50 text-orange-400 px-4 py-2 rounded-full text-sm mb-4">
+          <span className="inline-block bg-orange-500/20 border border-orange-500/50 text-orange-400 px-4 py-2 rounded-full text-sm mb-12">
             5. トークン情報
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
-            MOTHER VEGETABLESトークン
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
+            MOTHER VEGETABLES Token (MVT)情報
           </h2>
-          <p className="text-xl text-gray-300 max-w-4xl mx-auto">
-            地球再生プロジェクトへの参加と投資機会を提供するトークンエコシステム
+          <p className="text-sm md:text-base text-gray-300 max-w-4xl mx-auto">
+            MOTHER VEGETABLES Token（MVT）はマザーベジタブルファクトリーと直接接続されたユーティリティトークンとして機能し、核心的ユーティリティを提供します。
           </p>
+          <div className="mt-8">
+            <img
+              src="/mvt-coin.png"
+              alt="MVT Token Logo"
+              className="w-48 h-48 mx-auto"
+            />
+          </div>
+        </div>
+
+        {/* Token Details */}
+        <div className="bg-gray-800/50 backdrop-blur-md border border-gray-700/50 rounded-xl p-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="text-center">
+              <p className="text-gray-400 text-sm mb-2">トークン名称</p>
+              <p className="text-white font-bold text-lg">MOTHER VEGETABLES Token</p>
+            </div>
+            <div className="text-center">
+              <p className="text-gray-400 text-sm mb-2">ティッカーシンボル</p>
+              <p className="text-white font-bold text-lg">$MVT</p>
+            </div>
+            <div className="text-center">
+              <p className="text-gray-400 text-sm mb-2">ブロックチェーン</p>
+              <p className="text-white font-bold text-lg">Ethereum</p>
+            </div>
+            <div className="text-center">
+              <p className="text-gray-400 text-sm mb-2">トークン規格</p>
+              <p className="text-white font-bold text-lg">ERC-20</p>
+            </div>
+            <div className="text-center">
+              <p className="text-gray-400 text-sm mb-2">総発行量</p>
+              <p className="text-white font-bold text-lg">10,000,000,000 (10 billion)</p>
+            </div>
+            <div className="text-center">
+              <p className="text-gray-400 text-sm mb-2">コントラクトアドレス</p>
+              <p className="text-white font-bold text-lg">0x●●●●</p>
+            </div>
+          </div>
         </div>
 
         {/* Token Features */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <div className="bg-orange-500/10 border border-orange-500/30 rounded-xl p-8 text-center">
             <div className="w-16 h-16 bg-orange-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
-              <span className="text-2xl">🪙</span>
+              <span className="text-2xl">💰</span>
             </div>
-            <h3 className="text-2xl font-bold text-orange-400 mb-4">ユーティリティトークン</h3>
-            <p className="text-gray-300">
-              プロジェクトの成長と共に価値が向上し、
-              エコシステム内での様々な用途に使用可能
+            <h3 className="text-xl font-bold text-orange-400 mb-4">資金調達手段</h3>
+            <p className="text-gray-300 text-sm">
+              IEOおよび市場流通により、世界各国での生産拠点構築・拡張資金を調達
             </p>
           </div>
 
           <div className="bg-green-500/10 border border-green-500/30 rounded-xl p-8 text-center">
             <div className="w-16 h-16 bg-green-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
-              <span className="text-2xl">🌱</span>
+              <span className="text-2xl">🔒</span>
             </div>
-            <h3 className="text-2xl font-bold text-green-400 mb-4">環境貢献証明</h3>
-            <p className="text-gray-300">
-              トークン保有により地球環境改善への
-              直接的な貢献を証明
+            <h3 className="text-xl font-bold text-green-400 mb-4">ステーキング参加</h3>
+            <p className="text-gray-300 text-sm">
+              投資家がMVTトークンを預け入れ、運営施設からの実際のCO₂吸収指標に基づくNFT報酬を受け取ることができるスマートコントラクトベースのステーキングプール
             </p>
           </div>
 
           <div className="bg-blue-500/10 border border-blue-500/30 rounded-xl p-8 text-center">
             <div className="w-16 h-16 bg-blue-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
-              <span className="text-2xl">💎</span>
+              <span className="text-2xl">🎨</span>
             </div>
-            <h3 className="text-2xl font-bold text-blue-400 mb-4">収益分配権</h3>
-            <p className="text-gray-300">
-              施設運営による収益の一部を
-              トークンホルダーに分配
+            <h3 className="text-xl font-bold text-blue-400 mb-4">NFT取引</h3>
+            <p className="text-gray-300 text-sm">
+              CO₂吸収連動NFTはパートナーおよびオープンマーケットプレイスにて自由に取引可能であり、環境貢献検証と二次市場取引による経済的価値の両方を創出
             </p>
           </div>
         </div>
 
-        {/* Token Economics */}
-        <div className="bg-gray-800/50 backdrop-blur-md border border-orange-500/20 rounded-xl p-8 mb-16">
-          <h3 className="text-3xl font-bold text-white text-center mb-8">トークンエコノミクス</h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h4 className="text-xl font-bold text-orange-400 mb-4">トークンの用途</h4>
-              <ul className="space-y-3 text-gray-300">
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-orange-400 rounded-full mr-3"></div>
-                  施設建設への投資参加
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-orange-400 rounded-full mr-3"></div>
-                  製品購入時の割引適用
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-orange-400 rounded-full mr-3"></div>
-                  ガバナンス投票への参加
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-orange-400 rounded-full mr-3"></div>
-                  ステーキング報酬の獲得
-                </li>
-              </ul>
-            </div>
 
-            <div>
-              <h4 className="text-xl font-bold text-orange-400 mb-4">価値創造メカニズム</h4>
-              <ul className="space-y-3 text-gray-300">
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-orange-400 rounded-full mr-3"></div>
-                  施設数増加による需要拡大
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-orange-400 rounded-full mr-3"></div>
-                  8産業分野での収益創出
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-orange-400 rounded-full mr-3"></div>
-                  カーボンクレジット収益
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-orange-400 rounded-full mr-3"></div>
-                  グローバル展開による規模効果
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        {/* Call to Action */}
+        {/* Pre-registration Section */}
         <div className="text-center">
-          <div className="bg-gradient-to-r from-orange-500/20 to-red-500/20 border border-orange-500/30 rounded-xl p-8 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-white mb-4">
-              地球再生プロジェクトに参加しませんか？
+          <div className="bg-gradient-to-b from-orange-500/10 to-red-500/10 border border-orange-500/20 rounded-2xl p-12 max-w-3xl mx-auto mt-16">
+            <h3 className="text-3xl font-bold text-white text-center mb-8">
+              事前登録受付中
             </h3>
-            <p className="text-gray-300 mb-6">
-              詳細な情報とトークンの仕組みについては、
-              ホワイトペーパーをダウンロードしてご確認ください。
+            <p className="text-gray-300 text-center mb-8 text-lg">
+              プレセールなどの最新情報を受け取る
             </p>
-            <button
-              onClick={downloadWhitepaper}
-              className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
-            >
-              📄 ホワイトペーパーをダウンロード
-            </button>
+            <div className="flex justify-center">
+              <button
+                onClick={() => window.location.href = 'mailto:info@mothervegetables.com'}
+                className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
+              >
+                登録する
+              </button>
+            </div>
           </div>
         </div>
 
-        {/* Footer */}
-        <div className="mt-16 text-center">
-          <div className="inline-flex items-center bg-gray-800/50 border border-gray-700/50 rounded-full px-6 py-3">
-            <span className="text-emerald-400 mr-2">✨</span>
-            <span className="text-white font-semibold">Made with Manus</span>
-          </div>
-        </div>
       </div>
     </section>
   )
