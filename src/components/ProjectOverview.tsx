@@ -58,7 +58,7 @@ export default function ProjectOverview() {
                     />
                   </div>
                 </div>
-                <div className="p-4 bg-green-500/10 border border-green-500/30 rounded-lg">
+                <div className="p-4 mt-6">
                 <p className="text-gray-300 text-sm leading-relaxed">
                   本プロジェクトは実証フェーズを完了し、マレーシアにて秘密裏にパイロットプラントが24時間365日稼働中です。マザーベジタブル培養技術による均一化生産システムを確立し、CO₂の安定的吸収を実証済み。さらにASEAN諸国の政府機関や大学・研究機関との戦略的パートナーシップにより、国際的な協力体制を構築。「既に稼働している実証施設」と「国際的な官学連携」が本プロジェクトの強力な競争優位性となっています。
                 </p>
@@ -95,7 +95,7 @@ export default function ProjectOverview() {
                   </div>
                 </div>
                  {/* 地球最初の生命体ができること */}
-              <div className="mt-6 p-6 bg-green-500/10 border border-green-500/30 rounded-lg">
+              <div className="mt-6 p-6">
                 <h4 className="text-lg font-bold text-green-400 mb-3">地球最初の生命体ができること</h4>
                 <p className="text-gray-300">
                   最初の生命体が人類まで至っている進化の中で様々なものを創ることができます。例えば、たった1つの生命体から人類に必要な栄養素を30種類以上含んだスーパーフードを提供することができたり、地球上にすでに存在するものの成分が同じ代替品を創ることもできます。様々なものが作れるようになった中で我々は8つの産業に分類してそれぞれに対してマザーベジタブルを核に展開しています。
