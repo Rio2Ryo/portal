@@ -80,7 +80,7 @@ export default function ProjectOverview() {
               </div>
 
               {/* 地球最初の生命体とは */}
-              <div className="pt-6 pb-6 bg-green-500/10 border border-green-500/30 rounded-lg">
+              <div className="p-6 bg-green-500/10 border border-green-500/30 rounded-lg">
                 <h4 className="text-lg font-bold text-green-400 mb-3">地球最初の生命体とは</h4>
                 <p className="text-gray-300">
                   地球の最初の生物を創った「マザーベジタブル」の構造を分析して現在に再現した生命体を示します。
@@ -95,7 +95,7 @@ export default function ProjectOverview() {
                   </div>
                 </div>
                  {/* 地球最初の生命体ができること */}
-              <div className="mt-6 p-6">
+              <div className="mt-6 pt-6 pb-6">
                 <h4 className="text-lg font-bold text-green-400 mb-3">地球最初の生命体ができること</h4>
                 <p className="text-gray-300">
                   最初の生命体が人類まで至っている進化の中で様々なものを創ることができます。例えば、たった1つの生命体から人類に必要な栄養素を30種類以上含んだスーパーフードを提供することができたり、地球上にすでに存在するものの成分が同じ代替品を創ることもできます。様々なものが作れるようになった中で我々は8つの産業に分類してそれぞれに対してマザーベジタブルを核に展開しています。
