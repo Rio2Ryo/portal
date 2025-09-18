@@ -45,7 +45,7 @@ export default function Header() {
                 activeSection === 'team' ? 'text-green-400' : ''
               }`}
             >
-              メンバー
+              ショップ
             </button>
             <button
               onClick={() => scrollToSection('token')}
@@ -53,14 +53,14 @@ export default function Header() {
                 activeSection === 'token' ? 'text-green-400' : ''
               }`}
             >
-              トークン
+              ホワイトペーパー
             </button>
-            <button
+            {/*<button
               onClick={() => window.location.href = 'mailto:info@mothervegetables.com'}
               className="px-3 md:px-4 py-2 text-sm bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium transition-all duration-300"
             >
               事前登録
-            </button>
+            </button>*/}
           </nav>
         </div>
       </div>
