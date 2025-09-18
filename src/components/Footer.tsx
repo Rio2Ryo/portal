@@ -1,7 +1,11 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function Footer() {
+  const { t } = useLanguage()
   return (
     <footer className="bg-black/90 backdrop-blur-lg border-t border-emerald-500/20">
       {/* Main Footer Content */}
@@ -51,12 +55,22 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div className="col-span-2">
-            <h4 className="text-white font-semibold mb-4">クイックリンク</h4>
+            <h4 className="text-white font-semibold mb-4">
+              {t({ JP: 'クイックリンク', EN: 'Quick Links' })}
+            </h4>
             <ul className="space-y-2">
-              <li><Link href="#team" className="text-gray-300 hover:text-emerald-400 transition-colors text-sm">メンバー</Link></li>
-              <li><Link href="#token" className="text-gray-300 hover:text-emerald-400 transition-colors text-sm">トークン</Link></li>
-              <li><a href="mailto:info@mothervegetables.com" className="text-gray-300 hover:text-emerald-400 transition-colors text-sm">事前登録</a></li>
-              <li><a href="/0912_whitepaper_ja.pdf" className="text-gray-300 hover:text-emerald-400 transition-colors text-sm">ホワイトペーパー</a></li>
+              <li><Link href="#team" className="text-gray-300 hover:text-emerald-400 transition-colors text-sm">
+                {t({ JP: 'メンバー', EN: 'Members' })}
+              </Link></li>
+              <li><Link href="#token" className="text-gray-300 hover:text-emerald-400 transition-colors text-sm">
+                {t({ JP: 'トークン', EN: 'Token' })}
+              </Link></li>
+              <li><a href="mailto:info@mothervegetables.com" className="text-gray-300 hover:text-emerald-400 transition-colors text-sm">
+                {t({ JP: '事前登録', EN: 'Pre-registration' })}
+              </a></li>
+              <li><a href="/0912_whitepaper_ja.pdf" className="text-gray-300 hover:text-emerald-400 transition-colors text-sm">
+                {t({ JP: 'ホワイトペーパー', EN: 'Whitepaper' })}
+              </a></li>
             </ul>
           </div>
 
@@ -68,12 +82,17 @@ export default function Footer() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2025 MOTHER VEGETABLES PROJECT. All rights reserved.
+              {t({
+                JP: '© 2025 MOTHER VEGETABLES PROJECT. All rights reserved.',
+                EN: '© 2025 MOTHER VEGETABLES PROJECT. All rights reserved.'
+              })}
             </div>
             <div className="flex flex-wrap gap-4 text-sm">
               {/*<Link href="/privacy" className="text-gray-400 hover:text-emerald-400 transition-colors">プライバシーポリシー</Link>*/}
                {/*<Link href="/terms" className="text-gray-400 hover:text-emerald-400 transition-colors">利用規約</Link>*/}
-              <Link href="/https://www.dotpb.jp/specified-commercial-transactions-act" className="text-gray-400 hover:text-emerald-400 transition-colors">特定商取引法に基づく表記</Link>
+              <Link href="/https://www.dotpb.jp/specified-commercial-transactions-act" className="text-gray-400 hover:text-emerald-400 transition-colors">
+                {t({ JP: '特定商取引法に基づく表記', EN: 'Specified Commercial Transactions Act' })}
+              </Link>
                {/*<Link href="/patents" className="text-gray-400 hover:text-emerald-400 transition-colors">特許情報</Link>*/}
             </div>
           </div>

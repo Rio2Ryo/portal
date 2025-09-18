@@ -2,9 +2,11 @@
 
 import Image from 'next/image'
 import { useState } from 'react'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState('')
+  const { language, setLanguage, t } = useLanguage()
 
   const scrollToSection = (sectionId: string) => {
     setActiveSection(sectionId)
@@ -16,8 +18,13 @@ export default function Header() {
 
   const downloadWhitepaper = () => {
     const link = document.createElement('a')
-    link.href = '/0912_whitepaper_ja.pdf'
-    link.download = 'MOTHER_VEGETABLES_Whitepaper_JP.pdf'
+    if (language === 'JP') {
+      link.href = '/0912_whitepaper_ja.pdf'
+      link.download = 'MOTHER_VEGETABLES_Whitepaper_JP.pdf'
+    } else {
+      link.href = '/0918_whitepaper_en.pdf'
+      link.download = 'MOTHER_VEGETABLES_Whitepaper_EN.pdf'
+    }
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -45,13 +52,19 @@ export default function Header() {
               rel="noopener noreferrer"
               className="px-3 md:px-4 py-2 text-sm text-gray-300 hover:text-green-400 transition-all duration-300"
             >
-              ショップ
+              {t({ JP: 'ショップ', EN: 'Shop' })}
             </a>
             <button
               onClick={downloadWhitepaper}
               className="px-3 md:px-4 py-2 text-sm text-gray-300 hover:text-green-400 transition-all duration-300"
             >
-              ホワイトペーパー
+              {t({ JP: 'ホワイトペーパー', EN: 'Whitepaper' })}
+            </button>
+            <button
+              onClick={() => setLanguage(language === 'EN' ? 'JP' : 'EN')}
+              className="px-3 md:px-4 py-2 text-sm text-gray-300 hover:text-green-400 transition-all duration-300 border border-gray-600 rounded-md"
+            >
+              {language === 'EN' ? '🇬🇧 EN' : '🇯🇵 JP'}
             </button>
             {/*<button
               onClick={() => window.location.href = 'mailto:info@mothervegetables.com'}

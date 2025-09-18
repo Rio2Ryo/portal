@@ -1,8 +1,10 @@
 'use client'
 
 import Image from 'next/image'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function Hero() {
+  const { t } = useLanguage()
   const scrollToDetails = () => {
     const element = document.getElementById('project-overview')
     if (element) {
@@ -66,13 +68,22 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto mb-12 mt-20 px-4">
           <div className="space-y-3">
             <p className="text-lg md:text-xl text-white leading-relaxed">
-              35億年前の地球のはじまりの生命
+              {t({
+                JP: '35億年前の地球のはじまりの生命',
+                EN: 'Life from the beginning of Earth 3.5 billion years ago'
+              })}
             </p>
             <p className="text-lg md:text-xl text-white leading-relaxed">
-              「マザーベジタブル」
+              {t({
+                JP: '「マザーベジタブル」',
+                EN: '"Mother Vegetables"'
+              })}
             </p>
             <p className="text-lg md:text-xl text-white leading-relaxed">
-              地球が生み出した生命力を、あなたに。
+              {t({
+                JP: '地球が生み出した生命力を、あなたに。',
+                EN: 'Bringing you the life force created by Earth.'
+              })}
             </p>
           </div>
         </div>
