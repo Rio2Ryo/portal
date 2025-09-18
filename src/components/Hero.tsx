@@ -77,6 +77,18 @@ export default function Hero() {
           </div>
         </div>
 
+        {/* Mother Vegetables Image */}
+        <div className="max-w-2xl mx-auto mb-12 px-4">
+          <Image
+            src="/motherv.png"
+            alt="Mother Vegetables"
+            width={600}
+            height={400}
+            className="w-full h-auto rounded-lg shadow-2xl"
+            priority
+          />
+        </div>
+
 
       </div>
     </section>
