@@ -99,7 +99,7 @@ export default function ProjectOverview() {
                 <div className="mt-4 flex justify-center">
                   <div className="w-48 h-48 rounded-2xl overflow-hidden shadow-lg">
                     <img
-                      src="/mazavege.jpg"
+                      src="/mazavege.png"
                       alt="マザーベジタブル"
                       className="w-full h-full object-cover"
                     />
