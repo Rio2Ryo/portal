@@ -19,8 +19,8 @@ export default function Header() {
   const downloadWhitepaper = () => {
     const link = document.createElement('a')
     if (language === 'JP') {
-      link.href = '/wh_ja.pdf'
-      link.download = 'MOTHER_VEGETABLES_Whitepaper_JP.pdf'
+      link.href = '/wh_en.pdf'
+      link.download = 'MOTHER_VEGETABLES_Whitepaper_EN.pdf'
     } else {
       link.href = '/wh_en.pdf'
       link.download = 'MOTHER_VEGETABLES_Whitepaper_EN.pdf'
@@ -50,7 +50,7 @@ export default function Header() {
               onClick={downloadWhitepaper}
               className="px-3 md:px-4 py-2 text-sm text-gray-300 hover:text-green-400 transition-all duration-300"
             >
-              {t({ JP: 'ホワイトペーパー', EN: 'Whitepaper' })}
+              {t({ JP: 'Whitepaper', EN: 'Whitepaper' })}
             </button>
             <button
               onClick={() => setLanguage(language === 'EN' ? 'JP' : 'EN')}
