@@ -27,7 +27,7 @@ export default function ProjectOverview() {
         <div className="bg-gray-900/50 backdrop-blur-md border border-green-500/20 rounded-xl p-8 mb-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Left Section - 01 */}
-            <div>
+            <div className="flex flex-col h-full">
               <div className="flex items-center justify-center mb-8">
                 <div className="relative">
                   <div className="absolute inset-0  opacity-50"></div>
@@ -38,7 +38,7 @@ export default function ProjectOverview() {
               </div>
 
               {/* 驚異的なカーボンクレジット */}
-              <div className="p-6 bg-green-500/10 border border-green-500/30 rounded-lg mb-6">
+              <div className="p-6 bg-green-500/10 border border-green-500/30 rounded-lg flex-grow flex flex-col">
                 <h4 className="text-lg font-bold text-green-400 mb-3">{t({ JP: '驚異的なカーボンクレジット', EN: 'Amazing Carbon Credits' })}</h4>
                 <p className="text-gray-300">
                   {t({ JP: 'MOTHER VEGETABLESのCO₂吸収効率は天然芝と比較すると', EN: 'The CO₂ absorption efficiency of MOTHER VEGETABLES is ' })}
@@ -47,15 +47,15 @@ export default function ProjectOverview() {
                   </span>
                   {t({ JP: 'となるため、世界中に建設できれば地球温暖化問題を急速に解決できる可能性を秘めています。', EN: ' that of natural grass, which holds the potential to rapidly solve global warming issues if deployed worldwide.' })}
                 </p>
-                <div className="mt-4 flex justify-center gap-4">
-                  <div className="w-full max-w-xs h-48 rounded-xl overflow-hidden shadow-lg">
+                <div className="mt-4 flex flex-col md:flex-row justify-center gap-4">
+                  <div className="w-full md:max-w-xs h-48 rounded-xl overflow-hidden shadow-lg">
                     <img
                       src="/mv-factory-whole.jpg"
                       alt="MOTHER VEGETABLES培養システム"
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <div className="w-full max-w-xs h-48 rounded-xl overflow-hidden shadow-lg">
+                  <div className="w-full md:max-w-xs h-48 rounded-xl overflow-hidden shadow-lg">
                     <img
                       src="/mv-factory-greenhouse.jpg"
                       alt="MOTHER VEGETABLESファクトリー建物"
@@ -77,7 +77,7 @@ export default function ProjectOverview() {
             </div>
 
             {/* Right Section - 02 */}
-            <div>
+            <div className="flex flex-col h-full">
               <div className="flex items-center justify-center mb-8">
                 <div className="relative">
                   <div className="absolute inset-0 opacity-50"></div>
@@ -88,33 +88,35 @@ export default function ProjectOverview() {
               </div>
 
               {/* 地球最初の生命体とは */}
-              <div className="p-6 bg-green-500/10 border border-green-500/30 rounded-lg">
-                <h4 className="text-lg font-bold text-green-400 mb-3">{t({ JP: '地球最初の生命体とは', EN: "Earth's First Life Form" })}</h4>
-                <p className="text-gray-300">
-                  {t({
-                    JP: '地球の最初の生物を創った「マザーベジタブル」の構造を分析して現在に再現した生命体を示します。',
-                    EN: 'A life form recreated in the present by analyzing the structure of "Mother Vegetables" that created Earth\'s first organisms.'
-                  })}
-                </p>
-                <div className="mt-4 flex justify-center">
-                  <div className="w-48 h-48 rounded-2xl overflow-hidden shadow-lg">
-                    <img
-                      src="/mazavege.png"
-                      alt="マザーベジタブル"
-                      className="w-full h-full object-cover"
-                    />
+              <div className="p-6 bg-green-500/10 border border-green-500/30 rounded-lg flex-grow flex flex-col">
+                <div>
+                  <h4 className="text-lg font-bold text-green-400 mb-3">{t({ JP: '地球最初の生命体とは', EN: "Earth's First Life Form" })}</h4>
+                  <p className="text-gray-300">
+                    {t({
+                      JP: '地球の最初の生物を創った「マザーベジタブル」の構造を分析して現在に再現した生命体を示します。',
+                      EN: 'A life form recreated in the present by analyzing the structure of "Mother Vegetables" that created Earth\'s first organisms.'
+                    })}
+                  </p>
+                  <div className="mt-4 flex justify-center">
+                    <div className="w-48 h-48 rounded-2xl overflow-hidden shadow-lg">
+                      <img
+                        src="/mazavege.png"
+                        alt="マザーベジタブル"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
                   </div>
                 </div>
-                 {/* 地球最初の生命体ができること */}
-              <div className="mt-6 pt-6 pb-6">
-                <h4 className="text-lg font-bold text-green-400 mb-3">{t({ JP: '地球最初の生命体ができること', EN: "What Earth's First Life Form Can Do" })}</h4>
-                <p className="text-gray-300">
-                  {t({
-                    JP: '最初の生命体が人類まで至っている進化の中で様々なものを創ることができます。例えば、たった1つの生命体から人類に必要な栄養素を30種類以上含んだスーパーフードを提供することができたり、地球上にすでに存在するものの成分が同じ代替品を創ることもできます。様々なものが作れるようになった中で我々は8つの産業に分類してそれぞれに対してマザーベジタブルを核に展開しています。',
-                    EN: 'Through the evolution from the first life form to humanity, we can create various things. For example, from just one life form, we can provide superfoods containing over 30 types of nutrients essential for humans, or create alternatives with the same components as things that already exist on Earth. Among the various things we can now create, we have classified them into 8 industries and are developing each with Mother Vegetables at the core.'
-                  })}
-                </p>
-              </div>
+                {/* 地球最初の生命体ができること */}
+                <div className="mt-6 pt-6 pb-6 flex-grow">
+                  <h4 className="text-lg font-bold text-green-400 mb-3">{t({ JP: '地球最初の生命体ができること', EN: "What Earth's First Life Form Can Do" })}</h4>
+                  <p className="text-gray-300">
+                    {t({
+                      JP: '最初の生命体が人類まで至っている進化の中で様々なものを創ることができます。例えば、たった1つの生命体から人類に必要な栄養素を30種類以上含んだスーパーフードを提供することができたり、地球上にすでに存在するものの成分が同じ代替品を創ることもできます。様々なものが作れるようになった中で我々は8つの産業に分類してそれぞれに対してマザーベジタブルを核に展開しています。',
+                      EN: 'Through the evolution from the first life form to humanity, we can create various things. For example, from just one life form, we can provide superfoods containing over 30 types of nutrients essential for humans, or create alternatives with the same components as things that already exist on Earth. Among the various things we can now create, we have classified them into 8 industries and are developing each with Mother Vegetables at the core.'
+                    })}
+                  </p>
+                </div>
               </div>             
             </div>
           </div>
