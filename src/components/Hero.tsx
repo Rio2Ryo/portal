@@ -91,7 +91,7 @@ export default function Hero() {
         {/* Mother Vegetables Image */}
         <div className="max-w-2xl mx-auto mb-12 px-4">
           <Image
-            src="/mpic.jpg"
+            src="/vs.png"
             alt="Mother Vegetables"
             width={600}
             height={400}
