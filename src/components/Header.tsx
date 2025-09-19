@@ -52,13 +52,13 @@ export default function Header() {
               rel="noopener noreferrer"
               className="px-3 md:px-4 py-2 text-sm text-gray-300 hover:text-green-400 transition-all duration-300"
             >
-              {t({ JP: 'プロダクト', EN: 'Products' })}
+              {t({ JP: 'Products', EN: 'Products' })}
             </a>
             <button
               onClick={downloadWhitepaper}
               className="px-3 md:px-4 py-2 text-sm text-gray-300 hover:text-green-400 transition-all duration-300"
             >
-              {t({ JP: 'ホワイトペーパー', EN: 'Whitepaper' })}
+              {t({ JP: 'Whitepaper', EN: 'Whitepaper' })}
             </button>
             <button
               onClick={() => setLanguage(language === 'EN' ? 'JP' : 'EN')}
