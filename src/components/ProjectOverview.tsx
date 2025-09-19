@@ -105,7 +105,7 @@ export default function ProjectOverview() {
                     />
                   </div>
                 </div>
-                 {/* 地球最初の生命体ができること */}
+                 {/* 地球最初の生命体ができる */}
               <div className="mt-6 pt-6 pb-6">
                 <h4 className="text-lg font-bold text-green-400 mb-3">{t({ JP: '地球最初の生命体ができること', EN: "What Earth's First Life Form Can Do" })}</h4>
                 <p className="text-gray-300">
