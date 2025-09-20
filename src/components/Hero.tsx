@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function Hero() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
   const scrollToDetails = () => {
     const element = document.getElementById('project-overview')
     if (element) {
@@ -88,19 +88,19 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Mother Vegetables Image */}
-        <div className="max-w-4xl mx-auto mb-12 px-0 sm:px-4">
-          <div className="relative overflow-visible">
-            <Image
-              src="/vs.png"
-              alt="Mother Vegetables"
-              width={800}
-              height={533}
-              className="w-full h-auto rounded-lg shadow-2xl scale-125 sm:scale-110 md:scale-100 transform-origin-center"
-              priority
-            />
-          </div>
-        </div>
+      {/* Mother Vegetables Image */}
+<div className="max-w-4xl mx-auto mb-12 px-0 sm:px-4">
+  <div className="relative overflow-visible">
+    <Image
+      src={language === 'EN' ? "/project-overviews_en.png" : "/project-overviews_ja.png"}
+      alt="Mother Vegetables"
+      width={800}
+      height={533}
+      className="w-full h-auto rounded-lg shadow-2xl scale-125 sm:scale-110 md:scale-100 transform-origin-center"
+      priority
+    />
+  </div>
+</div>
 
 
       </div>
