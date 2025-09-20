@@ -10,7 +10,10 @@
       "Bash(git pull:*)",
       "Bash(git push:*)",
       "Bash(git remote add:*)",
-      "Bash(git fetch:*)"
+      "Bash(git fetch:*)",
+      "Bash(git checkout:*)",
+      "Bash(gh pr create:*)",
+      "Bash(open https://github.com/Rio2Ryo/mazavege_chan/pull/new/fix/remove-platform-overview)"
     ],
     "deny": [],
     "ask": []

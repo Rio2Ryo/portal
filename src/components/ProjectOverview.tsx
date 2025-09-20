@@ -91,13 +91,13 @@ export default function ProjectOverview() {
               <div className="p-6 bg-green-500/10 border border-green-500/30 rounded-lg flex-grow flex flex-col">
                 <div>
                   <h4 className="text-lg font-bold text-green-400 mb-3">{t({ JP: '地球最初の生命体とは', EN: "Earth's First Life Form" })}</h4>
-                  <p className="text-gray-300">
+                  <p className="text-gray-300 mb-6">
                     {t({
                       JP: '地球の最初の生物を創った「マザーベジタブル」の構造を分析して現在に再現した生命体を示します。',
                       EN: 'A life form recreated in the present by analyzing the structure of "Mother Vegetables" that created Earth\'s first organisms.'
                     })}
                   </p>
-                  <div className="mt-4 flex justify-center">
+                  <div className="mt-10 flex justify-center">
                     <div className="w-48 h-48 rounded-2xl overflow-hidden shadow-lg">
                       <img
                         src="/mazavege.png"

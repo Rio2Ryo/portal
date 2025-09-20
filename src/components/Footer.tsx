@@ -25,16 +25,16 @@ export default function Footer() {
             <div className="flex justify-center space-x-6 mb-8">
               <a href="https://x.com/mv_organization" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-emerald-400 transition-colors">
                 <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                 </svg>
               </a>
-              <a href="https://t.me/+uUCQ2MB8Y_03NTg1" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-emerald-400 transition-colors">
+              <a href="https://t.me/+uUCQ2MB8Y_03NTg1" target="_blank" rel="noopener noreferrer" className="group">
                 <Image
                   src="/Telegram_logo.svg"
                   alt="Telegram"
                   width={28}
                   height={28}
-                  className="w-7 h-7"
+                  className="w-7 h-7 grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all group-hover:[filter:sepia(100%)_saturate(200%)_hue-rotate(90deg)_brightness(1.2)]"
                 />
               </a>
               <a href="https://youtube.com/@mothervegetables" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-emerald-400 transition-colors">
@@ -57,9 +57,9 @@ export default function Footer() {
               <li><Link href="#token" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 {t({ JP: 'トークン', EN: 'Token' })}
               </Link></li>
-              <li><a href="mailto:info@mothervegetables.com" className="text-gray-300 hover:text-emerald-400 transition-colors">
+              <li><Link href="#registration" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 {t({ JP: '事前登録', EN: 'Pre-registration' })}
-              </a></li>
+              </Link></li>
               <li><a href="/0912_whitepaper_ja.pdf" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 {t({ JP: 'ホワイトペーパー', EN: 'Whitepaper' })}
               </a></li>

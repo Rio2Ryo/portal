@@ -59,13 +59,12 @@ export default function TeamMembers() {
               <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
                 {/* Profile Image */}
                 <div className="flex-shrink-0">
-                  <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-emerald-500/30">
-                    <Image
+                  <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-emerald-500/30 bg-gray-700 relative">
+                    <img
                       src={member.image}
                       alt={member.name}
-                      width={128}
-                      height={128}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover absolute inset-0"
+                      loading="eager"
                     />
                   </div>
                 </div>

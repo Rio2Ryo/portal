@@ -19,7 +19,7 @@ export default function TokenInfo() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block bg-orange-500/20 border border-orange-500/50 text-orange-400 px-4 py-2 rounded-full text-sm mb-12">
-            {t({ JP: '5. トークン情報', EN: '5. Token Information' })}
+            {t({ JP: '4. トークン情報', EN: '4. Token Information' })}
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
             {t({ JP: 'MOTHER VEGETABLES Token (MVT)情報', EN: 'MOTHER VEGETABLES Token (MVT) Information' })}
@@ -71,7 +71,7 @@ export default function TokenInfo() {
 
 
         {/* Pre-registration Section */}
-        <div className="text-center">
+        <div className="text-center" id="registration">
           <div className="bg-gradient-to-b from-green-500/10 to-green-700/10 border border-green-500/20 rounded-2xl p-12 max-w-3xl mx-auto mt-16">
             <h3 className="text-3xl font-bold text-white text-center mb-8">
               {t({ JP: '登録受付中', EN: 'Registration Open' })}
