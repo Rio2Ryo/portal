@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function Hero() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
   const scrollToDetails = () => {
     const element = document.getElementById('project-overview')
     if (element) {
@@ -91,7 +91,7 @@ export default function Hero() {
         {/* Mother Vegetables Image */}
         <div className="max-w-2xl mx-auto mb-12 px-4">
           <Image
-            src="/vs.png"
+            src={language === 'EN' ? "/project-overviews_en.png" : "/project-overviews_ja.png"}
             alt="Mother Vegetables"
             width={600}
             height={400}
