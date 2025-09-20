@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function Footer() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
   return (
     <footer className="bg-black/90 backdrop-blur-lg border-t border-emerald-500/20">
       {/* Main Footer Content */}
@@ -60,7 +60,7 @@ export default function Footer() {
               <li><Link href="#registration" className="text-gray-300 hover:text-emerald-400 transition-colors">
                 {t({ JP: '事前登録', EN: 'Pre-registration' })}
               </Link></li>
-              <li><a href="/0912_whitepaper_ja.pdf" className="text-gray-300 hover:text-emerald-400 transition-colors">
+              <li><a href={language === 'JP' ? '/wh_ja.pdf' : '/wh_en.pdf'} className="text-gray-300 hover:text-emerald-400 transition-colors">
                 {t({ JP: 'ホワイトペーパー', EN: 'Whitepaper' })}
               </a></li>
             </ul>
