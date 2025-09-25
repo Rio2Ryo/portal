@@ -152,7 +152,7 @@ export default function IndustryApproach() {
           <p className="text-sm md:text-base text-gray-300 max-w-4xl mx-auto">
             {t({
               JP: '「マザーベジタブル」は多様な産業応用が期待されており、以下の8つの分野にて展開が始まっています。',
-              EN: 'Mother Vegetables are expected to have diverse industrial applications, with deployment beginning in the following 8 sectors.'
+              EN: 'Mother Vegetable are expected to have diverse industrial applications, with deployment beginning in the following 8 sectors.'
             })}
           </p>
         </div>

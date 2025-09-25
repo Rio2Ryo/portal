@@ -17,8 +17,8 @@ export default function ProjectOverview() {
           </h2>
           <p className="text-sm md:text-base text-gray-300 max-w-5xl mx-auto leading-relaxed">
             {t({
-              JP: 'MOTHER VEGETABLES PROJECTは、地球と全ての生命の健康回復を目指す革命的な環境再生プロジェクトです。マザーベジタブルファクトリーを世界各地に展開することで、マザーベジタブルを生産し、8つの産業分野に供給します。このプロセスにおいて、各施設は24時間365日CO₂を吸収し酸素を生成することで大気を浄化し、同時に生産されるマザーベジタブル製品は人間と生物の健康向上に直接貢献します。',
-              EN: 'MOTHER VEGETABLES PROJECT is a revolutionary environmental regeneration project aimed at restoring the health of Earth and all life. By deploying Mother Vegetable factories worldwide, we produce Mother Vegetables and supply them to 8 industrial sectors. In this process, each facility purifies the atmosphere by absorbing CO₂ and generating oxygen 24/7, while the produced Mother Vegetable products directly contribute to improving human and biological health.'
+              JP: 'MOTHER VEGETABLE PROJECTは、地球と全ての生命の健康回復を目指す革命的な環境再生プロジェクトです。マザーベジタブルファクトリーを世界各地に展開することで、マザーベジタブルを生産し、8つの産業分野に供給します。このプロセスにおいて、各施設は24時間365日CO₂を吸収し酸素を生成することで大気を浄化し、同時に生産されるマザーベジタブル製品は人間と生物の健康向上に直接貢献します。',
+              EN: 'MOTHER VEGETABLE PROJECT is a revolutionary environmental regeneration project aimed at restoring the health of Earth and all life. By deploying Mother Vegetable factories worldwide, we produce Mother Vegetable and supply them to 8 industrial sectors. In this process, each facility purifies the atmosphere by absorbing CO₂ and generating oxygen 24/7, while the produced Mother Vegetable products directly contribute to improving human and biological health.'
             })}
           </p>
         </div>
@@ -41,7 +41,7 @@ export default function ProjectOverview() {
               <div className="p-6 bg-green-500/10 border border-green-500/30 rounded-lg flex-grow flex flex-col">
                 <h4 className="text-lg font-bold text-green-400 mb-3">{t({ JP: '驚異的なカーボンクレジット', EN: 'Amazing Carbon Credits' })}</h4>
                 <p className="text-gray-300">
-                  {t({ JP: 'MOTHER VEGETABLESのCO₂吸収効率は天然芝と比較すると', EN: 'The CO₂ absorption efficiency of MOTHER VEGETABLES is ' })}
+                  {t({ JP: 'MOTHER VEGETABLEのCO₂吸収効率は天然芝と比較すると', EN: 'The CO₂ absorption efficiency of MOTHER VEGETABLE is ' })}
                   <span className="text-green-400 font-bold">
                     {t({ JP: ' およそ700倍', EN: 'approximately 700 times' })}
                   </span>
@@ -51,14 +51,14 @@ export default function ProjectOverview() {
                   <div className="w-full md:max-w-xs h-48 rounded-xl overflow-hidden shadow-lg">
                     <img
                       src="/mv-factory-whole.jpg"
-                      alt="MOTHER VEGETABLES培養システム"
+                      alt="MOTHER VEGETABLE培養システム"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="w-full md:max-w-xs h-48 rounded-xl overflow-hidden shadow-lg">
                     <img
                       src="/mv-factory-greenhouse.jpg"
-                      alt="MOTHER VEGETABLESファクトリー建物"
+                      alt="MOTHER VEGETABLEファクトリー建物"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -94,7 +94,7 @@ export default function ProjectOverview() {
                   <p className="text-gray-300 mb-6">
                     {t({
                       JP: '地球の最初の生物を創った「マザーベジタブル」の構造を分析して現在に再現した生命体を示します。',
-                      EN: 'A life form recreated in the present by analyzing the structure of "Mother Vegetables" that created Earth\'s first organisms.'
+                      EN: 'A life form recreated in the present by analyzing the structure of "Mother Vegetable" that created Earth\'s first organisms.'
                     })}
                   </p>
                   <div className="mt-10 flex justify-center">
@@ -113,7 +113,7 @@ export default function ProjectOverview() {
                   <p className="text-gray-300">
                     {t({
                       JP: '最初の生命体が人類まで至っている進化の中で様々なものを創ることができます。例えば、たった1つの生命体から人類に必要な栄養素を30種類以上含んだスーパーフードを提供することができたり、地球上にすでに存在するものの成分が同じ代替品を創ることもできます。様々なものが作れるようになった中で我々は8つの産業に分類してそれぞれに対してマザーベジタブルを核に展開しています。',
-                      EN: 'Through the evolution from the first life form to humanity, we can create various things. For example, from just one life form, we can provide superfoods containing over 30 types of nutrients essential for humans, or create alternatives with the same components as things that already exist on Earth. Among the various things we can now create, we have classified them into 8 industries and are developing each with Mother Vegetables at the core.'
+                      EN: 'Through the evolution from the first life form to humanity, we can create various things. For example, from just one life form, we can provide superfoods containing over 30 types of nutrients essential for humans, or create alternatives with the same components as things that already exist on Earth. Among the various things we can now create, we have classified them into 8 industries and are developing each with Mother Vegetable at the core.'
                     })}
                   </p>
                 </div>

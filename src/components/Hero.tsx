@@ -57,7 +57,7 @@ export default function Hero() {
             }}
           >
             <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-black leading-tight">
-              <div>MOTHER VEGETABLES PROJECT</div>
+              <div>MOTHER VEGETABLE PROJECT</div>
             </h1>
           </div>
           <div className="w-40 md:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-6 opacity-80"></div>
@@ -76,7 +76,7 @@ export default function Hero() {
             <p className="text-lg md:text-xl text-white leading-relaxed">
               {t({
                 JP: '「マザーベジタブル」',
-                EN: '"Mother Vegetables"'
+                EN: '"Mother Vegetable"'
               })}
             </p>
             <p className="text-lg md:text-xl text-white leading-relaxed">
@@ -88,12 +88,12 @@ export default function Hero() {
           </div>
         </div>
 
-      {/* Mother Vegetables Image */}
+      {/* Mother Vegetable Image */}
 <div className="max-w-4xl mx-auto mb-12 px-0 sm:px-4">
   <div className="relative overflow-visible">
     <Image
       src={language === 'EN' ? "/project-overviews_en.png" : "/project-overviews_ja.png"}
-      alt="Mother Vegetables"
+      alt="Mother Vegetable"
       width={800}
       height={533}
       className="w-full h-auto rounded-lg shadow-2xl scale-125 sm:scale-110 md:scale-100 transform-origin-center"
