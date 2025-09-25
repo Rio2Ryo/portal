@@ -11,7 +11,7 @@ export default function PlatformOverview() {
           <div className="relative">
             <Image
               src="/platform-overview.png"
-              alt="Mother Vegetables Project Overview"
+              alt="Mother Vegetable Project Overview"
               width={1200}
               height={800}
               className="w-full h-auto opacity-90"

@@ -185,7 +185,7 @@ export default function Contact() {
                   <dl className="space-y-3">
                     <div>
                       <dt className="text-gray-500 text-sm">会社名</dt>
-                      <dd className="text-white">MOTHER VEGETABLES PROJECT株式会社</dd>
+                      <dd className="text-white">MOTHER VEGETABLE PROJECT株式会社</dd>
                     </div>
                     <div>
                       <dt className="text-gray-500 text-sm">所在地</dt>

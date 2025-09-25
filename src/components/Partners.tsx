@@ -54,8 +54,8 @@ export default function Partners() {
       name: "NEGERI PAHANG",
       subtitle: t({ JP: "パハン州政府", EN: "Pahang State Government" }),
       description: t({
-        JP: "マレーシア、パハン州の投資・産業・科学・技術・イノベーション委員会の委員長（パハン州政府）は、特に収穫量の増加、効率、生産性の向上のための技術と近代的な農業手法の使用を通じて、パハン州の農業セクターの経済発展を強化するMother Vegetablesへの提案された投資に対する支援を私たちに与えてくれました。パハン州の投資・産業・科学・技術・イノベーション担当執行委員会は、土地、資本、ネットワークを連携させて、大規模な持続可能な農業イニシアチブを加速させる触媒的な役割を果たしています。このパートナーシップは、民間セクターの投資とマレーシアの国家食料安全保障目標との連携を強化します。",
-        EN: "The Chairman of the Investment, Industry, Science, Technology and Innovation Committee of Pahang State, Malaysia has given us support for the proposed investment in Mother Vegetables to enhance economic development of Pahang's agricultural sector, particularly through the use of technology and modern farming methods to increase yields, efficiency and productivity. The Executive Committee plays a catalytic role in accelerating large-scale sustainable agriculture initiatives by coordinating land, capital and networks. This partnership strengthens the alignment between private sector investment and Malaysia's national food security objectives."
+        JP: "マレーシア、パハン州の投資・産業・科学・技術・イノベーション委員会の委員長（パハン州政府）は、特に収穫量の増加、効率、生産性の向上のための技術と近代的な農業手法の使用を通じて、パハン州の農業セクターの経済発展を強化するMother Vegetableへの提案された投資に対する支援を私たちに与えてくれました。パハン州の投資・産業・科学・技術・イノベーション担当執行委員会は、土地、資本、ネットワークを連携させて、大規模な持続可能な農業イニシアチブを加速させる触媒的な役割を果たしています。このパートナーシップは、民間セクターの投資とマレーシアの国家食料安全保障目標との連携を強化します。",
+        EN: "The Chairman of the Investment, Industry, Science, Technology and Innovation Committee of Pahang State, Malaysia has given us support for the proposed investment in Mother Vegetable to enhance economic development of Pahang's agricultural sector, particularly through the use of technology and modern farming methods to increase yields, efficiency and productivity. The Executive Committee plays a catalytic role in accelerating large-scale sustainable agriculture initiatives by coordinating land, capital and networks. This partnership strengthens the alignment between private sector investment and Malaysia's national food security objectives."
       }),
       image: "/Negeri-dJn5D2--.jpeg"
     },
@@ -85,8 +85,8 @@ export default function Partners() {
     {
       name: t({ JP: "河津町（日本）", EN: "Kawazu Town (Japan)" }),
       description: t({
-        JP: "日本におけるMother Vegetablesを核とした包括的な事業提携による海洋産業の振興。",
-        EN: "Promotion of marine industry through comprehensive business partnerships centered on Mother Vegetables in Japan."
+        JP: "日本におけるMother Vegetableを核とした包括的な事業提携による海洋産業の振興。",
+        EN: "Promotion of marine industry through comprehensive business partnerships centered on Mother Vegetable in Japan."
       }),
       image: "/kawazu-town.jpeg"
     },
@@ -109,8 +109,8 @@ export default function Partners() {
     {
       name: t({ JP: "水産庁（日本）", EN: "Fisheries Agency (Japan)" }),
       description: t({
-        JP: "日本における海洋産業の振興とMother Vegetablesの導入支援",
-        EN: "Supporting the promotion of marine industry and introduction of Mother Vegetables in Japan"
+        JP: "日本における海洋産業の振興とMother Vegetableの導入支援",
+        EN: "Supporting the promotion of marine industry and introduction of Mother Vegetable in Japan"
       }),
       image: "/fisheries-agency.jpeg"
     }
@@ -139,8 +139,8 @@ export default function Partners() {
     {
       name: t({ JP: "Revoganix（レヴォガニクス）", EN: "Revoganix" }),
       description: t({
-        JP: "ASEANパネル企業として認められており、ASEAN持続可能な農業・水産養殖アカデミーの設立や地域のBCA（生物的防除剤）生産イニシアチブなど、ASEANから直接授与された複数の影響力の大きいプロジェクトを任されています。ASEAN以外では、Revoganixはサラワク州のコンサルタントを務め、タイ中央政府の水産養殖セクターと緊密に協力するなど、他の戦略的関与も行っています。この実績のある実績により、RevoganixはMother VegetablesスプロジェクトでASEANを支援し、提携できることを誇りに思い、地域全体のコミュニティに利益をもたらす農業と水産養殖のための堅牢で持続可能なモデルを構築するために、その専門知識とリーダーシップを貢献しています。",
-        EN: "Recognized as an ASEAN panel company, entrusted with multiple high-impact projects directly awarded by ASEAN, including establishing the ASEAN Sustainable Agriculture and Aquaculture Academy and regional BCA production initiatives. Beyond ASEAN, Revoganix serves as a consultant to Sarawak State and works closely with Thailand's central government aquaculture sector. With this proven track record, Revoganix is proud to support and partner with ASEAN in the Mother Vegetables project, contributing its expertise and leadership to build robust and sustainable models for agriculture and aquaculture that benefit communities across the region."
+        JP: "ASEANパネル企業として認められており、ASEAN持続可能な農業・水産養殖アカデミーの設立や地域のBCA（生物的防除剤）生産イニシアチブなど、ASEANから直接授与された複数の影響力の大きいプロジェクトを任されています。ASEAN以外では、Revoganixはサラワク州のコンサルタントを務め、タイ中央政府の水産養殖セクターと緊密に協力するなど、他の戦略的関与も行っています。この実績のある実績により、RevoganixはMother VegetableプロジェクトでASEANを支援し、提携できることを誇りに思い、地域全体のコミュニティに利益をもたらす農業と水産養殖のための堅牢で持続可能なモデルを構築するために、その専門知識とリーダーシップを貢献しています。",
+        EN: "Recognized as an ASEAN panel company, entrusted with multiple high-impact projects directly awarded by ASEAN, including establishing the ASEAN Sustainable Agriculture and Aquaculture Academy and regional BCA production initiatives. Beyond ASEAN, Revoganix serves as a consultant to Sarawak State and works closely with Thailand's central government aquaculture sector. With this proven track record, Revoganix is proud to support and partner with ASEAN in the Mother Vegetable project, contributing its expertise and leadership to build robust and sustainable models for agriculture and aquaculture that benefit communities across the region."
       }),
       image: "/revoganix.jpeg"
     },
@@ -166,32 +166,32 @@ export default function Partners() {
     {
       name: t({ JP: "Cropabl（マレーシア）", EN: "Cropabl (Malaysia)" }),
       description: t({
-        JP: "20年以上にわたって非侵襲的かつ無化学物質の農業に取り組んできたパイオニア的企業であり、食料安全保障と持続可能な農業実践を推進するために政府機関との強力なパートナーシップを築いてきました。確立されたグリーンファーミング技術を活用し、現在はマレーシアのMOTHER VEGETABLESを支援し、モジュール型農業ソリューションの開発に協力しています。この取り組みの一環として、MOTHER VEGETABLESと緊密に連携し、ペラ州タンジョン・マリムにおいて10エーカー規模の旗艦プロジェクトを実施し、食料安全保障と環境保全に関する国家目標に沿った持続可能な食料生産のモデルを創出します",
-        EN: "A pioneering company with over 20 years of commitment to non-invasive and chemical-free farming, building strong partnerships with government agencies to promote food security and sustainable agricultural practices. Leveraging established green farming technology, now supporting Malaysia's MOTHER VEGETABLES and collaborating on modular agricultural solutions development. As part of this initiative, working closely with MOTHER VEGETABLES to implement a 10-acre flagship project in Tanjung Malim, Perak, creating a sustainable food production model aligned with national goals for food security and environmental conservation."
+        JP: "20年以上にわたって非侵襲的かつ無化学物質の農業に取り組んできたパイオニア的企業であり、食料安全保障と持続可能な農業実践を推進するために政府機関との強力なパートナーシップを築いてきました。確立されたグリーンファーミング技術を活用し、現在はマレーシアのMOTHER VEGETABLEを支援し、モジュール型農業ソリューションの開発に協力しています。この取り組みの一環として、MOTHER VEGETABLEと緊密に連携し、ペラ州タンジョン・マリムにおいて10エーカー規模の旗艦プロジェクトを実施し、食料安全保障と環境保全に関する国家目標に沿った持続可能な食料生産のモデルを創出します",
+        EN: "A pioneering company with over 20 years of commitment to non-invasive and chemical-free farming, building strong partnerships with government agencies to promote food security and sustainable agricultural practices. Leveraging established green farming technology, now supporting Malaysia's MOTHER VEGETABLE and collaborating on modular agricultural solutions development. As part of this initiative, working closely with MOTHER VEGETABLE to implement a 10-acre flagship project in Tanjung Malim, Perak, creating a sustainable food production model aligned with national goals for food security and environmental conservation."
       }),
       image: "/cropabl.jpeg"
     },
     {
       name: "Sabah Invest",
       description: t({
-        JP: "サバ州政府とのパートナーシップのもとでMOTHER VEGETABLESプロジェクトの実施を強力に支援する意向を示しています。この取り組みは、輸入食品への依存度が高いサバを、自給自足が可能で輸出余剰を生み出せる州へと変革することを目指しています。MOTHER VEGETABLESの先進的な持続可能農業技術を採用することで、このプロジェクトは食料安全保障を強化し、外部のサプライチェーンへの依存を減らし、サバを農業・食品生産の地域的リーダーへと押し上げます。この変革は、地域のレジリエンスを高めるだけでなく、輸出市場の開拓を通じて新たな経済的機会を創出し、州の長期的な繁栄と持続可能性に貢献します。",
-        EN: "Expressing strong intention to support the implementation of the MOTHER VEGETABLES project in partnership with the Sabah State Government. This initiative aims to transform Sabah from high dependency on imported food to a self-sufficient state capable of generating export surplus. By adopting MOTHER VEGETABLES' advanced sustainable farming technology, this project will strengthen food security, reduce dependence on external supply chains, and position Sabah as a regional leader in agriculture and food production. This transformation will not only enhance local resilience but also create new economic opportunities through export market development, contributing to the state's long-term prosperity and sustainability."
+        JP: "サバ州政府とのパートナーシップのもとでMOTHER VEGETABLEプロジェクトの実施を強力に支援する意向を示しています。この取り組みは、輸入食品への依存度が高いサバを、自給自足が可能で輸出余剰を生み出せる州へと変革することを目指しています。MOTHER VEGETABLEの先進的な持続可能農業技術を採用することで、このプロジェクトは食料安全保障を強化し、外部のサプライチェーンへの依存を減らし、サバを農業・食品生産の地域的リーダーへと押し上げます。この変革は、地域のレジリエンスを高めるだけでなく、輸出市場の開拓を通じて新たな経済的機会を創出し、州の長期的な繁栄と持続可能性に貢献します。",
+        EN: "Expressing strong intention to support the implementation of the MOTHER VEGETABLE project in partnership with the Sabah State Government. This initiative aims to transform Sabah from high dependency on imported food to a self-sufficient state capable of generating export surplus. By adopting MOTHER VEGETABLE' advanced sustainable farming technology, this project will strengthen food security, reduce dependence on external supply chains, and position Sabah as a regional leader in agriculture and food production. This transformation will not only enhance local resilience but also create new economic opportunities through export market development, contributing to the state's long-term prosperity and sustainability."
       }),
       image: "/sabah-invest.jpeg"
     },
     {
       name: "Healcom Foundation",
       description: t({
-        JP: "MOTHER VEGETABLESの取り組みに賛同し、地域社会に最高品質で健康的かつ持続可能に栽培された食品を届ける可能性を高く評価しています。財団はその広範な会員ネットワークを通じて、認知度向上の推進、生産活動の支援、販売チャネルの強化に積極的に関与します。MOTHER VEGETABLESと提携することで、Healcom Foundationは公衆衛生と栄養改善という自身の使命を推進するだけでなく、地域産の無化学食品の持続可能な市場を創出し、消費者と地域社会全体に利益をもたらします。",
-        EN: "Supporting the MOTHER VEGETABLES initiative and highly valuing its potential to deliver the highest quality, healthy, and sustainably grown food to local communities. Through its extensive member network, the foundation actively engages in raising awareness, supporting production activities, and strengthening sales channels. By partnering with MOTHER VEGETABLES, Healcom Foundation not only advances its own mission of public health and nutrition improvement but also creates a sustainable market for locally-produced chemical-free food, benefiting consumers and communities as a whole."
+        JP: "MOTHER VEGETABLEの取り組みに賛同し、地域社会に最高品質で健康的かつ持続可能に栽培された食品を届ける可能性を高く評価しています。財団はその広範な会員ネットワークを通じて、認知度向上の推進、生産活動の支援、販売チャネルの強化に積極的に関与します。MOTHER VEGETABLEと提携することで、Healcom Foundationは公衆衛生と栄養改善という自身の使命を推進するだけでなく、地域産の無化学食品の持続可能な市場を創出し、消費者と地域社会全体に利益をもたらします。",
+        EN: "Supporting the MOTHER VEGETABLE initiative and highly valuing its potential to deliver the highest quality, healthy, and sustainably grown food to local communities. Through its extensive member network, the foundation actively engages in raising awareness, supporting production activities, and strengthening sales channels. By partnering with MOTHER VEGETABLE, Healcom Foundation not only advances its own mission of public health and nutrition improvement but also creates a sustainable market for locally-produced chemical-free food, benefiting consumers and communities as a whole."
       }),
       image: "/healcom.jpeg"
     },
     {
       name: t({ JP: "全国姉妹漁業振興協議会株式会社", EN: "National Sister Fisheries Promotion Council Inc." }),
       description: t({
-        JP: "河津町との連携による海洋事業開発とMother Vegetables事業の推進。全国の漁業組合の連絡窓口を実施。",
-        EN: "Promoting marine business development and Mother Vegetables business through collaboration with Kawazu Town. Implementing communication channels for fishery associations nationwide."
+        JP: "河津町との連携による海洋事業開発とMother Vegetable事業の推進。全国の漁業組合の連絡窓口を実施。",
+        EN: "Promoting marine business development and Mother Vegetable business through collaboration with Kawazu Town. Implementing communication channels for fishery associations nationwide."
       }),
       image: "/sfc.jpeg"
     },
@@ -199,15 +199,15 @@ export default function Partners() {
       name: t({ JP: "日本PTA", EN: "Japan PTA" }),
       description: t({
         JP: "日本では、小学生の保護者600万人がPTAに登録されています。保護者と教師の会プロジェクト：全国の選ばれた小学校でオリンピック選手とのイベントを開催し、子供たちがマザーベジタブルを体験し、栄養について学びます。これらのプログラムは、将来の研究者を育成し、学校給食の基準の改善を促すため、PTAから高く評価されています。",
-        EN: "In Japan, 6 million parents of elementary school students are registered with the PTA. Parent-Teacher Association Project: Hosting events with Olympic athletes at selected elementary schools nationwide, where children experience Mother Vegetables and learn about nutrition. These programs are highly valued by the PTA for nurturing future researchers and promoting improvements in school meal standards."
+        EN: "In Japan, 6 million parents of elementary school students are registered with the PTA. Parent-Teacher Association Project: Hosting events with Olympic athletes at selected elementary schools nationwide, where children experience Mother Vegetable and learn about nutrition. These programs are highly valued by the PTA for nurturing future researchers and promoting improvements in school meal standards."
       }),
       image: "/pta.jpeg"
     },
     {
       name: "LEON",
       description: t({
-        JP: "アパレル雑誌LEONの不動産部門：20年以上の歴史を持つ日本の紳士向けアパレル雑誌で、40代から50代の富裕層をターゲットとし、月間約1,000万ページビューを誇ります。プロジェクト：彼らは日本全国に高級宿泊施設を建設する計画で、そこには家族がマザーベジタブルを体験し、地元の収穫物で作られた食事を楽しめるMother Vegetables施設が併設されます。",
-        EN: "Real estate division of apparel magazine LEON: A Japanese men's apparel magazine with over 20 years of history, targeting affluent individuals in their 40s and 50s, boasting approximately 10 million monthly page views. Project: They plan to build luxury accommodation facilities across Japan, featuring Mother Vegetables facilities where families can experience Mother Vegetables and enjoy meals made with local harvests."
+        JP: "アパレル雑誌LEONの不動産部門：20年以上の歴史を持つ日本の紳士向けアパレル雑誌で、40代から50代の富裕層をターゲットとし、月間約1,000万ページビューを誇ります。プロジェクト：彼らは日本全国に高級宿泊施設を建設する計画で、そこには家族がマザーベジタブルを体験し、地元の収穫物で作られた食事を楽しめるMother Vegetable施設が併設されます。",
+        EN: "Real estate division of apparel magazine LEON: A Japanese men's apparel magazine with over 20 years of history, targeting affluent individuals in their 40s and 50s, boasting approximately 10 million monthly page views. Project: They plan to build luxury accommodation facilities across Japan, featuring Mother Vegetable facilities where families can experience Mother Vegetable and enjoy meals made with local harvests."
       }),
       image: "/leon.jpeg"
     },
@@ -222,16 +222,16 @@ export default function Partners() {
     {
       name: t({ JP: "九州電工", EN: "Kyushu Denko" }),
       description: t({
-        JP: "日本の大手電力会社：藻場（海藻の群落）を造成することで、魚貝類の住処としての機能や水質浄化、さらにはCO₂固定機能を活かした藻場再生の実用化研究に2001年度から取り組んでいます。MOTHER VEGETABLESを活用したバイオマスにより生産性の向上を検討している。",
-        EN: "Major Japanese power company: Since 2001, engaged in practical research on seaweed bed restoration utilizing functions as habitat for fish and shellfish, water purification, and CO₂ fixation through creating seaweed beds. Exploring productivity improvements through biomass utilizing MOTHER VEGETABLES."
+        JP: "日本の大手電力会社：藻場（海藻の群落）を造成することで、魚貝類の住処としての機能や水質浄化、さらにはCO₂固定機能を活かした藻場再生の実用化研究に2001年度から取り組んでいます。MOTHER VEGETABLEを活用したバイオマスにより生産性の向上を検討している。",
+        EN: "Major Japanese power company: Since 2001, engaged in practical research on seaweed bed restoration utilizing functions as habitat for fish and shellfish, water purification, and CO₂ fixation through creating seaweed beds. Exploring productivity improvements through biomass utilizing MOTHER VEGETABLE."
       }),
       image: "/Kyushudenko.jpeg"
     },
     {
       name: t({ JP: "黒井漁業協同組合", EN: "Kuroi Fishery Cooperative" }),
       description: t({
-        JP: "日本の下関市に位置する漁協組合：磯焼けによる空ウニの大量発生や養殖に対して課題を持っており、MOTHER VEGETABLESを活用することで局所的な磯焼け解決や効率的な養殖を進めている。",
-        EN: "Fishery cooperative located in Shimonoseki City, Japan: Facing challenges with mass occurrence of empty sea urchins due to rocky shore denudation and aquaculture, advancing local rocky shore denudation solutions and efficient aquaculture using MOTHER VEGETABLES."
+        JP: "日本の下関市に位置する漁協組合：磯焼けによる空ウニの大量発生や養殖に対して課題を持っており、MOTHER VEGETABLEを活用することで局所的な磯焼け解決や効率的な養殖を進めている。",
+        EN: "Fishery cooperative located in Shimonoseki City, Japan: Facing challenges with mass occurrence of empty sea urchins due to rocky shore denudation and aquaculture, advancing local rocky shore denudation solutions and efficient aquaculture using MOTHER VEGETABLE."
       }),
       image: "/kuroi-fishery-DSW6ddl8.jpeg"
     }
@@ -241,24 +241,24 @@ export default function Partners() {
     {
       name: t({ JP: "ノッティンガム大学", EN: "University of Nottingham" }),
       description: t({
-        JP: "大学構内における3エーカーの施設をMother Vegetables事業に提供する戦略的協力体制を構築し、研究開発の発展のため尊敬されるバイオテクノロジーチームによるサポートを受けています。",
-        EN: "Building strategic cooperation by providing a 3-acre facility on campus for Mother Vegetables business, supported by a respected biotechnology team for research and development advancement."
+        JP: "大学構内における3エーカーの施設をMother Vegetable事業に提供する戦略的協力体制を構築し、研究開発の発展のため尊敬されるバイオテクノロジーチームによるサポートを受けています。",
+        EN: "Building strategic cooperation by providing a 3-acre facility on campus for Mother Vegetable business, supported by a respected biotechnology team for research and development advancement."
       }),
       image: "/Nottingham-DFhtfkra.jpeg"
     },
     {
       name: t({ JP: "シンガポール国立大学", EN: "National University of Singapore" }),
       description: t({
-        JP: "農業や水産養殖、生物的防除剤、製品開発の分野において、科学的専門知識と革新を提供するパートナーシップを結んでいます。私たちの活動の基盤となる科学を強化し、イニシアチブが最先端の研究に基づいていることを確保することが重要です。彼らの支援を受けて、特に私たちの主力プロジェクトであるMother Vegetablesプロジェクトを通じて、持続可能なソリューションの開発と商業化を加速することが可能になります。",
-        EN: "Forming partnerships that provide scientific expertise and innovation in agriculture, aquaculture, biological control agents, and product development. It is crucial to strengthen the science underlying our activities and ensure initiatives are based on cutting-edge research. With their support, we can accelerate the development and commercialization of sustainable solutions, particularly through our flagship Mother Vegetables project."
+        JP: "農業や水産養殖、生物的防除剤、製品開発の分野において、科学的専門知識と革新を提供するパートナーシップを結んでいます。私たちの活動の基盤となる科学を強化し、イニシアチブが最先端の研究に基づいていることを確保することが重要です。彼らの支援を受けて、特に私たちの主力プロジェクトであるMother Vegetableプロジェクトを通じて、持続可能なソリューションの開発と商業化を加速することが可能になります。",
+        EN: "Forming partnerships that provide scientific expertise and innovation in agriculture, aquaculture, biological control agents, and product development. It is crucial to strengthen the science underlying our activities and ensure initiatives are based on cutting-edge research. With their support, we can accelerate the development and commercialization of sustainable solutions, particularly through our flagship Mother Vegetable project."
       }),
       image: "/NUS-BabuExyP.jpeg"
     },
     {
       name: t({ JP: "マラヤ大学", EN: "University of Malaya" }),
       description: t({
-        JP: "マレーシアの最高学府であるマラヤ大学と研究開発分野で連携しています。同大学の優れた学術的知見と科学技術の専門性により、私たちの技術革新が大きく前進しています。この産学連携を通じて、持続可能な発展と社会実装を目指した研究開発を共同で進めており、Mother Vegetablesプロジェクトの科学的基盤を強化しています。",
-        EN: "Collaborating in research and development with University of Malaya, Malaysia's premier institution. Our technological innovation is significantly advancing through the university's excellent academic insights and scientific expertise. Through this industry-academia collaboration, we are jointly conducting R&D aimed at sustainable development and social implementation, strengthening the scientific foundation of the Mother Vegetables project."
+        JP: "マレーシアの最高学府であるマラヤ大学と研究開発分野で連携しています。同大学の優れた学術的知見と科学技術の専門性により、私たちの技術革新が大きく前進しています。この産学連携を通じて、持続可能な発展と社会実装を目指した研究開発を共同で進めており、Mother Vegetableプロジェクトの科学的基盤を強化しています。",
+        EN: "Collaborating in research and development with University of Malaya, Malaysia's premier institution. Our technological innovation is significantly advancing through the university's excellent academic insights and scientific expertise. Through this industry-academia collaboration, we are jointly conducting R&D aimed at sustainable development and social implementation, strengthening the scientific foundation of the Mother Vegetable project."
       }),
       image: "/UM-CuopK3W1.jpeg"
     },
@@ -273,8 +273,8 @@ export default function Partners() {
     {
       name: t({ JP: "マレーシア国民大学", EN: "Universiti Kebangsaan Malaysia" }),
       description: t({
-        JP: "Mother Vegetablesプロジェクトの革新性と持続可能性に高い関心を示していただき、全面的な支援を受けています。現在、大学キャンパス内にMother Vegetables施設を設置する計画が進行中で、教育・研究・社会実装を一体化した新しいモデルの構築を目指しています。科学技術の発展と社会課題の解決に向けて、包括的な産学連携を推進しています。",
-        EN: "Showing high interest in the innovation and sustainability of the Mother Vegetables project with full support. Plans are currently underway to establish Mother Vegetables facilities on campus, aiming to build a new model integrating education, research, and social implementation. Promoting comprehensive industry-academia collaboration toward scientific advancement and solving social challenges."
+        JP: "Mother Vegetableプロジェクトの革新性と持続可能性に高い関心を示していただき、全面的な支援を受けています。現在、大学キャンパス内にMother Vegetable施設を設置する計画が進行中で、教育・研究・社会実装を一体化した新しいモデルの構築を目指しています。科学技術の発展と社会課題の解決に向けて、包括的な産学連携を推進しています。",
+        EN: "Showing high interest in the innovation and sustainability of the Mother Vegetable project with full support. Plans are currently underway to establish Mother Vegetable facilities on campus, aiming to build a new model integrating education, research, and social implementation. Promoting comprehensive industry-academia collaboration toward scientific advancement and solving social challenges."
       }),
       image: "/ukm.jpeg"
     },
@@ -289,8 +289,8 @@ export default function Partners() {
     {
       name: t({ JP: "明治大学", EN: "Meiji University" }),
       description: t({
-        JP: "体育会競技者に対してMother Vegetables関連製品を提供するスポンサーシップ協力により、持続可能な栄養ソリューションを通じたスポーツパフォーマンスの支援を実施しています。",
-        EN: "Supporting sports performance through sustainable nutrition solutions via sponsorship cooperation providing Mother Vegetables-related products to athletic competitors."
+        JP: "体育会競技者に対してMother Vegetable関連製品を提供するスポンサーシップ協力により、持続可能な栄養ソリューションを通じたスポーツパフォーマンスの支援を実施しています。",
+        EN: "Supporting sports performance through sustainable nutrition solutions via sponsorship cooperation providing Mother Vegetable-related products to athletic competitors."
       }),
       image: "/Meiji-C7G7ovOM.jpeg"
     }

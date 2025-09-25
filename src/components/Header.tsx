@@ -38,7 +38,7 @@ export default function Header() {
           <div className="flex items-center">
             <Image
               src="/logo-uCgt3dQl.png"
-              alt="MOTHER VEGETABLES"
+              alt="MOTHER VEGETABLE"
               width={100}
               height={100}
             />

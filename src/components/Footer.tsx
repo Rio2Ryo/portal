@@ -27,7 +27,7 @@ export default function Footer() {
             <div className="mb-6">
               <Image
                 src="/logo-uCgt3dQl.png"
-                alt="MOTHER VEGETABLES"
+                alt="MOTHER VEGETABLE"
                 width={150}
                 height={150}
                 className="mx-auto"
@@ -85,8 +85,8 @@ export default function Footer() {
           <div className="text-center">
             <div className="text-gray-400 text-sm whitespace-pre-line">
               {t({
-                JP: '© 2025 MOTHER VEGETABLES PROJECT.\nAll rights reserved.',
-                EN: '© 2025 MOTHER VEGETABLES PROJECT.\nAll rights reserved.'
+                JP: '© 2025 MOTHER VEGETABLE PROJECT.\nAll rights reserved.',
+                EN: '© 2025 MOTHER VEGETABLE PROJECT.\nAll rights reserved.'
               })}
             </div>
           </div>

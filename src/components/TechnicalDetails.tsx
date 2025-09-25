@@ -8,7 +8,7 @@ export default function TechnicalDetails() {
             4. 技術詳細
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
-            革新的なMother Vegetables培養技術
+            革新的なMother Vegetable培養技術
           </h2>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto">
             35億年前の地球最初の生命体「マザーベジタブル」を現代技術で再現し、
@@ -111,7 +111,7 @@ export default function TechnicalDetails() {
           <div className="mt-8 p-6 bg-cyan-500/10 border border-cyan-500/30 rounded-lg">
             <h4 className="text-lg font-bold text-cyan-400 mb-3">実証済みの効果</h4>
             <p className="text-gray-300">
-              Mother Vegetables培養技術を用いた均一化生産システムは、CO₂の安定的かつ効率的な吸収を実証済みであり、
+              Mother Vegetable培養技術を用いた均一化生産システムは、CO₂の安定的かつ効率的な吸収を実証済みであり、
               技術の商業化に向けた確固たるエビデンスを有しています。
             </p>
           </div>

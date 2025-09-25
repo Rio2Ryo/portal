@@ -19,7 +19,7 @@ export default function ProjectDetails() {
 
           <div className="bg-gray-800/50 backdrop-blur-md border border-gray-700/50 rounded-2xl p-8">
             <p className="text-gray-300 leading-relaxed mb-6">
-              MOTHER VEGETABLES PROJECTの主幹事であるAlgae International Berhad（AIB）社は２００７年から地球規初の植物である藻類の研究を日本でスタートし、現在世界中に８カ国、７０拠点に展開しています。AIB社における藻類の研究はゲノム解析まで完了し培養のメカニズムを確立させ、培養元となる藻類を「マザーベジタブル」と名付けました。
+              MOTHER VEGETABLE PROJECTの主幹事であるAlgae International Berhad（AIB）社は２００７年から地球規初の植物である藻類の研究を日本でスタートし、現在世界中に８カ国、７０拠点に展開しています。AIB社における藻類の研究はゲノム解析まで完了し培養のメカニズムを確立させ、培養元となる藻類を「マザーベジタブル」と名付けました。
             </p>
 
             <p className="text-gray-300 leading-relaxed mb-6">

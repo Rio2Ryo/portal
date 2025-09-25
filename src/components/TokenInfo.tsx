@@ -22,12 +22,12 @@ export default function TokenInfo() {
             {t({ JP: '4. トークン情報', EN: '4. Token Information' })}
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
-            {t({ JP: 'MOTHER VEGETABLES Token (MVT)情報', EN: 'MOTHER VEGETABLES Token (MVT) Information' })}
+            {t({ JP: 'MOTHER VEGETABLE Token (MVT)情報', EN: 'MOTHER VEGETABLE Token (MVT) Information' })}
           </h2>
           <p className="text-sm md:text-base text-gray-300 max-w-4xl mx-auto">
             {t({
-              JP: 'MOTHER VEGETABLES Token（MVT）はマザーベジタブルファクトリーと直接接続されたユーティリティトークンとして機能し、核心的ユーティリティを提供します。',
-              EN: 'MOTHER VEGETABLES Token (MVT) functions as a utility token directly connected to Mother Vegetable factories, providing core utilities.'
+              JP: 'MOTHER VEGETABLE Token（MVT）はマザーベジタブルファクトリーと直接接続されたユーティリティトークンとして機能し、核心的ユーティリティを提供します。',
+              EN: 'MOTHER VEGETABLE Token (MVT) functions as a utility token directly connected to Mother Vegetable factories, providing core utilities.'
             })}
           </p>
           <div className="mt-8">
@@ -44,7 +44,7 @@ export default function TokenInfo() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center">
               <p className="text-gray-400 text-sm mb-2">{t({ JP: 'トークン名称', EN: 'Token Name' })}</p>
-              <p className="text-white font-bold text-lg">MOTHER VEGETABLES Token</p>
+              <p className="text-white font-bold text-lg">MOTHER VEGETABLE Token</p>
             </div>
             <div className="text-center">
               <p className="text-gray-400 text-sm mb-2">{t({ JP: 'ティッカーシンボル', EN: 'Ticker Symbol' })}</p>
