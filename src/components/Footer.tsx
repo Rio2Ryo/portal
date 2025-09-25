@@ -26,7 +26,7 @@ export default function Footer() {
           <div className="mb-8">
             <div className="mb-6">
               <Image
-                src="/logo-uCgt3dQl.png"
+                src="/logo-uCgt3dQ.png"
                 alt="MOTHER VEGETABLE"
                 width={150}
                 height={150}

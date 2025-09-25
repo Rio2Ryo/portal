@@ -92,7 +92,7 @@ export default function Hero() {
 <div className="max-w-4xl mx-auto mb-12 px-0 sm:px-4">
   <div className="relative overflow-visible">
     <Image
-      src={language === 'EN' ? "/project-overviews_en.png" : "/project-overviews_ja.png"}
+      src={language === 'EN' ? "/project-overview_en.png" : "/project-overview_ja.png"}
       alt="Mother Vegetable"
       width={800}
       height={533}
