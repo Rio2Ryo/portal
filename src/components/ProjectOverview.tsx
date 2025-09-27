@@ -83,8 +83,8 @@ to improving human and biological health.`
               </div>
 
               {/* 驚異的なカーボンクレジット */}
-              <div className="p-6 bg-green-500/10 border border-green-500/30 rounded-lg flex-grow flex flex-col">
-                <div>
+              <div className="p-6 bg-green-500/10 border border-green-500/30 rounded-lg flex-grow flex flex-col h-full">
+                <div className="flex-grow flex flex-col">
                   <h4 className="text-lg font-bold text-green-400 mb-4">{t({ JP: '驚異的なカーボンクレジット', EN: 'Amazing Carbon Credits' })}</h4>
                   <p className="text-gray-300 leading-[1.9] whitespace-pre-line mb-6">
                     {t({
@@ -160,8 +160,8 @@ constitute the strong competitive advantage of this project.`
               </div>
 
               {/* 地球最初の生命体とは */}
-              <div className="p-6 bg-green-500/10 border border-green-500/30 rounded-lg flex-grow flex flex-col">
-                <div>
+              <div className="p-6 bg-green-500/10 border border-green-500/30 rounded-lg flex-grow flex flex-col h-full">
+                <div className="flex-grow flex flex-col">
                   <h4 className="text-lg font-bold text-green-400 mb-4">{t({ JP: '地球最初の生命体とは', EN: "Earth's First Life Form" })}</h4>
                   <p className="text-gray-300 leading-[1.9] whitespace-pre-line">
                     {t({

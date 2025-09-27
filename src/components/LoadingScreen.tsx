@@ -46,7 +46,7 @@ export default function LoadingScreen() {
           MOTHER VEGETABLE
         </h1>
         <p className="text-gray-400 text-sm mb-6">
-          地球再生プロジェクト起動中...
+          Earth Regeneration Project Initializing...
         </p>
 
         {/* Progress Bar */}
@@ -62,17 +62,21 @@ export default function LoadingScreen() {
 
         {/* Loading Text Animation */}
         <div className="mt-6 text-gray-500 text-xs">
-          <span className="inline-block animate-bounce" style={{ animationDelay: '0ms' }}>シ</span>
-          <span className="inline-block animate-bounce" style={{ animationDelay: '100ms' }}>ス</span>
-          <span className="inline-block animate-bounce" style={{ animationDelay: '200ms' }}>テ</span>
-          <span className="inline-block animate-bounce" style={{ animationDelay: '300ms' }}>ム</span>
-          <span className="inline-block animate-bounce" style={{ animationDelay: '400ms' }}>初</span>
-          <span className="inline-block animate-bounce" style={{ animationDelay: '500ms' }}>期</span>
-          <span className="inline-block animate-bounce" style={{ animationDelay: '600ms' }}>化</span>
-          <span className="inline-block animate-bounce" style={{ animationDelay: '700ms' }}>中</span>
-          <span className="inline-block animate-bounce" style={{ animationDelay: '800ms' }}>.</span>
-          <span className="inline-block animate-bounce" style={{ animationDelay: '900ms' }}>.</span>
-          <span className="inline-block animate-bounce" style={{ animationDelay: '1000ms' }}>.</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '0ms' }}>I</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '100ms' }}>n</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '200ms' }}>i</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '300ms' }}>t</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '400ms' }}>i</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '500ms' }}>a</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '600ms' }}>l</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '700ms' }}>i</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '800ms' }}>z</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '900ms' }}>i</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '1000ms' }}>n</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '1100ms' }}>g</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '1200ms' }}>.</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '1300ms' }}>.</span>
+          <span className="inline-block animate-bounce" style={{ animationDelay: '1400ms' }}>.</span>
         </div>
       </div>
     </div>
