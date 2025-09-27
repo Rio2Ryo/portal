@@ -67,22 +67,16 @@ export default function Hero() {
         {/* Description - Not in Box */}
         <div className="max-w-4xl mx-auto mb-12 mt-20 px-4">
           <div className="space-y-3">
-            <p className="text-lg md:text-xl text-white leading-relaxed">
+            <p className="text-xl md:text-2xl text-white leading-relaxed font-semibold">
               {t({
-                JP: '35億年前の地球のはじまりの生命',
-                EN: 'Life from the beginning of Earth 3.5 billion years ago'
+                JP: '地球が35億年かけて育んだ生命力',
+                EN: 'The life force nurtured by Earth over 3.5 billion years'
               })}
             </p>
-            <p className="text-lg md:text-xl text-white leading-relaxed">
+            <p className="text-xl md:text-2xl text-white leading-relaxed">
               {t({
-                JP: '「マザーベジタブル」',
-                EN: '"Mother Vegetable"'
-              })}
-            </p>
-            <p className="text-lg md:text-xl text-white leading-relaxed">
-              {t({
-                JP: '地球が生み出した生命力を、あなたに。',
-                EN: 'Bringing you the life force created by Earth.'
+                JP: 'その結晶が「マザーベジタブル」です',
+                EN: 'Its crystallization is "Mother Vegetable"'
               })}
             </p>
           </div>

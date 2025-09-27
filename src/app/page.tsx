@@ -3,12 +3,9 @@
 import { useEffect, useState } from 'react'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
-import ProjectOverview from '@/components/ProjectOverview'
-import IndustryApproach from '@/components/IndustryApproach'
-import TeamMembers from '@/components/TeamMembers'
-import Partners from '@/components/Partners'
-import TokenInfo from '@/components/TokenInfo'
-import FAQ from '@/components/FAQ'
+import Milestones from '@/components/Milestones'
+import ProductLineup from '@/components/ProductLineup'
+import MazavegeFamily from '@/components/MazavegeFamily'
 import Footer from '@/components/Footer'
 import LoadingScreen from '@/components/LoadingScreen'
 
@@ -30,12 +27,9 @@ export default function Home() {
       <main className="min-h-screen text-white relative">
         <Header />
         <Hero />
-        <ProjectOverview />
-        <IndustryApproach />
-        <TeamMembers />
-        <Partners />
-        <TokenInfo />{/* */}
-        {/*<FAQ />*/}
+        <Milestones />
+        <ProductLineup />
+        <MazavegeFamily />
         <Footer />
       </main>
     </>
