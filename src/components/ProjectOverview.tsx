@@ -129,15 +129,16 @@ CO₂の安定的吸収を実証済み。
                       EN: `This project has completed the verification phase,
 with a pilot plant secretly operating 24/7 in Malaysia.
 
-We have established a standardized production system using
-Mother Vegetable cultivation technology and demonstrated stable CO₂ absorption.
+We have established a standardized production system
+using Mother Vegetable cultivation technology
+and demonstrated stable CO₂ absorption.
 
-Furthermore, through strategic partnerships with government agencies
-and universities/research institutions in ASEAN countries,
-we have built an international cooperation framework.
+Furthermore, through strategic partnerships
+with government agencies and universities/research institutions
+in ASEAN countries, we have built an international cooperation framework.
 
-Our "already operational demonstration facility" and
-"international government-academic collaboration"
+Our "already operational demonstration facility"
+and "international government-academic collaboration"
 constitute the strong competitive advantage of this project.`
                     })}
                   </p>
@@ -200,8 +201,10 @@ the first organisms on Earth 3.5 billion years ago.`
 we can create various things.
 
 For example, from just one life form,
-we can provide superfoods containing over 30 types of nutrients essential for humans,
-or create alternatives with the same components as things that already exist on Earth.
+we can provide superfoods containing over 30 types
+of nutrients essential for humans,
+or create alternatives with the same components
+as things that already exist on Earth.
 
 Among the various things we can now create,
 we have classified them into 8 industries

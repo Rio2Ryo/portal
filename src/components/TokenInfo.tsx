@@ -24,10 +24,14 @@ export default function TokenInfo() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
             {t({ JP: 'MOTHER VEGETABLE Token (MVT)情報', EN: 'MOTHER VEGETABLE Token (MVT) Information' })}
           </h2>
-          <p className="text-sm md:text-base text-gray-300 max-w-4xl mx-auto">
+          <p className="text-sm md:text-base text-gray-300 max-w-4xl mx-auto leading-[2] whitespace-pre-line">
             {t({
-              JP: 'MOTHER VEGETABLE Token（MVT）はマザーベジタブルファクトリーと直接接続されたユーティリティトークンとして機能し、核心的ユーティリティを提供します。',
-              EN: 'MOTHER VEGETABLE Token (MVT) functions as a utility token directly connected to Mother Vegetable factories, providing core utilities.'
+              JP: `MOTHER VEGETABLE Token（MVT）は
+マザーベジタブルファクトリーと直接接続された
+ユーティリティトークンとして機能し、
+核心的ユーティリティを提供します。`,
+              EN: `MOTHER VEGETABLE Token (MVT) functions as a utility token
+directly connected to Mother Vegetable factories, providing core utilities.`
             })}
           </p>
           <div className="mt-8">
