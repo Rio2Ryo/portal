@@ -75,7 +75,7 @@ export default function TeamMembers() {
                   <p className={`font-semibold mb-4 ${member.companyColor}`}>
                     {member.title}
                   </p>
-                  <p className="text-gray-300 text-sm leading-relaxed">
+                  <p className="text-gray-300 text-sm leading-[1.9]">
                     {member.description}
                   </p>
                 </div>

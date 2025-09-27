@@ -234,6 +234,14 @@ export default function Partners() {
         EN: "Fishery cooperative located in Shimonoseki City, Japan: Facing challenges with mass occurrence of empty sea urchins due to rocky shore denudation and aquaculture, advancing local rocky shore denudation solutions and efficient aquaculture using MOTHER VEGETABLE."
       }),
       image: "/kuroi-fishery-DSW6ddl8.jpeg"
+    },
+    {
+      name: "MO",
+      description: t({
+        JP: "株式会社MOは、日本にていち早くマザーベジタブルを提供すべく、マーケティング調査、販売企画、改善点等を研究開発し、日本国内での販売戦略をサポートしています。",
+        EN: "MO Corporation conducts marketing research, sales planning, and R&D for improvements to provide Mother Vegetable early in Japan, supporting domestic sales strategies in Japan."
+      }),
+      image: "/mo_logo.jpg"
     }
   ]
 
@@ -333,7 +341,7 @@ export default function Partners() {
                 </div>
                 <h4 className="text-lg font-bold text-white mb-2">{partner.name}</h4>
                 <p className="text-blue-400 text-sm font-semibold mb-3">{partner.subtitle}</p>
-                <p className="text-gray-300 text-xs leading-relaxed">{partner.description}</p>
+                <p className="text-gray-300 text-xs leading-[1.8]">{partner.description}</p>
               </div>
             ))}
           </div>
@@ -363,7 +371,7 @@ export default function Partners() {
                 </div>
                 <h4 className="text-lg font-bold text-white mb-2">{partner.name}</h4>
                 {partner.description && (
-                  <p className="text-gray-300 text-xs leading-relaxed">{partner.description}</p>
+                  <p className="text-gray-300 text-xs leading-[1.8]">{partner.description}</p>
                 )}
               </div>
             ))}
@@ -394,7 +402,7 @@ export default function Partners() {
                 </div>
                 <h4 className="text-lg font-bold text-white mb-2">{partner.name}</h4>
                 {partner.description && (
-                  <p className="text-gray-300 text-xs leading-relaxed">{partner.description}</p>
+                  <p className="text-gray-300 text-xs leading-[1.8]">{partner.description}</p>
                 )}
               </div>
             ))}
@@ -424,7 +432,7 @@ export default function Partners() {
                   />
                 </div>
                 <h4 className="text-lg font-bold text-white mb-2">{org.name}</h4>
-                <p className="text-gray-300 text-xs leading-relaxed">{org.description}</p>
+                <p className="text-gray-300 text-xs leading-[1.8]">{org.description}</p>
               </div>
             ))}
           </div>
@@ -435,7 +443,7 @@ export default function Partners() {
           <h3 className="text-2xl font-bold text-orange-400 text-center mb-8">
             {t({ JP: 'その他の提携組織・プロジェクト', EN: 'Other Partner Organizations & Projects' })}
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {otherPartners.map((partner, index) => (
               <div
                 key={index}
@@ -456,7 +464,7 @@ export default function Partners() {
                 {(partner as Partner).subtitle && (
                   <p className="text-orange-400 text-sm font-semibold mb-3">{(partner as Partner).subtitle}</p>
                 )}
-                <p className="text-gray-300 text-xs leading-relaxed">{partner.description}</p>
+                <p className="text-gray-300 text-xs leading-[1.8]">{partner.description}</p>
               </div>
             ))}
           </div>

@@ -69,7 +69,7 @@ export default function Footer() {
                 {t({ JP: 'トークン', EN: 'Token' })}
               </Link></li>
               <li><Link href="#registration" className="text-gray-300 hover:text-emerald-400 transition-colors">
-                {t({ JP: '事前登録', EN: 'Pre-registration' })}
+                {t({ JP: '登録', EN: 'Registration' })}
               </Link></li>
               <li><button onClick={downloadWhitepaper} className="text-gray-300 hover:text-emerald-400 transition-colors">
                 {t({ JP: 'ホワイトペーパー', EN: 'Whitepaper' })}

@@ -146,13 +146,15 @@ export default function IndustryApproach() {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h3 className="text-2xl font-bold text-white text-center mb-8">
+          <h3 className="text-2xl font-bold text-white text-center mb-12">
             {t({ JP: '8つの産業アプローチ', EN: '8 Industry Approaches' })}
           </h3>
-          <p className="text-sm md:text-base text-gray-300 max-w-4xl mx-auto">
+          <p className="text-sm md:text-base text-gray-300 max-w-4xl mx-auto leading-[2] whitespace-pre-line">
             {t({
-              JP: '「マザーベジタブル」は多様な産業応用が期待されており、以下の8つの分野にて展開が始まっています。',
-              EN: 'Mother Vegetable are expected to have diverse industrial applications, with deployment beginning in the following 8 sectors.'
+              JP: `「マザーベジタブル」は多様な産業応用が期待されており、
+以下の8つの分野にて展開が始まっています。`,
+              EN: `Mother Vegetable are expected to have diverse industrial applications,
+with deployment beginning in the following 8 sectors.`
             })}
           </p>
         </div>
@@ -162,17 +164,17 @@ export default function IndustryApproach() {
           {industries.map((industry) => (
             <div
               key={industry.id}
-              className={`p-6 rounded-xl border transition-all duration-300 hover:scale-105 hover:shadow-xl ${getColorClasses(industry.color)}`}
+              className={`p-6 rounded-xl border transition-all duration-300 hover:scale-105 hover:shadow-xl flex flex-col h-full ${getColorClasses(industry.color)}`}
             >
               <div className="text-center mb-4">
                 <div className="text-4xl mb-3">{industry.icon}</div>
                 <h3 className="text-xl font-bold mb-2">{industry.id}. {industry.title}</h3>
                 <p className="font-semibold text-sm opacity-80">{industry.subtitle}</p>
               </div>
-              
-              <div className="space-y-3 text-sm text-gray-300">
-                <p>{industry.description}</p>
-                <p className="text-xs opacity-75">{industry.details}</p>
+
+              <div className="space-y-4 text-sm text-gray-300 flex-grow flex flex-col justify-between">
+                <p className="leading-[1.8]">{industry.description}</p>
+                <p className="text-xs opacity-75 leading-[1.7] mt-auto">{industry.details}</p>
               </div>
             </div>
           ))}
