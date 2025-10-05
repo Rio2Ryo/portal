@@ -1,17 +1,10 @@
 'use client'
 
 import { useLanguage } from '@/contexts/LanguageContext'
+import Image from 'next/image'
 
 export default function TokenInfo() {
   const { t } = useLanguage()
-  const downloadWhitepaper = () => {
-    const link = document.createElement('a')
-    link.href = '/0912_whitepaper_ja.pdf'
-    link.download = 'MOTHER_VEGETABLES_Whitepaper_JP.pdf'
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
-  }
 
   return (
     <section id="token" className="py-32 bg-gradient-to-b from-gray-900 to-black">
@@ -35,9 +28,11 @@ directly connected to Mother Vegetable factories, providing core utilities.`
             })}
           </p>
           <div className="mt-8">
-            <img
+            <Image
               src="/mvt-coin.png"
               alt="MVT Token Logo"
+              width={192}
+              height={192}
               className="w-48 h-48 mx-auto"
             />
           </div>

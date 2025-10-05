@@ -60,11 +60,13 @@ export default function TeamMembers() {
                 {/* Profile Image */}
                 <div className="flex-shrink-0">
                   <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-emerald-500/30 bg-gray-700 relative">
-                    <img
+                    <Image
                       src={member.image}
                       alt={member.name}
+                      width={128}
+                      height={128}
                       className="w-full h-full object-cover absolute inset-0"
-                      loading="eager"
+                      priority
                     />
                   </div>
                 </div>
