@@ -1,20 +1,10 @@
 'use client'
 
 import Image from 'next/image'
-import { useState } from 'react'
 import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function Header() {
-  const [activeSection, setActiveSection] = useState('')
   const { language, setLanguage, t } = useLanguage()
-
-  const scrollToSection = (sectionId: string) => {
-    setActiveSection(sectionId)
-    const element = document.getElementById(sectionId)
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
-    }
-  }
 
   const downloadWhitepaper = () => {
     const link = document.createElement('a')
