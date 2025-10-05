@@ -2,6 +2,7 @@
 
 import ScrollAnimationWrapper from '@/components/ScrollAnimationWrapper'
 import { useLanguage } from '@/contexts/LanguageContext'
+import Image from 'next/image'
 
 export default function ProductLineup() {
   const { t } = useLanguage()
@@ -25,6 +26,15 @@ export default function ProductLineup() {
                 EN: 'Hierarchy: Maximum 2 Levels'
               })}
             </p>
+            <div className="mt-8 flex justify-center">
+              <Image
+                src="/hyou.png"
+                alt="Hierarchy Chart"
+                width={800}
+                height={600}
+                className="rounded-lg shadow-xl max-w-full h-auto"
+              />
+            </div>
           </div>
         </ScrollAnimationWrapper>
 
