@@ -1,0 +1,103 @@
+'use client'
+
+import Image from 'next/image'
+import { useLanguage } from '@/contexts/LanguageContext'
+
+export default function Hero() {
+  const { t, language } = useLanguage()
+  const scrollToDetails = () => {
+    const element = document.getElementById('project-overview')
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
+  const scrollToToken = () => {
+    const element = document.getElementById('token')
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
+  const downloadWhitepaper = () => {
+    const link = document.createElement('a')
+    link.href = '/0912_whitepaper_ja.pdf'
+    link.download = 'MOTHER_VEGETABLES_Whitepaper_JP.pdf'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
+  return (
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/hero-earth-regeneration-Dnk2z_VF.png"
+          alt="Earth Regeneration"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/60"></div>
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 text-center max-w-7xl mx-auto px-4 transition-all duration-1500 pt-40 md:pt-48 lg:pt-56">
+        {/* Title Section - Single Component */}
+        <div className="mb-12">
+          <div
+            className="inline-block"
+            style={{
+              background: 'linear-gradient(135deg, #4ade80 0%, #22c55e 50%, #16a34a 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text',
+              filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3)) drop-shadow(0 2px 4px rgba(34, 197, 94, 0.2))',
+            }}
+          >
+            <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-black leading-tight">
+              <div>MOTHER VEGETABLE PROJECT</div>
+            </h1>
+          </div>
+          <div className="w-40 md:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-6 opacity-80"></div>
+        </div>
+
+
+        {/* Description - Not in Box */}
+        <div className="max-w-4xl mx-auto mb-12 mt-20 px-4">
+          <div className="space-y-3">
+            <p className="text-xl md:text-2xl text-white leading-relaxed font-semibold">
+              {t({
+                JP: '地球が35億年かけて育んだ生命力',
+                EN: 'The life force nurtured by Earth over 3.5 billion years'
+              })}
+            </p>
+            <p className="text-xl md:text-2xl text-white leading-relaxed">
+              {t({
+                JP: 'その結晶が「マザーベジタブル」です',
+                EN: 'Its crystallization is "Mother Vegetable"'
+              })}
+            </p>
+          </div>
+        </div>
+
+      {/* Mother Vegetable Image */}
+<div className="max-w-4xl mx-auto mb-12 px-0 sm:px-4">
+  <div className="relative overflow-visible">
+    <Image
+      src={language === 'EN' ? "/project-overview_en.png" : "/project-overview_ja.png"}
+      alt="Mother Vegetable"
+      width={800}
+      height={533}
+      className="w-full h-auto rounded-lg shadow-2xl scale-125 sm:scale-110 md:scale-100 transform-origin-center"
+      priority
+    />
+  </div>
+</div>
+
+
+      </div>
+    </section>
+  )
+}
