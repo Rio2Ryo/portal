@@ -30,8 +30,8 @@ export default function ProductLineup() {
               <Image
                 src="/hyou.png"
                 alt="Hierarchy Chart"
-                width={800}
-                height={600}
+                width={600}
+                height={450}
                 className="rounded-lg shadow-xl max-w-full h-auto"
               />
             </div>
