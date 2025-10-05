@@ -3,212 +3,6 @@
 import ScrollAnimationWrapper from '@/components/ScrollAnimationWrapper'
 import { useLanguage } from '@/contexts/LanguageContext'
 
-const partnerTypes = [
-  {
-    id: 'partner',
-    title: {
-      JP: 'マザベジパートナー',
-      EN: 'Mazavege Partner'
-    },
-    features: [
-      {
-        label: {
-          JP: '投資額',
-          EN: 'Investment'
-        },
-        value: {
-          JP: '10,000米ドル相当の暗号資産',
-          EN: '$10,000 USD in crypto assets'
-        }
-      },
-      {
-        label: {
-          JP: '利益分配',
-          EN: 'Profit Distribution'
-        },
-        value: {
-          JP: '暗号資産価値に基づき年間2％',
-          EN: '2% annually based on crypto asset value'
-        }
-      },
-      {
-        label: {
-          JP: '卸売価格',
-          EN: 'Wholesale Price'
-        },
-        value: {
-          JP: '35％の利益率',
-          EN: '35% profit margin'
-        }
-      },
-      {
-        label: {
-          JP: '二次代理店販売',
-          EN: 'Secondary Distributor Sales'
-        },
-        value: {
-          JP: '10％の手数料',
-          EN: '10% commission'
-        }
-      }
-    ],
-    gradient: 'from-purple-500 to-pink-500'
-  },
-  {
-    id: 'team',
-    title: {
-      JP: 'チームマザベジ',
-      EN: 'Team Mazavege'
-    },
-    features: [
-      {
-        label: {
-          JP: '投資額',
-          EN: 'Investment'
-        },
-        value: {
-          JP: '250米ドル相当の暗号資産',
-          EN: '$250 USD in crypto assets'
-        }
-      },
-      {
-        label: {
-          JP: '特典',
-          EN: 'Bonus'
-        },
-        value: {
-          JP: '1 MVT（6ヶ月間ロック）',
-          EN: '1 MVT (6-month lock)'
-        }
-      },
-      {
-        label: {
-          JP: '卸売価格',
-          EN: 'Wholesale Price'
-        },
-        value: {
-          JP: '25％の利益率',
-          EN: '25% profit margin'
-        }
-      },
-      {
-        label: {
-          JP: '二次代理店販売',
-          EN: 'Secondary Distributor Sales'
-        },
-        value: {
-          JP: '価格に対して10％の手数料',
-          EN: '10% commission on price'
-        }
-      },
-      {
-        label: {
-          JP: '紹介料',
-          EN: 'Referral Fee'
-        },
-        value: {
-          JP: '50米ドル',
-          EN: '$50 USD'
-        }
-      }
-    ],
-    gradient: 'from-blue-500 to-cyan-500'
-  }
-]
-
-const teamBenefits = [
-  {
-    title: {
-      JP: '簡単な説明',
-      EN: 'Simple Explanation'
-    },
-    description: {
-      JP: '一族が提供するランディングページに基づいた簡単な説明',
-      EN: 'Simple explanation based on landing page provided by the family'
-    }
-  },
-  {
-    title: {
-      JP: '簡単な登録',
-      EN: 'Easy Registration'
-    },
-    description: {
-      JP: '一族メンバーへの簡単な登録（パスワード付きの登録ウェブページ）',
-      EN: 'Easy registration to family members (password-protected registration webpage)'
-    }
-  },
-  {
-    title: {
-      JP: '簡単な販売と利益共有',
-      EN: 'Easy Sales & Profit Sharing'
-    },
-    description: {
-      JP: '新しいエンターテイメント販売構造により、製品を共同で販売し、将来の利益を共有',
-      EN: 'Co-sell products and share future profits with new entertainment sales structure'
-    }
-  },
-  {
-    title: {
-      JP: '信頼性の向上',
-      EN: 'Enhanced Credibility'
-    },
-    description: {
-      JP: 'ASEAN、大学、大企業との連携によるチームメンバーの信頼性向上',
-      EN: 'Improved team member credibility through partnerships with ASEAN, universities, and major corporations'
-    }
-  },
-  {
-    title: {
-      JP: '製品割引',
-      EN: 'Product Discount'
-    },
-    description: {
-      JP: '個人使用の製品がいつでも25％割引',
-      EN: '25% discount on products for personal use anytime'
-    }
-  },
-  {
-    title: {
-      JP: '販売利益',
-      EN: 'Sales Profit'
-    },
-    description: {
-      JP: '製品販売による25％の利益（二次販売による10％の利益）',
-      EN: '25% profit from product sales (10% profit from secondary sales)'
-    }
-  },
-  {
-    title: {
-      JP: 'ツールとサポート',
-      EN: 'Tools & Support'
-    },
-    description: {
-      JP: 'LP（公式ウェブページ価格から10％割引）、EC、グループ販売計算、物流、CRMなどへのアクセス',
-      EN: 'Access to LP (10% off official webpage price), EC, group sales calculations, logistics, CRM, etc.'
-    }
-  },
-  {
-    title: {
-      JP: '無料のMVT',
-      EN: 'Free MVT'
-    },
-    description: {
-      JP: '1 MVTを無料で受け取る',
-      EN: 'Receive 1 MVT for free'
-    }
-  },
-  {
-    title: {
-      JP: '紹介料',
-      EN: 'Referral Fee'
-    },
-    description: {
-      JP: '50米ドルの紹介料を受け取る',
-      EN: 'Receive $50 USD referral fee'
-    }
-  }
-]
-
 export default function MazavegeFamily() {
   const { t } = useLanguage()
 
@@ -220,61 +14,154 @@ export default function MazavegeFamily() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
               {t({
-                JP: 'マザベジ一族',
-                EN: 'Mazavege Family'
+                JP: 'Ichizoku加入に関する説明',
+                EN: 'About Joining Ichizoku'
               })}
             </h2>
-            <p className="text-xl text-gray-300 mb-4">
-              {t({
-                JP: 'マーケティングメンバープロジェクト',
-                EN: 'Marketing Member Project'
-              })}
-            </p>
             <div className="w-32 h-1 bg-gradient-to-r from-green-400 to-emerald-500 mx-auto rounded-full"></div>
           </div>
         </ScrollAnimationWrapper>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-16">
-          {partnerTypes.map((partner, index) => (
-            <ScrollAnimationWrapper key={partner.id} delay={index * 100}>
-              <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700 hover:border-green-400/40 transition-all duration-300">
-                <div className={`inline-block px-4 py-2 rounded-full bg-gradient-to-r ${partner.gradient} text-white text-sm font-semibold mb-6`}>
-                  {t(partner.title)}
+        <div className="max-w-5xl mx-auto space-y-8">
+          <ScrollAnimationWrapper>
+            <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">
+                {t({
+                  JP: '1. LPを使って簡単に説明できます',
+                  EN: '1. Easy Explanation Using LP'
+                })}
+              </h3>
+              <p className="text-gray-300 text-lg">
+                {t({
+                  JP: '地球・人間・ペットへのメリットをLPの内容に基づいて説明',
+                  EN: 'Explain benefits for Earth, humans, and pets based on LP content'
+                })}
+              </p>
+            </div>
+          </ScrollAnimationWrapper>
+
+          <ScrollAnimationWrapper delay={100}>
+            <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
+              <h3 className="text-2xl font-bold text-green-400 mb-6">
+                {t({
+                  JP: '2. 「Ichizoku（一族）」になるメリット',
+                  EN: '2. Benefits of Becoming "Ichizoku (Family)"'
+                })}
+              </h3>
+              <p className="text-gray-300 mb-6">
+                {t({
+                  JP: 'パスワード付きディーラー専用ページでご案内',
+                  EN: 'Available on password-protected dealer-exclusive page'
+                })}
+              </p>
+
+              <div className="space-y-6">
+                <div className="bg-gray-900/50 rounded-lg p-6 border border-gray-700">
+                  <h4 className="text-lg font-semibold text-white mb-3">
+                    {t({
+                      JP: 'a) 社会的活動への参加',
+                      EN: 'a) Participation in Social Activities'
+                    })}
+                  </h4>
+                  <p className="text-gray-300">
+                    {t({
+                      JP: 'ASEAN、大学、大企業などと連携し、社会的活動を拡散',
+                      EN: 'Collaborate with ASEAN, universities, major corporations to spread social activities'
+                    })}
+                  </p>
                 </div>
-                <div className="space-y-4">
-                  {partner.features.map((feature, idx) => (
-                    <div key={idx} className="flex justify-between items-start">
-                      <span className="text-gray-400 font-medium">{t(feature.label)}:</span>
-                      <span className="text-green-400 text-right ml-4 font-semibold">{t(feature.value)}</span>
+
+                <div className="bg-gray-900/50 rounded-lg p-6 border border-gray-700">
+                  <h4 className="text-lg font-semibold text-white mb-3">
+                    {t({
+                      JP: 'b) 地球と人類を守る取り組みに参加',
+                      EN: 'b) Participate in Protecting Earth and Humanity'
+                    })}
+                  </h4>
+                  <p className="text-gray-300">
+                    {t({
+                      JP: '地球と人類を守る取り組みに参加可能（上記No.1参照）',
+                      EN: 'Participate in initiatives to protect Earth and humanity (refer to No.1 above)'
+                    })}
+                  </p>
+                </div>
+
+                <div className="bg-gray-900/50 rounded-lg p-6 border border-gray-700">
+                  <h4 className="text-lg font-semibold text-white mb-4">
+                    {t({
+                      JP: 'c) ビジネスチャンス：一緒に商品販売、将来の利益シェア',
+                      EN: 'c) Business Opportunities: Co-sell Products, Share Future Profits'
+                    })}
+                  </h4>
+                  <div className="space-y-3 ml-4">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 rounded-full bg-green-400 mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-300">
+                        {t({
+                          JP: 'c-1. 自分用の購入時は常に25％割引で商品を入手可能',
+                          EN: 'c-1. Always get 25% discount on products for personal use'
+                        })}
+                      </p>
                     </div>
-                  ))}
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 rounded-full bg-green-400 mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-300">
+                        {t({
+                          JP: 'c-2. 商品販売によって25％の利益を獲得可能（さらに2次代理店から10％の利益を得られます）',
+                          EN: 'c-2. Earn 25% profit from product sales (plus 10% profit from secondary agents)'
+                        })}
+                      </p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 rounded-full bg-green-400 mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-300">
+                        {t({
+                          JP: 'c-3. 専用LP（公式価格より10％オフ）・EC・売上集計・物流・CRMなどの仕組みが利用可能',
+                          EN: 'c-3. Access to dedicated LP (10% off official price), EC, sales tracking, logistics, CRM systems'
+                        })}
+                      </p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 rounded-full bg-green-400 mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-300">
+                        {t({
+                          JP: 'c-4. 無料で1MVTを取得可能',
+                          EN: 'c-4. Receive 1 MVT for free'
+                        })}
+                      </p>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 rounded-full bg-green-400 mt-2 flex-shrink-0"></div>
+                      <p className="text-gray-300">
+                        {t({
+                          JP: 'c-5. 紹介手数料として50USDを獲得可能',
+                          EN: 'c-5. Earn 50 USD as referral fee'
+                        })}
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </ScrollAnimationWrapper>
-          ))}
-        </div>
-
-        <ScrollAnimationWrapper>
-          <div className="bg-gradient-to-br from-gray-800/30 to-gray-900/30 backdrop-blur-sm rounded-xl p-8 border border-gray-700">
-            <h3 className="text-2xl font-bold text-center text-green-400 mb-8">
-              {t({
-                JP: 'チームマザベジのマーケティング手順と利点',
-                EN: 'Team Mazavege Marketing Process & Benefits'
-              })}
-            </h3>
-            <div className="grid md:grid-cols-3 gap-6">
-              {teamBenefits.map((benefit, index) => (
-                <div key={index} className="text-center p-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-emerald-500 rounded-full flex items-center justify-center text-black font-bold text-lg mx-auto mb-4">
-                    {index + 1}
-                  </div>
-                  <h4 className="text-lg font-semibold text-white mb-2">{t(benefit.title)}</h4>
-                  <p className="text-sm text-gray-300">{t(benefit.description)}</p>
-                </div>
-              ))}
             </div>
-          </div>
-        </ScrollAnimationWrapper>
+          </ScrollAnimationWrapper>
+
+          <ScrollAnimationWrapper delay={200}>
+            <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">
+                {t({
+                  JP: '3. 「Ichizoku」への登録方法',
+                  EN: '3. How to Register for "Ichizoku"'
+                })}
+              </h3>
+              <p className="text-gray-300 text-lg">
+                {t({
+                  JP: 'ウェブページから簡単に登録が可能',
+                  EN: 'Easy registration from webpage'
+                })}
+              </p>
+            </div>
+          </ScrollAnimationWrapper>
+        </div>
       </div>
     </section>
   )
