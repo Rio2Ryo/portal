@@ -61,9 +61,7 @@ export default function Footer() {
               <li><button className="text-gray-300 hover:text-emerald-400 transition-colors">
                 {t({ JP: 'Ichizokuに参加', EN: 'Join Ichizoku' })}
               </button></li>
-              <li><button onClick={() => setLanguage(language === 'EN' ? 'JP' : 'EN')} className="text-gray-300 hover:text-emerald-400 transition-colors border border-gray-600 rounded-md px-3 py-1">
-                {language === 'EN' ? 'EN' : 'JP'}
-              </button></li>
+              
             </ul>
           </div>
         </div>
