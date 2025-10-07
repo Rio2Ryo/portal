@@ -46,7 +46,7 @@ export default function Footer() {
             </div>*/}
           </div>
 
-          {/* Quick Links */}
+          {/* Quick Links 
           <div className="mb-8">
             <h4 className="text-white font-semibold mb-4 text-lg">
               {t({ JP: 'クイックリンク', EN: 'Quick Links' })}
@@ -63,7 +63,7 @@ export default function Footer() {
               </button></li>
 
             </ul>
-          </div>
+          </div>*/}
         </div>
       </div>
 
