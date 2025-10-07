@@ -32,9 +32,13 @@ const products = [
     secondaryAgent: '¥495'
   },
   {
-    name: {
-      JP: 'Heal for All Skin 30 pcs',
-      EN: 'Heal for All Skin 30 pcs'
+    title: {
+      JP: 'Heal',
+      EN: 'Heal'
+    },
+    subtitle: {
+      JP: 'for All Skin 30 pcs',
+      EN: 'for All Skin 30 pcs'
     },
     retailPrice: '¥4,950',
     rewardMP: '¥1,733',
@@ -61,20 +65,12 @@ export default function ProjectOverview() {
           {products.map((product, index) => (
             <div key={index} className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <div className="mb-6 text-center">
-                {product.title ? (
-                  <>
-                    <h3 className="text-3xl font-bold text-green-400">
-                      {t(product.title)}
-                    </h3>
-                    <p className="text-xl text-green-400 font-bold">
-                      {t(product.subtitle)}
-                    </p>
-                  </>
-                ) : (
-                  <h3 className="text-2xl font-bold text-green-400">
-                    {t(product.name)}
-                  </h3>
-                )}
+                <h3 className="text-4xl font-bold text-green-400">
+                  {t(product.title)}
+                </h3>
+                <p className="text-xl text-green-400 font-bold">
+                  {t(product.subtitle)}
+                </p>
               </div>
               <div className="space-y-4">
                 <div className="flex justify-between items-center py-3 border-b border-gray-700">
