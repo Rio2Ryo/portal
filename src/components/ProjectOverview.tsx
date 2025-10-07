@@ -32,16 +32,6 @@ const products = [
     rewardMP: '¥1,733',
     rewardTM: '¥1,238',
     secondaryAgent: '¥495'
-  },
-  {
-    name: {
-      JP: 'Confidence for Man',
-      EN: 'Confidence for Man'
-    },
-    retailPrice: '¥3,750',
-    rewardMP: '¥1,313',
-    rewardTM: '¥938',
-    secondaryAgent: '¥375'
   }
 ]
 
@@ -59,7 +49,7 @@ export default function ProjectOverview() {
         </div>
 
         {/* Products Grid */}
-        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {products.map((product, index) => (
             <div key={index} className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-6 text-center">

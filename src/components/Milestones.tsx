@@ -109,8 +109,8 @@ export default function Milestones() {
                   </h4>
                   <p className="text-gray-300">
                     {t({
-                      JP: '暗号通貨で10,000 USD以上',
-                      EN: '10,000 USD or more in cryptocurrency'
+                      JP: '暗号通貨で250 USD以上',
+                      EN: '250 USD or more in cryptocurrency'
                     })}
                   </p>
                 </div>
@@ -135,7 +135,7 @@ export default function Milestones() {
                       EN: 'Wholesale Profit'
                     })}
                   </h4>
-                  <p className="text-gray-300">35%</p>
+                  <p className="text-gray-300">25%</p>
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-white mb-2">
