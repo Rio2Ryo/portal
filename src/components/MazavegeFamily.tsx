@@ -147,18 +147,30 @@ export default function MazavegeFamily() {
 
           <ScrollAnimationWrapper delay={200}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
-              <h3 className="text-2xl font-bold text-green-400 mb-4">
-                {t({
-                  JP: '3. 「Ichizoku」への登録方法',
-                  EN: '3. How to Register for "Ichizoku"'
-                })}
-              </h3>
-              <p className="text-gray-300 text-lg">
-                {t({
-                  JP: 'ウェブページから簡単に登録が可能',
-                  EN: 'Easy registration from webpage'
-                })}
-              </p>
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-green-400 mb-4">
+                    {t({
+                      JP: '3. 「Ichizoku」への登録方法',
+                      EN: '3. How to Register for "Ichizoku"'
+                    })}
+                  </h3>
+                  <p className="text-gray-300 text-lg">
+                    {t({
+                      JP: 'ウェブページから簡単に登録が可能',
+                      EN: 'Easy registration from webpage'
+                    })}
+                  </p>
+                </div>
+                <div className="md:flex-shrink-0">
+                  <button className="w-full md:w-auto px-6 py-3 text-white bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300 font-semibold">
+                    {t({
+                      JP: 'Ichizokuへ参加',
+                      EN: 'Join Ichizoku'
+                    })}
+                  </button>
+                </div>
+              </div>
             </div>
           </ScrollAnimationWrapper>
         </div>
