@@ -59,7 +59,7 @@ export default function Footer() {
                 {t({ JP: '報酬', EN: 'Reward' })}
               </button></li>
               <li><button className="text-gray-300 hover:text-emerald-400 transition-colors">
-                {t({ JP: 'Ichizokuに参加', EN: 'Join Ichizoku' })}
+                {t({ JP: '参加する', EN: 'Join' })}
               </button></li>
               
             </ul>
