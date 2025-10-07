@@ -43,7 +43,7 @@ export default function Hero() {
               filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3)) drop-shadow(0 2px 4px rgba(34, 197, 94, 0.2))',
             }}
           >
-            <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-black leading-tight">
+            <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-black leading-tight hidden">
               <div>MOTHER VEGETABLE PROJECT</div>
             </h1>
           </div>
@@ -54,19 +54,19 @@ export default function Hero() {
         {/* Description - Not in Box */}
         <div className="max-w-4xl mx-auto mb-12 mt-20 px-4">
           <div className="space-y-3">
-            <p className="text-xl md:text-2xl text-white leading-relaxed">
+            <p className="text-sm md:text-2xl text-white leading-relaxed">
               {t({
                 JP: '35億年前の地球のはじまりの生命',
                 EN: 'The Life from 3.5 billion years ago'
               })}
             </p>
-            <p className="text-xl md:text-2xl text-white leading-relaxed">
+            <p className="text-sm md:text-2xl text-white leading-relaxed">
               {t({
                 JP: '「マザーベジタブル」',
                 EN: '"Mother Vegetable".'
               })}
             </p>
-            <p className="text-xl md:text-2xl text-white leading-relaxed">
+            <p className="text-sm md:text-2xl text-white leading-relaxed">
               {t({
                 JP: '地球が生み出した生命力を、あなたに。',
                 EN: 'Earth’s life force, for you.'

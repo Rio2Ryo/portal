@@ -22,18 +22,21 @@ export default function Header() {
           </div>
 
           {/* Navigation Menu */}
-          <nav className="flex items-center space-x-0.5 sm:space-x-1 lg:space-x-2">
+          <nav className="flex items-center justify-between w-full ml-2 sm:ml-4 md:space-x-2 md:justify-start md:w-auto">
             <button
+              onClick={() => document.getElementById('milestones')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-gray-300 hover:text-green-400 transition-all duration-300"
             >
               {t({ JP: 'Ichizokuとは', EN: 'About' })}
             </button>
             <button
+              onClick={() => document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-gray-300 hover:text-green-400 transition-all duration-300"
             >
               {t({ JP: '報酬', EN: 'Reward' })}
             </button>
             <button
+              onClick={() => document.getElementById('mazavege-family')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-white bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300"
             >
               {t({ JP: '参加する', EN: 'Join' })}
