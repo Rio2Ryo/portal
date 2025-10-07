@@ -53,10 +53,10 @@ export default function Footer() {
             </h4>
             <ul className="flex flex-wrap justify-center gap-4 md:gap-6">
               <li><button className="text-gray-300 hover:text-emerald-400 transition-colors">
-                {t({ JP: 'Mazavege Ichizokuとは', EN: 'About Mazavege Ichizoku' })}
+                {t({ JP: 'Ichizokuとは', EN: 'About' })}
               </button></li>
               <li><button className="text-gray-300 hover:text-emerald-400 transition-colors">
-                {t({ JP: 'グループ構成', EN: 'Group Structure' })}
+                {t({ JP: '報酬', EN: 'Reward' })}
               </button></li>
               <li><button className="text-gray-300 hover:text-emerald-400 transition-colors">
                 {t({ JP: 'Ichizokuに参加', EN: 'Join Ichizoku' })}

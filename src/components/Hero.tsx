@@ -63,7 +63,7 @@ export default function Hero() {
             <p className="text-xl md:text-2xl text-white leading-relaxed">
               {t({
                 JP: '「マザーベジタブル」',
-                EN: '"Mother Vegetable"'
+                EN: '"Mother Vegetable".'
               })}
             </p>
             <p className="text-xl md:text-2xl text-white leading-relaxed">
