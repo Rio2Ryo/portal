@@ -30,7 +30,7 @@ export default function Header() {
             <button
               className="px-3 md:px-4 py-2 text-sm text-gray-300 hover:text-green-400 transition-all duration-300"
             >
-              {t({ JP: 'グループ', EN: 'Group' })}
+              {t({ JP: '報酬', EN: 'Reward' })}
             </button>
             <button
               className="px-3 md:px-4 py-2 text-sm text-gray-300 hover:text-green-400 transition-all duration-300"
