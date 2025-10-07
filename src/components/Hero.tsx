@@ -24,6 +24,15 @@ export default function Hero() {
       <div className="relative z-10 text-center max-w-7xl mx-auto px-4 transition-all duration-1500 pt-40 md:pt-48 lg:pt-56">
         {/* Title Section - Single Component */}
         <div className="mb-12">
+          <div className="mb-6 flex justify-center">
+            <Image
+              src="/ichizoku_logo.png"
+              alt="Ichizoku Logo"
+              width={250}
+              height={250}
+              className="w-[250px] h-auto"
+            />
+          </div>
           <div
             className="inline-block"
             style={{
@@ -45,16 +54,22 @@ export default function Hero() {
         {/* Description - Not in Box */}
         <div className="max-w-4xl mx-auto mb-12 mt-20 px-4">
           <div className="space-y-3">
-            <p className="text-xl md:text-2xl text-white leading-relaxed font-semibold">
+            <p className="text-xl md:text-2xl text-white leading-relaxed">
               {t({
-                JP: '地球が35億年かけて育んだ生命力',
-                EN: 'The life force nurtured by Earth over 3.5 billion years'
+                JP: '35億年前の地球のはじまりの生命',
+                EN: 'The Life from 3.5 billion years ago'
               })}
             </p>
             <p className="text-xl md:text-2xl text-white leading-relaxed">
               {t({
-                JP: 'その結晶が「マザーベジタブル」です',
-                EN: 'Its crystallization is "Mother Vegetable"'
+                JP: '「マザーベジタブル」',
+                EN: '"Mother Vegetable"'
+              })}
+            </p>
+            <p className="text-xl md:text-2xl text-white leading-relaxed">
+              {t({
+                JP: '地球が生み出した生命力を、あなたに。',
+                EN: 'Earth’s life force, for you.'
               })}
             </p>
           </div>
