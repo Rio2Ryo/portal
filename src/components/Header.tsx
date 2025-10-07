@@ -40,7 +40,7 @@ export default function Header() {
             </button>
             <button
               onClick={() => setLanguage(language === 'EN' ? 'JP' : 'EN')}
-              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-gray-300 hover:text-green-400 transition-all duration-300 border border-gray-600 rounded-md"
+              className="px-1.5 sm:pl-4 sm:pr-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-gray-300 hover:text-green-400 transition-all duration-300 border border-gray-600 rounded-md"
             >
               {language === 'EN' ? 'EN' : 'JP'}
             </button>
