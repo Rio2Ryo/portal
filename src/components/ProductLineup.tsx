@@ -82,16 +82,18 @@ export default function ProductLineup() {
                       JP: 'CまたはDが販売',
                       EN: 'C or D Sales'
                     })}
-                    <br />
-                    {t({
-                      JP: '※報酬対象は2階層まで',
-                      EN: '※Rewards cover only two levels'
-                    })}
+                   
                   </h4>
                   <p className="text-gray-300">
                     {t({
                       JP: 'MPには報酬なし',
                       EN: 'No reward for MP'
+                    })}
+                  </p>
+                  <p className="text-gray-300">
+                    {t({
+                      JP: '※報酬対象は2階層まで',
+                      EN: '※Rewards cover only two levels'
                     })}
                   </p>
                 </div>
