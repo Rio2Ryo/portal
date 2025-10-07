@@ -13,8 +13,8 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col items-center text-center">
           {/* Company Info */}
-          <div className="mb-8">
-            <div className="mb-6">
+          <div className="mb-1">
+            <div className="mb-1">
               <Image
                 src="/logo-uCgt3dQ.png"
                 alt="MOTHER VEGETABLE"
