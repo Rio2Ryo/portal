@@ -159,8 +159,8 @@ export default function MazavegeFamily() {
                   </h3>
                   <p className="text-gray-300 text-lg">
                     {t({
-                      JP: '下記から簡単に登録が可能',
-                      EN: 'Easy sign-up below'
+                      JP: '参加フォームから簡単に登録が可能',
+                      EN: 'Easy sign-up via the form'
                     })}
                   </p>
                 </div>
