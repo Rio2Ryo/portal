@@ -14,8 +14,8 @@ export default function MazavegeFamily() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
               {t({
-                JP: 'Ichizoku加入に関する説明',
-                EN: 'About Joining Ichizoku'
+                JP: 'Ichizoku 紹介方法',
+                EN: 'How to introduce Ichizoku'
               })}
             </h2>
             <div className="w-32 h-1 bg-gradient-to-r from-green-400 to-emerald-500 mx-auto rounded-full"></div>

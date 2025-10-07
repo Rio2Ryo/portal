@@ -79,8 +79,8 @@ export default function ProductLineup() {
                 <div className="bg-gray-900/50 rounded-lg p-4 border border-gray-700">
                   <h4 className="text-lg font-semibold text-white mb-2">
                     {t({
-                      JP: 'CまたはDが販売',
-                      EN: 'C or D Sales'
+                      JP: 'CまたはDが販売\n※報酬対象は2階層まで',
+                      EN: 'C or D Sales\n※Rewards cover only two levels'
                     })}
                   </h4>
                   <p className="text-gray-300">

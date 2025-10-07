@@ -4,9 +4,13 @@ import { useLanguage } from '@/contexts/LanguageContext'
 
 const products = [
   {
-    name: {
-      JP: 'Achieve for Body 30 pcs',
-      EN: 'Achieve for Body 30 pcs'
+    title: {
+      JP: 'Achieve',
+      EN: 'Achieve'
+    },
+    subtitle: {
+      JP: 'for Body 30 pcs',
+      EN: 'for Body 30 pcs'
     },
     retailPrice: '¥4,950',
     rewardMP: '¥1,733',
@@ -14,9 +18,13 @@ const products = [
     secondaryAgent: '¥495'
   },
   {
-    name: {
-      JP: 'Forever for Pet 30 pcs',
-      EN: 'Forever for Pet 30 pcs'
+    title: {
+      JP: 'Forever',
+      EN: 'Forever'
+    },
+    subtitle: {
+      JP: 'for Pet 30 pcs',
+      EN: 'for Pet 30 pcs'
     },
     retailPrice: '¥4,950',
     rewardMP: '¥1,733',
@@ -52,9 +60,22 @@ export default function ProjectOverview() {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {products.map((product, index) => (
             <div key={index} className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
-              <h3 className="text-2xl font-bold text-green-400 mb-6 text-center">
-                {t(product.name)}
-              </h3>
+              <div className="mb-6 text-center">
+                {product.title ? (
+                  <>
+                    <h3 className="text-3xl font-bold text-green-400">
+                      {t(product.title)}
+                    </h3>
+                    <p className="text-xl text-green-400 font-bold">
+                      {t(product.subtitle)}
+                    </p>
+                  </>
+                ) : (
+                  <h3 className="text-2xl font-bold text-green-400">
+                    {t(product.name)}
+                  </h3>
+                )}
+              </div>
               <div className="space-y-4">
                 <div className="flex justify-between items-center py-3 border-b border-gray-700">
                   <span className="text-gray-300 font-medium">
