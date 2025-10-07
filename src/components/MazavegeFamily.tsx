@@ -31,12 +31,20 @@ export default function MazavegeFamily() {
                   EN: '1. Easy Explanation Using LP'
                 })}
               </h3>
-              <p className="text-gray-300 text-lg">
-                {t({
-                  JP: '地球・人間・ペットへのメリットをLPの内容に基づいて説明',
-                  EN: 'Explain benefits for Earth, humans, and pets based on LP content'
-                })}
-              </p>
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                <p className="text-gray-300 text-lg">
+                  {t({
+                    JP: '地球・人間・ペットへのメリットをLPの内容に基づいて説明',
+                    EN: 'Explain benefits for Earth, humans, and pets based on LP content'
+                  })}
+                </p>
+                <button className="w-full md:w-auto px-6 py-3 text-white bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300 font-semibold whitespace-nowrap">
+                  {t({
+                    JP: '説明を見る',
+                    EN: 'View Explanation'
+                  })}
+                </button>
+              </div>
             </div>
           </ScrollAnimationWrapper>
 
@@ -48,12 +56,6 @@ export default function MazavegeFamily() {
                   EN: '2. Benefits of Becoming "Ichizoku (Family)"'
                 })}
               </h3>
-              <p className="text-gray-300 mb-6">
-                {t({
-                  JP: 'パスワード付きディーラー専用ページでご案内',
-                  EN: 'Available on password-protected dealer-exclusive page'
-                })}
-              </p>
 
               <div className="space-y-6">
                 <div className="bg-gray-900/50 rounded-lg p-6 border border-gray-700">
@@ -157,8 +159,8 @@ export default function MazavegeFamily() {
                   </h3>
                   <p className="text-gray-300 text-lg">
                     {t({
-                      JP: 'ウェブページから簡単に登録が可能',
-                      EN: 'Easy registration from webpage'
+                      JP: '下記から簡単に登録が可能',
+                      EN: 'Easy sign-up below'
                     })}
                   </p>
                 </div>
