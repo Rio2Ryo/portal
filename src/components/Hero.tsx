@@ -33,7 +33,7 @@ export default function Hero() {
               className="w-[130px] h-auto"
             />
           </div>
-          <div className="mb-6 flex justify-center">
+          {/*<div className="mb-6 flex justify-center">
             <Image
               src="/ichizoku_logo.png"
               alt="Ichizoku Logo"
@@ -41,7 +41,7 @@ export default function Hero() {
               height={250}
               className="w-[250px] h-auto"
             />
-          </div>
+          </div>*/}
           <div
             className="inline-block"
             style={{
@@ -52,8 +52,8 @@ export default function Hero() {
               filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3)) drop-shadow(0 2px 4px rgba(34, 197, 94, 0.2))',
             }}
           >
-            <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-black leading-tight hidden">
-              <div>MOTHER VEGETABLE PROJECT</div>
+            <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-black leading-tight">
+              <div>MOTHER VEGETABLE ICHIZOKU</div>
             </h1>
           </div>
           <div className="w-40 md:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-6 opacity-80"></div>
