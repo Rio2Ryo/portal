@@ -30,7 +30,7 @@ export default function Hero() {
               alt="mazavege Logo"
               width={200}
               height={200}
-              className="w-[250px] h-auto"
+              className="w-[130px] h-auto"
             />
           </div>
           <div className="mb-6 flex justify-center">
