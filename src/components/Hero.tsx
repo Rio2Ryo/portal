@@ -28,8 +28,8 @@ export default function Hero() {
             <Image
               src="/mazavege_logo_midori.png"
               alt="mazavege Logo"
-              width={250}
-              height={250}
+              width={200}
+              height={200}
               className="w-[250px] h-auto"
             />
           </div>
@@ -85,14 +85,14 @@ export default function Hero() {
         </div>
 
       {/* Mother Vegetable Image */}
-<div className="max-w-4xl mx-auto mb-12 px-0 sm:px-4">
-  <div className="relative overflow-visible">
+<div className="max-w-4xl mx-auto mb-12 px-4">
+  <div className="relative overflow-visible w-[80%] sm:w-[85%] md:w-[90%] mx-auto">
     <Image
       src={language === 'EN' ? "/project-overview_en.png" : "/project-overview_en.png"}
       alt="Mother Vegetable"
       width={800}
       height={533}
-      className="w-full h-auto rounded-lg shadow-2xl scale-125 sm:scale-110 md:scale-100 transform-origin-center"
+      className="w-full h-auto rounded-lg shadow-2xl"
       priority
     />
   </div>
