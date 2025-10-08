@@ -25,25 +25,25 @@ export default function Header() {
           <nav className="flex items-center justify-between w-full max-w-[220px] ml-2 sm:ml-4 md:space-x-2 md:justify-start md:w-auto md:max-w-none">
             <button
               onClick={() => document.getElementById('milestones')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-gray-300 hover:text-green-400 transition-all duration-300"
+              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
               {t({ JP: 'Ichizokuとは', EN: 'About' })}
             </button>
             <button
               onClick={() => document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-gray-300 hover:text-green-400 transition-all duration-300"
+              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
               {t({ JP: '報酬', EN: 'Reward' })}
             </button>
             <button
               onClick={() => document.getElementById('mazavege-family')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-white bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300"
+              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm te[#4ade80] bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300"
             >
               {t({ JP: '参加する', EN: 'Join' })}
             </button>
             <button
               onClick={() => setLanguage(language === 'EN' ? 'JP' : 'EN')}
-              className="px-1.5 sm:pl-4 sm:pr-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-gray-300 hover:text-green-400 transition-all duration-300 border border-gray-600 rounded-md"
+              className="px-1.5 sm:pl-4 sm:pr-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300 border border-gray-600 rounded-md"
             >
               {language === 'EN' ? 'EN' : 'JP'}
             </button>

@@ -24,6 +24,15 @@ export default function Hero() {
       <div className="relative z-10 text-center max-w-7xl mx-auto px-4 transition-all duration-1500 pt-40 md:pt-48 lg:pt-56">
         {/* Title Section - Single Component */}
         <div className="mb-12">
+        <div className="mb-6 flex justify-center">
+            <Image
+              src="/mazavege_logo_midori.png"
+              alt="mazavege Logo"
+              width={250}
+              height={250}
+              className="w-[250px] h-auto"
+            />
+          </div>
           <div className="mb-6 flex justify-center">
             <Image
               src="/ichizoku_logo.png"
@@ -54,19 +63,19 @@ export default function Hero() {
         {/* Description - Not in Box */}
         <div className="max-w-4xl mx-auto mb-12 mt-20 px-4">
           <div className="space-y-3">
-            <p className="text-sm md:text-2xl text-white leading-relaxed">
+            <p className="text-sm md:text-2xl text-[#4ade80] leading-relaxed">
               {t({
                 JP: '35億年前の地球のはじまりの生命',
                 EN: 'The Life from 3.5 billion years ago'
               })}
             </p>
-            <p className="text-sm md:text-2xl text-white leading-relaxed">
+            <p className="text-sm md:text-2xl text-[#4ade80] leading-relaxed">
               {t({
                 JP: '「マザーベジタブル」',
                 EN: '"Mother Vegetable".'
               })}
             </p>
-            <p className="text-sm md:text-2xl text-white leading-relaxed">
+            <p className="text-sm md:text-2xl text-[#4ade80] leading-relaxed">
               {t({
                 JP: '地球が生み出した生命力を、あなたに。',
                 EN: 'Earth’s life force, for you.'
@@ -79,7 +88,7 @@ export default function Hero() {
 <div className="max-w-4xl mx-auto mb-12 px-0 sm:px-4">
   <div className="relative overflow-visible">
     <Image
-      src={language === 'EN' ? "/project-overview_en.png" : "/project-overview_ja.png"}
+      src={language === 'EN' ? "/project-overview_en.png" : "/project-overview_en.png"}
       alt="Mother Vegetable"
       width={800}
       height={533}
