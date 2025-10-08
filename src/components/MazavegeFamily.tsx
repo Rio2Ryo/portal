@@ -14,8 +14,8 @@ export default function MazavegeFamily() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
               {t({
-                JP: 'Ichizoku 紹介方法',
-                EN: 'How to introduce Ichizoku'
+                JP: 'Value of Ichizoku',
+                EN: 'Value of Ichizoku'
               })}
             </h2>
             <div className="w-32 h-1 bg-gradient-to-r from-green-400 to-emerald-500 mx-auto rounded-full"></div>
@@ -27,148 +27,172 @@ export default function MazavegeFamily() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
-                  JP: '1. LPを使って簡単に説明できます',
-                  EN: '1. Easy Explanation Using LP'
+                  JP: '1. 信用力と誇り',
+                  EN: '1. Credibility and Pride'
                 })}
               </h3>
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                <p className="text-gray-300 text-lg">
-                  {t({
-                    JP: '地球・人間・ペットへのメリットをLPの内容に基づいて説明',
-                    EN: 'Explain benefits for Earth, humans, and pets based on LP content'
-                  })}
-                </p>
-                <button className="w-full md:w-auto px-6 py-3 text-white bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300 font-semibold whitespace-nowrap">
-                  {t({
-                    JP: '説明を見る',
-                    EN: 'View Explanation'
-                  })}
-                </button>
-              </div>
+              <p className="text-gray-300 text-lg">
+                {t({
+                  JP: 'ASEAN、大学、大企業等と同じチームの活動による信用性の向上。',
+                  EN: 'Enhanced credibility through team activities with ASEAN, universities, and major corporations'
+                })}
+              </p>
             </div>
           </ScrollAnimationWrapper>
 
           <ScrollAnimationWrapper delay={100}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
-              <h3 className="text-2xl font-bold text-green-400 mb-6">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
-                  JP: '2. 「Ichizoku（一族）」になるメリット',
-                  EN: '2. Benefits of Becoming "Ichizoku (Family)"'
+                  JP: '2. Dance & Show Marketing',
+                  EN: '2. Dance & Show Marketing'
                 })}
               </h3>
-
-              <div className="space-y-6">
-                <div className="bg-gray-900/50 rounded-lg p-6 border border-gray-700">
-                  <h4 className="text-lg font-semibold text-white mb-3">
-                    {t({
-                      JP: 'a) 社会的活動への参加',
-                      EN: 'a) Participation in Social Activities'
-                    })}
-                  </h4>
-                  <p className="text-gray-300">
-                    {t({
-                      JP: 'ASEAN、大学、大企業などと連携し、社会的活動を拡散',
-                      EN: 'Collaborate with ASEAN, universities, major corporations to spread social activities'
-                    })}
-                  </p>
-                </div>
-
-                <div className="bg-gray-900/50 rounded-lg p-6 border border-gray-700">
-                  <h4 className="text-lg font-semibold text-white mb-3">
-                    {t({
-                      JP: 'b) 地球と人類を守る取り組みに参加',
-                      EN: 'b) Participate in Protecting Earth and Humanity'
-                    })}
-                  </h4>
-                  <p className="text-gray-300">
-                    {t({
-                      JP: '地球と人類を守る取り組みに参加可能（上記No.1参照）',
-                      EN: 'Participate in initiatives to protect Earth and humanity (refer to No.1 above)'
-                    })}
-                  </p>
-                </div>
-
-                <div className="bg-gray-900/50 rounded-lg p-6 border border-gray-700">
-                  <h4 className="text-lg font-semibold text-white mb-4">
-                    {t({
-                      JP: 'c) ビジネスチャンス：一緒に商品販売、将来の利益シェア',
-                      EN: 'c) Business Opportunities: Co-sell Products, Share Future Profits'
-                    })}
-                  </h4>
-                  <div className="space-y-3 ml-4">
-                    <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 rounded-full bg-green-400 mt-2 flex-shrink-0"></div>
-                      <p className="text-gray-300">
-                        {t({
-                          JP: 'c-1. 自分用の購入時は常に25％割引で商品を入手可能',
-                          EN: 'c-1. Always get 25% discount on products for personal use'
-                        })}
-                      </p>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 rounded-full bg-green-400 mt-2 flex-shrink-0"></div>
-                      <p className="text-gray-300">
-                        {t({
-                          JP: 'c-2. 商品販売によって25％の利益を獲得可能（さらに2次代理店から10％の利益を得られます）',
-                          EN: 'c-2. Earn 25% profit from product sales (plus 10% profit from secondary agents)'
-                        })}
-                      </p>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 rounded-full bg-green-400 mt-2 flex-shrink-0"></div>
-                      <p className="text-gray-300">
-                        {t({
-                          JP: 'c-3. 専用LP（公式価格より10％オフ）・EC・売上集計・物流・CRMなどの仕組みが利用可能',
-                          EN: 'c-3. Access to dedicated LP (10% off official price), EC, sales tracking, logistics, CRM systems'
-                        })}
-                      </p>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 rounded-full bg-green-400 mt-2 flex-shrink-0"></div>
-                      <p className="text-gray-300">
-                        {t({
-                          JP: 'c-4. 無料で1MVTを取得可能',
-                          EN: 'c-4. Receive 1 MVT for free'
-                        })}
-                      </p>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 rounded-full bg-green-400 mt-2 flex-shrink-0"></div>
-                      <p className="text-gray-300">
-                        {t({
-                          JP: 'c-5. 紹介手数料として50USDを獲得可能',
-                          EN: 'c-5. Earn 50 USD as referral fee'
-                        })}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <p className="text-gray-300 text-lg">
+                {t({
+                  JP: '使うだけで商品の魅力が伝わり、見た人が自然に欲しくなる。',
+                  EN: 'Simply by using it, the product\'s appeal is conveyed and viewers naturally want it.'
+                })}
+              </p>
+              <p className="text-gray-300 text-lg">
+                {t({
+                  JP: '※一般的な営業トークは不要。',
+                  EN: '※No traditional sales talk needed'
+                })}
+              </p>
             </div>
           </ScrollAnimationWrapper>
 
           <ScrollAnimationWrapper delay={200}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">
+                {t({
+                  JP: '3. 5 minutes LP & TEBIKISHO',
+                  EN: '3. 5 Minutes LP & TEBIKISHO'
+                })}
+              </h3>
+              <p className="text-gray-300 text-lg">
+                {t({
+                  JP: '5分で商品の説明が完結できるLPと手引書。5分以内の説明は成約率の向上。',
+                  EN: 'Complete product explanation in a short time. Explanations within 5 minutes increase conversion rates.'
+                })}
+              </p>
+            </div>
+          </ScrollAnimationWrapper>
+
+          <ScrollAnimationWrapper delay={300}>
+            <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">
+                {t({
+                  JP: '4. 製品割引',
+                  EN: '4. Product Discount'
+                })}
+              </h3>
+              <p className="text-gray-300 text-lg">
+                {t({
+                  JP: '個人使用の製品がいつでも25％割引。',
+                  EN: 'Always 25% discount on products for personal use'
+                })}
+              </p>
+            </div>
+          </ScrollAnimationWrapper>
+
+          <ScrollAnimationWrapper delay={400}>
+            <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">
+                {t({
+                  JP: '5. 販売利益',
+                  EN: '5. Sales Profit'
+                })}
+              </h3>
+              <p className="text-gray-300 text-lg">
+                {t({
+                  JP: '製品販売による25％の利益（2nd dealer販売による10％の利益）。',
+                  EN: '25% profit from product sales (10% profit from 2nd dealer sales)'
+                })}
+              </p>
+            </div>
+          </ScrollAnimationWrapper>
+
+          <ScrollAnimationWrapper delay={500}>
+            <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">
+                {t({
+                  JP: '6. 各種ビジネスツール',
+                  EN: '6. Various Business Tools'
+                })}
+              </h3>
+              <p className="text-gray-300 text-lg">
+                {t({
+                  JP: 'LP（公式価格から10％割引）、EC、グループ販売集計、物流、CRM等の使用。',
+                  EN: 'Access to LP (10% off official price), EC, group sales tracking, logistics, CRM, etc.'
+                })}
+              </p>
+              <p className="text-gray-300 text-lg mt-2">
+                {t({
+                  JP: 'Value of Business Tool: 1万ドル以上。',
+                  EN: 'Value of Business Tool: Over $10,000'
+                })}
+              </p>
+            </div>
+          </ScrollAnimationWrapper>
+
+          <ScrollAnimationWrapper delay={600}>
+            <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">
+                {t({
+                  JP: '7. Mother Vegetable Token (MVT)',
+                  EN: '7. Mother Vegetable Token (MVT)'
+                })}
+              </h3>
+              <p className="text-gray-300 text-lg">
+                {t({
+                  JP: '1 MVTを無料で受け取る（条件付き）。',
+                  EN: 'Receive 1 MVT for free'
+                })}
+              </p>
+            </div>
+          </ScrollAnimationWrapper>
+
+          <ScrollAnimationWrapper delay={700}>
+            <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">
+                {t({
+                  JP: '8. 2nd dealer 紹介料',
+                  EN: '8. 2nd Dealer Referral Fee'
+                })}
+              </h3>
+              <p className="text-gray-300 text-lg">
+                {t({
+                  JP: '50米ドルの紹介料を受け取る。',
+                  EN: 'Receive 50 USD referral fee'
+                })}
+              </p>
+            </div>
+          </ScrollAnimationWrapper>
+
+          <ScrollAnimationWrapper delay={800}>
+            <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-green-400 mb-4">
                     {t({
-                      JP: '3. 「Ichizoku」への登録方法',
-                      EN: '3. How to Register for "Ichizoku"'
+                      JP: '9. 簡単な登録',
+                      EN: '9. Easy Registration'
                     })}
                   </h3>
                   <p className="text-gray-300 text-lg">
                     {t({
-                      JP: '参加フォームから簡単に登録が可能',
-                      EN: 'Easy sign-up via the form'
+                      JP: '一族メンバーへの簡単な登録（パスワード付きの登録ウェブページ）。',
+                      EN: 'Easy registration as Ichizoku member (password-protected registration webpage)'
                     })}
                   </p>
                 </div>
                 <div className="md:flex-shrink-0">
                   <button className="w-full md:w-auto px-6 py-3 text-white bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300 font-semibold">
                     {t({
-                      JP: 'Ichizokuへ参加',
-                      EN: 'Join Ichizoku'
+                      JP: 'Apply',
+                      EN: 'Apply'
                     })}
                   </button>
                 </div>

@@ -27,19 +27,19 @@ export default function Header() {
               onClick={() => document.getElementById('milestones')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
-              {t({ JP: 'Ichizokuとは', EN: 'About' })}
+              {t({ JP: 'Ichizoku', EN: 'Ichizoku' })}
             </button>
             <button
               onClick={() => document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
-              {t({ JP: '報酬', EN: 'Reward' })}
+              {t({ JP: 'Reward', EN: 'Reward' })}
             </button>
             <button
               onClick={() => document.getElementById('mazavege-family')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm te[#4ade80] bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300"
             >
-              {t({ JP: '参加する', EN: 'Join' })}
+              {t({ JP: 'Apply', EN: 'Apply' })}
             </button>
             <button
               onClick={() => setLanguage(language === 'EN' ? 'JP' : 'EN')}

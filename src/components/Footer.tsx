@@ -53,13 +53,13 @@ export default function Footer() {
             </h4>
             <ul className="flex flex-wrap justify-center gap-1 sm:gap-4 md:gap-6 items-center">
               <li><button className="px-2 sm:px-4 py-2 text-[11px] sm:text-base text-gray-300 hover:text-emerald-400 transition-colors">
-                {t({ JP: 'Ichizokuとは', EN: 'About' })}
+                {t({ JP: 'Ichizoku', EN: 'Ichizoku' })}
               </button></li>
               <li><button className="px-2 sm:px-4 py-2 text-[11px] sm:text-base text-gray-300 hover:text-emerald-400 transition-colors">
-                {t({ JP: '報酬', EN: 'Reward' })}
+                {t({ JP: 'Reward', EN: 'Reward' })}
               </button></li>
               <li><button className="px-2 sm:px-4 py-2 text-[11px] sm:text-base text-white bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300">
-                {t({ JP: '参加する', EN: 'Join' })}
+                {t({ JP: 'Apply', EN: 'Apply' })}
               </button></li>
 
             </ul>
