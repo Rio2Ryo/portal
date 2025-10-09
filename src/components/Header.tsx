@@ -15,9 +15,9 @@ export default function Header() {
             <Image
               src="/logo_gr.png"
               alt="MOTHER VEGETABLE"
-              width={45}
-              height={45}
-              className="sm:w-[60px] sm:h-[60px] md:w-[100px] md:h-auto"
+              width={200}
+              height={200}
+              className="w-[45px] h-[45px] sm:w-[60px] sm:h-[60px] md:w-[100px] md:h-[100px]"
             />
           </div>
 
