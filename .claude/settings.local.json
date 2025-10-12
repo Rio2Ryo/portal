@@ -16,7 +16,8 @@
       "Bash(open https://github.com/Rio2Ryo/mazavege_chan/pull/new/fix/remove-platform-overview)",
       "Bash(git rm:*)",
       "Bash(lsof:*)",
-      "Bash(pkill:*)"
+      "Bash(pkill:*)",
+      "Bash(npx vercel:*)"
     ],
     "deny": [],
     "ask": []

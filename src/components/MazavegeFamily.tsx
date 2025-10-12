@@ -4,7 +4,7 @@ import ScrollAnimationWrapper from '@/components/ScrollAnimationWrapper'
 import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function MazavegeFamily() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
 
   return (
     <section id="mazavege-family" className="py-24 relative overflow-hidden">
@@ -66,28 +66,24 @@ export default function MazavegeFamily() {
           <ScrollAnimationWrapper delay={200}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
-                {t({
-                  JP: (
-                    <>
-                      5 minutes LP & <span className="text-red-500">TEBIKISHO</span>
-                    </>
-                  ),
-                  EN: (
-                    <>
-                      5 Minutes LP & <span className="text-red-500">TEBIKISHO</span>
-                    </>
-                  )
-                })}
+                {language === 'JP' ? (
+                  <>
+                    5 minutes LP & <span className="text-red-500">TEBIKISHO</span>
+                  </>
+                ) : (
+                  <>
+                    5 Minutes LP & <span className="text-red-500">TEBIKISHO</span>
+                  </>
+                )}
               </h3>
               <p className="text-gray-300 text-lg">
-                {t({
-                  JP: (
-                    <>
-                      5分で商品の説明が完結できるLPと<span className="text-red-500">手引書</span>。5分以内の説明は成約率の向上。
-                    </>
-                  ),
-                  EN: 'Complete product explanation in a short time. Explanations within 5 minutes increase conversion rates.'
-                })}
+                {language === 'JP' ? (
+                  <>
+                    5分で商品の説明が完結できるLPと<span className="text-red-500">手引書</span>。5分以内の説明は成約率の向上。
+                  </>
+                ) : (
+                  'Complete product explanation in a short time. Explanations within 5 minutes increase conversion rates.'
+                )}
               </p>
             </div>
           </ScrollAnimationWrapper>
