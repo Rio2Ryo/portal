@@ -56,7 +56,7 @@ export default function Hero() {
               <div>MOTHER VEGETABLE ICHIZOKU</div>
             </h1>
           </div>
-          <div className="w-64 md:w-96 h-2 bg-gradient-to-r from-green-400 to-green-400 mx-auto rounded-full mt-6"></div>
+          <div className="w-64 md:w-96 h-2 bg-gradient-to-r from-green-400 to-emerald-500 mx-auto rounded-full mt-6"></div>
         </div>
 
 
