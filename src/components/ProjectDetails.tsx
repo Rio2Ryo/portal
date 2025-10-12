@@ -6,7 +6,11 @@ export default function ProjectDetails() {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="inline-block bg-purple-500/20 border border-purple-500/50 text-purple-400 px-4 py-2 rounded-full text-sm mb-12">
+          <h2 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent mb-8">
+            MOTHER VEGETABLE PROJECT
+          </h2>
+          <div className="w-64 md:w-96 h-2 bg-gradient-to-r from-green-400 to-emerald-500 mx-auto rounded-full mb-8"></div>
+          <span className="inline-block bg-purple-500/20 border border-purple-500/50 text-purple-400 px-4 py-2 rounded-full text-sm">
             4. プロジェクト詳細
           </span>
         </div>
