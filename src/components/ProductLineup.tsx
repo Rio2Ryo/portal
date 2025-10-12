@@ -19,7 +19,7 @@ export default function ProductLineup() {
                 EN: 'Group Structure and Reward Logic'
               })}
             </h2>
-            <div className="w-32 h-1 bg-gradient-to-r from-green-400 to-emerald-500 mx-auto rounded-full"></div>
+            <div className="w-40 md:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-6 opacity-80"></div>
             <p className="text-gray-300 mt-6 text-lg">
               {t({
                 JP: '2 Level Dealership',

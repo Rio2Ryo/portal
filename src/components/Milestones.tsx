@@ -18,7 +18,7 @@ export default function Milestones() {
                 EN: 'Mazavege Ichizoku'
               })}
             </h2>
-            <div className="w-64 md:w-96 h-2 bg-gradient-to-r from-green-400 to-emerald-500 mx-auto rounded-full"></div>
+            <div className="w-40 md:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-6 opacity-80"></div>
           </div>
         </ScrollAnimationWrapper>
 

@@ -57,7 +57,7 @@ export default function ProjectOverview() {
           <h2 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent mb-8">
             {t({ JP: 'Mother Vegetable Products', EN: 'Mother Vegetable Products' })}
           </h2>
-          <div className="w-32 h-1 bg-gradient-to-r from-green-400 to-emerald-500 mx-auto rounded-full"></div>
+          <div className="w-40 md:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-6 opacity-80"></div>
         </div>
 
         {/* Products Grid */}
