@@ -9,8 +9,8 @@ const products = [
       EN: 'Achieve'
     },
     subtitle: {
-      JP: 'for Body 30 pcs',
-      EN: 'for Body 30 pcs'
+      JP: 'for Body',
+      EN: 'for Body'
     },
     retailPrice: '¥4,950',
     rewardMP: '¥1,733',
@@ -23,8 +23,8 @@ const products = [
       EN: 'Forever'
     },
     subtitle: {
-      JP: 'for Pet 30 pcs',
-      EN: 'for Pet 30 pcs'
+      JP: 'for Pet',
+      EN: 'for Pet'
     },
     retailPrice: '¥4,950',
     rewardMP: '¥1,733',
@@ -33,12 +33,12 @@ const products = [
   },
   {
     title: {
-      JP: 'Heal',
-      EN: 'Heal'
+      JP: 'Confidence',
+      EN: 'Confidence'
     },
     subtitle: {
-      JP: 'for All Skin 30 pcs',
-      EN: 'for All Skin 30 pcs'
+      JP: 'for All Skin',
+      EN: 'for All Skin'
     },
     retailPrice: '¥4,950',
     rewardMP: '¥1,733',
@@ -93,7 +93,7 @@ export default function ProjectOverview() {
                 </div>
                 <div className="flex justify-between items-center py-3">
                   <span className="text-gray-300 font-medium">
-                    {t({ JP: '2次代理店販売時', EN: 'Secondary Agent Sales' })}
+                    {t({ JP: '2nd Dealer販売時', EN: '2nd Dealer Sales' })}
                   </span>
                   <span className="text-blue-400 font-bold text-lg">{product.secondaryAgent}</span>
                 </div>

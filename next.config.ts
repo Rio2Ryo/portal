@@ -4,6 +4,9 @@ const nextConfig: NextConfig = {
   /* Turbopackを無効化 */
   experimental: {
     turbo: undefined
+  },
+  images: {
+    unoptimized: true
   }
 };
 

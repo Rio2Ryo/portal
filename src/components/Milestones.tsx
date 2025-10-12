@@ -18,7 +18,7 @@ export default function Milestones() {
                 EN: 'Mazavege Ichizoku'
               })}
             </h2>
-            <div className="w-32 h-1 bg-gradient-to-r from-green-400 to-emerald-500 mx-auto rounded-full"></div>
+            <div className="w-64 md:w-96 h-2 bg-gradient-to-r from-green-400 to-green-400 mx-auto rounded-full"></div>
           </div>
         </ScrollAnimationWrapper>
 
@@ -63,16 +63,16 @@ export default function Milestones() {
                 <div>
                   <h4 className="text-lg font-semibold text-white mb-2">
                     {t({
-                      JP: '卸売利益',
+                      JP: '販売利益',
                       EN: 'Wholesale Profit'
                     })}
                   </h4>
-                  <p className="text-gray-300">35%</p>
+                  <p className="text-gray-300">35%（在庫管理・販管費・営業ツール不要）</p>
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-white mb-2">
                     {t({
-                      JP: '2次代理店販売時',
+                      JP: '2nd Dealer販売時',
                       EN: 'Secondary Agent Sales'
                     })}
                   </h4>
@@ -109,8 +109,8 @@ export default function Milestones() {
                   </h4>
                   <p className="text-gray-300">
                     {t({
-                      JP: '暗号通貨で250 USD以上',
-                      EN: '250 USD or more in cryptocurrency'
+                      JP: '年間250 USD自動継続',
+                      EN: 'Annual 250 USD Auto-renewal'
                     })}
                   </p>
                 </div>
@@ -123,24 +123,24 @@ export default function Milestones() {
                   </h4>
                   <p className="text-gray-300">
                     {t({
-                      JP: 'MVTを1つ（6か月ロック）',
-                      EN: '1 MVT (6-month lock)'
+                      JP: 'MVTを1個（6ヶ月ロック・初回加入時のみ）',
+                      EN: '1 MVT (6-month lock, first-time membership only)'
                     })}
                   </p>
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-white mb-2">
                     {t({
-                      JP: '卸売利益',
+                      JP: '販売利益',
                       EN: 'Wholesale Profit'
                     })}
                   </h4>
-                  <p className="text-gray-300">25%</p>
+                  <p className="text-gray-300">25%（在庫管理・販管費・営業ツール不要）</p>
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-white mb-2">
                     {t({
-                      JP: '2次代理店販売時',
+                      JP: '2nd Dealer販売時',
                       EN: 'Secondary Agent Sales'
                     })}
                   </h4>

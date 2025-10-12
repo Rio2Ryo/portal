@@ -28,10 +28,10 @@ export default function Home() {
       <main className="min-h-screen text-white relative">
         <Header />
         <Hero />
+        <MazavegeFamily />
         <Milestones />
         <ProductLineup />
         <ProjectOverview />
-        <MazavegeFamily />
         <Footer />
       </main>
     </>

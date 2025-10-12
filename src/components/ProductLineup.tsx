@@ -22,8 +22,8 @@ export default function ProductLineup() {
             <div className="w-32 h-1 bg-gradient-to-r from-green-400 to-emerald-500 mx-auto rounded-full"></div>
             <p className="text-gray-300 mt-6 text-lg">
               {t({
-                JP: '階層：最大2階層',
-                EN: 'Hierarchy: Maximum 2 Levels'
+                JP: '2 Level dealership',
+                EN: '2 Level dealership'
               })}
             </p>
             <div className="mt-8 flex justify-center">
@@ -43,8 +43,8 @@ export default function ProductLineup() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-6 text-center">
                 {t({
-                  JP: 'Group 1（MP）',
-                  EN: 'Group 1 (MP)'
+                  JP: 'MP Group',
+                  EN: 'MP Group'
                 })}
               </h3>
               <div className="space-y-6">
@@ -90,12 +90,6 @@ export default function ProductLineup() {
                       EN: 'No reward for MP'
                     })}
                   </p>
-                  <p className="text-gray-300">
-                    {t({
-                      JP: '※報酬対象は2階層まで',
-                      EN: '※Rewards cover only two levels'
-                    })}
-                  </p>
                 </div>
               </div>
             </div>
@@ -105,8 +99,8 @@ export default function ProductLineup() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-6 text-center">
                 {t({
-                  JP: 'Group 2（TM）',
-                  EN: 'Group 2 (TM)'
+                  JP: 'TM Group',
+                  EN: 'TM Group'
                 })}
               </h3>
               <div className="space-y-6">

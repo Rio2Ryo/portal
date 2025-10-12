@@ -27,13 +27,13 @@ export default function MazavegeFamily() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
-                  JP: '1. 信用力と誇り',
-                  EN: '1. Credibility and Pride'
+                  JP: '信用力と誇り',
+                  EN: 'Credibility and Pride'
                 })}
               </h3>
               <p className="text-gray-300 text-lg">
                 {t({
-                  JP: 'ASEAN、大学、大企業等と同じチームの活動による信用性の向上。',
+                  JP: 'ASEAN、大学、大企業等と同じチームとしての信用性と誇りの向上。',
                   EN: 'Enhanced credibility through team activities with ASEAN, universities, and major corporations'
                 })}
               </p>
@@ -44,8 +44,8 @@ export default function MazavegeFamily() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
-                  JP: '2. Dance & Show Marketing',
-                  EN: '2. Dance & Show Marketing'
+                  JP: 'Dance & Show Marketing',
+                  EN: 'Dance & Show Marketing'
                 })}
               </h3>
               <p className="text-gray-300 text-lg">
@@ -67,13 +67,25 @@ export default function MazavegeFamily() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
-                  JP: '3. 5 minutes LP & TEBIKISHO',
-                  EN: '3. 5 Minutes LP & TEBIKISHO'
+                  JP: (
+                    <>
+                      5 minutes LP & <span className="text-red-500">TEBIKISHO</span>
+                    </>
+                  ),
+                  EN: (
+                    <>
+                      5 Minutes LP & <span className="text-red-500">TEBIKISHO</span>
+                    </>
+                  )
                 })}
               </h3>
               <p className="text-gray-300 text-lg">
                 {t({
-                  JP: '5分で商品の説明が完結できるLPと手引書。5分以内の説明は成約率の向上。',
+                  JP: (
+                    <>
+                      5分で商品の説明が完結できるLPと<span className="text-red-500">手引書</span>。5分以内の説明は成約率の向上。
+                    </>
+                  ),
                   EN: 'Complete product explanation in a short time. Explanations within 5 minutes increase conversion rates.'
                 })}
               </p>
@@ -84,8 +96,8 @@ export default function MazavegeFamily() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
-                  JP: '4. 製品割引',
-                  EN: '4. Product Discount'
+                  JP: '製品割引',
+                  EN: 'Product Discount'
                 })}
               </h3>
               <p className="text-gray-300 text-lg">
@@ -101,8 +113,8 @@ export default function MazavegeFamily() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
-                  JP: '5. 販売利益',
-                  EN: '5. Sales Profit'
+                  JP: '販売利益',
+                  EN: 'Sales Profit'
                 })}
               </h3>
               <p className="text-gray-300 text-lg">
@@ -118,8 +130,8 @@ export default function MazavegeFamily() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
-                  JP: '6. 各種ビジネスツール',
-                  EN: '6. Various Business Tools'
+                  JP: '各種ビジネスツール',
+                  EN: 'Various Business Tools'
                 })}
               </h3>
               <p className="text-gray-300 text-lg">
@@ -130,8 +142,8 @@ export default function MazavegeFamily() {
               </p>
               <p className="text-gray-300 text-lg mt-2">
                 {t({
-                  JP: 'Value of Business Tool: 1万ドル以上。',
-                  EN: 'Value of Business Tool: Over $10,000'
+                  JP: '※Value of Business Tool: 2,000USD',
+                  EN: '※Value of Business Tool: 2,000USD'
                 })}
               </p>
             </div>
@@ -141,14 +153,20 @@ export default function MazavegeFamily() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
-                  JP: '7. Mother Vegetable Token (MVT)',
-                  EN: '7. Mother Vegetable Token (MVT)'
+                  JP: 'Mother Vegetable Token (MVT)',
+                  EN: 'Mother Vegetable Token (MVT)'
                 })}
               </h3>
               <p className="text-gray-300 text-lg">
                 {t({
-                  JP: '1 MVTを無料で受け取る（条件付き）。',
-                  EN: 'Receive 1 MVT for free'
+                  JP: '1 MVTを無料で受け取る。（初年度のみ）',
+                  EN: 'Receive 1 MVT for free (First year only)'
+                })}
+              </p>
+              <p className="text-gray-300 text-lg mt-2">
+                {t({
+                  JP: '※Condition：1年間ブロック・リワード / 四半期',
+                  EN: '※Condition: 1-year lock, Rewards / Quarterly'
                 })}
               </p>
             </div>
@@ -158,13 +176,13 @@ export default function MazavegeFamily() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
-                  JP: '8. 2nd dealer 紹介料',
-                  EN: '8. 2nd Dealer Referral Fee'
+                  JP: '2nd Dealer Introduction',
+                  EN: '2nd Dealer Introduction'
                 })}
               </h3>
               <p className="text-gray-300 text-lg">
                 {t({
-                  JP: '50米ドルの紹介料を受け取る。',
+                  JP: '50USDの紹介料を受け取る。',
                   EN: 'Receive 50 USD referral fee'
                 })}
               </p>
@@ -177,8 +195,8 @@ export default function MazavegeFamily() {
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-green-400 mb-4">
                     {t({
-                      JP: '9. 簡単な登録',
-                      EN: '9. Easy Registration'
+                      JP: '5 min Registration',
+                      EN: '5 min Registration'
                     })}
                   </h3>
                   <p className="text-gray-300 text-lg">
