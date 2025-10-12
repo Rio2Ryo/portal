@@ -161,8 +161,8 @@ export default function MazavegeFamily() {
               </p>
               <p className="text-gray-300 text-lg mt-2">
                 {t({
-                  JP: '※Condition：1年間ブロック・リワード / 四半期',
-                  EN: '※Condition: 1-year lock, Rewards / Quarterly'
+                  JP: '※Condition：1 year stay with 4 QT reward',
+                  EN: '※Condition: 1 year stay with 4 QT reward'
                 })}
               </p>
             </div>
@@ -178,8 +178,8 @@ export default function MazavegeFamily() {
               </h3>
               <p className="text-gray-300 text-lg">
                 {t({
-                  JP: '50USDの紹介料を受け取る。',
-                  EN: 'Receive 50 USD referral fee'
+                  JP: '50USDの紹介料を受け取る（更新時も対象）。',
+                  EN: 'Receive 50 USD referral fee (including renewals)'
                 })}
               </p>
             </div>

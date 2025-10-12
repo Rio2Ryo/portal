@@ -22,13 +22,13 @@ export default function ProductLineup() {
             <div className="w-32 h-1 bg-gradient-to-r from-green-400 to-emerald-500 mx-auto rounded-full"></div>
             <p className="text-gray-300 mt-6 text-lg">
               {t({
-                JP: '2 Level dealership',
-                EN: '2 Level dealership'
+                JP: '2 Level Dealership',
+                EN: '2 Level Dealership'
               })}
             </p>
             <div className="mt-8 flex justify-center">
               <Image
-                src="/hyou.png"
+                src="/group_structure_dark.png"
                 alt="Hierarchy Chart"
                 width={600}
                 height={450}

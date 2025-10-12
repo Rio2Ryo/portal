@@ -55,8 +55,8 @@ export default function Milestones() {
                   </h4>
                   <p className="text-gray-300">
                     {t({
-                      JP: '年間2%（暗号資産ベース）',
-                      EN: '2% annually (crypto asset based)'
+                      JP: '年間2%（一族の利益ベース）',
+                      EN: '2% annually (based on Ichizoku profits)'
                     })}
                   </p>
                 </div>
@@ -123,8 +123,8 @@ export default function Milestones() {
                   </h4>
                   <p className="text-gray-300">
                     {t({
-                      JP: 'MVTを1個（6ヶ月ロック・初回加入時のみ）',
-                      EN: '1 MVT (6-month lock, first-time membership only)'
+                      JP: 'MVTを1個（6ヶ月ステイ・初回加入時のみ）',
+                      EN: '1 MVT (6-month stay, first-time membership only)'
                     })}
                   </p>
                 </div>
