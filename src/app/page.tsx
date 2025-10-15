@@ -50,13 +50,13 @@ export default function Home() {
     return (
       <div className="min-h-screen bg-black flex items-center justify-center">
         <div className="bg-zinc-900 p-8 rounded-lg shadow-lg max-w-md w-full">
-          <h1 className="text-2xl font-bold text-white mb-6 text-center">パスワード入力</h1>
+          <h1 className="text-2xl font-bold text-white mb-6 text-center">Password Entry</h1>
           <form onSubmit={handleSubmit}>
             <input
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              placeholder="パスワードを入力してください"
+              placeholder="Please enter password"
               className="w-full px-4 py-2 bg-zinc-800 text-white border border-zinc-700 rounded-lg focus:outline-none focus:border-green-500 mb-4"
               autoFocus
             />
@@ -65,7 +65,7 @@ export default function Home() {
               type="submit"
               className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg transition-colors"
             >
-              送信
+              Submit
             </button>
           </form>
         </div>
