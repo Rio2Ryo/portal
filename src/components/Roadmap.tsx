@@ -99,7 +99,7 @@ export default function Roadmap() {
   return (
     <section id="roadmap" className="py-32 bg-gradient-to-b from-emerald-900/10 to-black">
       <div className="container mx-auto px-4">
-        <ScrollAnimationWrapper animation="fadeInUp">
+        <ScrollAnimationWrapper disabled={true}>
           <h2 className="text-3xl md:text-4xl font-bold text-center text-emerald-400 mb-4">
             ロードマップ
           </h2>
@@ -119,8 +119,7 @@ export default function Roadmap() {
             {roadmapData.map((item, index) => (
               <ScrollAnimationWrapper
                 key={index}
-                animation={index % 2 === 0 ? "fadeInLeft" : "fadeInRight"}
-                delay={index * 0.1}
+                disabled={true}
               >
                 <div className={`flex items-center ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
                   <div className={`w-1/2 ${index % 2 === 0 ? 'text-right pr-8' : 'text-left pl-8'}`}>
@@ -164,7 +163,7 @@ export default function Roadmap() {
         </div>
 
         {/* Key Metrics */}
-        <ScrollAnimationWrapper animation="fadeInUp" delay={0.4}>
+        <ScrollAnimationWrapper disabled={true}>
           <div className="mt-20 grid md:grid-cols-3 gap-8 text-center">
             <div className="bg-black/40 backdrop-blur-md border border-emerald-500/20 rounded-xl p-6">
               <div className="text-4xl font-bold text-emerald-400 mb-2">2030年</div>

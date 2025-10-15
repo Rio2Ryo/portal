@@ -11,7 +11,7 @@ export default function ProductLineup() {
     <section id="products" className="py-24 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-black to-gray-900"></div>
       <div className="container mx-auto px-4 relative z-10">
-        <ScrollAnimationWrapper>
+        <ScrollAnimationWrapper disabled={true}>
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
               {t({
@@ -39,7 +39,7 @@ export default function ProductLineup() {
         </ScrollAnimationWrapper>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          <ScrollAnimationWrapper>
+          <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-6 text-center">
                 {t({
@@ -95,7 +95,7 @@ export default function ProductLineup() {
             </div>
           </ScrollAnimationWrapper>
 
-          <ScrollAnimationWrapper delay={200}>
+          <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-6 text-center">
                 {t({

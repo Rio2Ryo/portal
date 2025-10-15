@@ -48,7 +48,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-32 bg-gradient-to-b from-black to-emerald-900/20">
       <div className="container mx-auto px-4">
-        <ScrollAnimationWrapper animation="fadeInUp">
+        <ScrollAnimationWrapper disabled={true}>
           <h2 className="text-3xl md:text-4xl font-bold text-center text-emerald-400 mb-4">
             お問い合わせ
           </h2>
@@ -61,7 +61,7 @@ export default function Contact() {
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <ScrollAnimationWrapper animation="fadeInLeft" delay={0.2}>
+            <ScrollAnimationWrapper disabled={true}>
               <div className="bg-black/40 backdrop-blur-md border border-emerald-500/20 rounded-xl p-8">
                 <h3 className="text-xl font-bold text-emerald-400 mb-6">お問い合わせフォーム</h3>
                 <form onSubmit={handleSubmit} className="space-y-4">
@@ -177,7 +177,7 @@ export default function Contact() {
             </ScrollAnimationWrapper>
 
             {/* Contact Information */}
-            <ScrollAnimationWrapper animation="fadeInRight" delay={0.3}>
+            <ScrollAnimationWrapper disabled={true}>
               <div className="space-y-8">
                 {/* Company Info */}
                 <div className="bg-black/40 backdrop-blur-md border border-emerald-500/20 rounded-xl p-6">

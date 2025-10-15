@@ -46,7 +46,7 @@ export default function BusinessModel() {
   return (
     <section id="business-model" className="py-20 bg-gradient-to-b from-black to-emerald-900/10">
       <div className="container mx-auto px-4">
-        <ScrollAnimationWrapper animation="fadeInUp">
+        <ScrollAnimationWrapper disabled={true}>
           <h2 className="text-3xl md:text-4xl font-bold text-center text-emerald-400 mb-4">
             ビジネスモデル
           </h2>
@@ -57,7 +57,7 @@ export default function BusinessModel() {
         </ScrollAnimationWrapper>
 
         {/* Revenue Streams */}
-        <ScrollAnimationWrapper animation="fadeInUp" delay={0.2}>
+        <ScrollAnimationWrapper disabled={true}>
           <div className="mb-16">
             <h3 className="text-2xl font-bold text-white text-center mb-8">収益構造</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -74,7 +74,7 @@ export default function BusinessModel() {
         </ScrollAnimationWrapper>
 
         {/* ROI Timeline */}
-        <ScrollAnimationWrapper animation="fadeInUp" delay={0.3}>
+        <ScrollAnimationWrapper disabled={true}>
           <div className="mb-16">
             <h3 className="text-2xl font-bold text-white text-center mb-8">投資収益率（ROI）推移</h3>
             <div className="bg-black/40 backdrop-blur-md border border-emerald-500/20 rounded-xl p-8">
@@ -109,7 +109,7 @@ export default function BusinessModel() {
         </ScrollAnimationWrapper>
 
         {/* Market Size */}
-        <ScrollAnimationWrapper animation="fadeInUp" delay={0.4}>
+        <ScrollAnimationWrapper disabled={true}>
           <div>
             <h3 className="text-2xl font-bold text-white text-center mb-8">対象市場規模</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -125,7 +125,7 @@ export default function BusinessModel() {
         </ScrollAnimationWrapper>
 
         {/* CTA */}
-        <ScrollAnimationWrapper animation="fadeInUp" delay={0.5}>
+        <ScrollAnimationWrapper disabled={true}>
           <div className="mt-12 text-center">
             <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 mr-4">
               💼 投資家向け資料

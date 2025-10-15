@@ -10,7 +10,7 @@ export default function MazavegeFamily() {
     <section id="mazavege-family" className="py-24 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black"></div>
       <div className="container mx-auto px-4 relative z-10">
-        <ScrollAnimationWrapper>
+        <ScrollAnimationWrapper disabled={true}>
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
               {t({
@@ -23,7 +23,7 @@ export default function MazavegeFamily() {
         </ScrollAnimationWrapper>
 
         <div className="max-w-5xl mx-auto space-y-8">
-          <ScrollAnimationWrapper>
+          <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
@@ -40,7 +40,7 @@ export default function MazavegeFamily() {
             </div>
           </ScrollAnimationWrapper>
 
-          <ScrollAnimationWrapper delay={100}>
+          <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
@@ -63,7 +63,7 @@ export default function MazavegeFamily() {
             </div>
           </ScrollAnimationWrapper>
 
-          <ScrollAnimationWrapper delay={200}>
+          <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {language === 'JP' ? (
@@ -88,7 +88,7 @@ export default function MazavegeFamily() {
             </div>
           </ScrollAnimationWrapper>
 
-          <ScrollAnimationWrapper delay={300}>
+          <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
@@ -105,7 +105,7 @@ export default function MazavegeFamily() {
             </div>
           </ScrollAnimationWrapper>
 
-          <ScrollAnimationWrapper delay={400}>
+          <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
@@ -122,7 +122,7 @@ export default function MazavegeFamily() {
             </div>
           </ScrollAnimationWrapper>
 
-          <ScrollAnimationWrapper delay={500}>
+          <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
@@ -145,7 +145,7 @@ export default function MazavegeFamily() {
             </div>
           </ScrollAnimationWrapper>
 
-          <ScrollAnimationWrapper delay={600}>
+          <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
@@ -168,7 +168,7 @@ export default function MazavegeFamily() {
             </div>
           </ScrollAnimationWrapper>
 
-          <ScrollAnimationWrapper delay={700}>
+          <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
                 {t({
@@ -185,7 +185,7 @@ export default function MazavegeFamily() {
             </div>
           </ScrollAnimationWrapper>
 
-          <ScrollAnimationWrapper delay={800}>
+          <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
                 <div className="flex-1">

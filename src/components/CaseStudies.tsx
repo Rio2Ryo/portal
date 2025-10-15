@@ -63,7 +63,7 @@ export default function CaseStudies() {
   return (
     <section id="case-studies" className="py-32 bg-black/50">
       <div className="container mx-auto px-4">
-        <ScrollAnimationWrapper animation="fadeInUp">
+        <ScrollAnimationWrapper disabled={true}>
           <h2 className="text-3xl md:text-4xl font-bold text-center text-emerald-400 mb-4">
             導入事例・実績
           </h2>
@@ -74,7 +74,7 @@ export default function CaseStudies() {
         </ScrollAnimationWrapper>
 
         {/* Achievement Stats */}
-        <ScrollAnimationWrapper animation="fadeInUp" delay={0.2}>
+        <ScrollAnimationWrapper disabled={true}>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
             {achievements.map((stat, index) => (
               <div key={index} className="bg-gradient-to-br from-emerald-500/10 to-emerald-600/5 border border-emerald-500/20 rounded-lg p-6 text-center">
@@ -89,7 +89,7 @@ export default function CaseStudies() {
         {/* Case Studies */}
         <div className="space-y-16">
           {caseStudies.map((study, index) => (
-            <ScrollAnimationWrapper key={index} animation="fadeInUp" delay={index * 0.2}>
+            <ScrollAnimationWrapper key={index} disabled={true}>
               <div className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 items-center`}>
                 <div className="lg:w-1/2">
                   <div className="relative h-[300px] rounded-xl overflow-hidden border border-emerald-500/20">
@@ -151,7 +151,7 @@ export default function CaseStudies() {
         </div>
 
         {/* CTA */}
-        <ScrollAnimationWrapper animation="fadeInUp" delay={0.4}>
+        <ScrollAnimationWrapper disabled={true}>
           <div className="mt-16 text-center">
             <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
               📑 全ての導入事例を見る

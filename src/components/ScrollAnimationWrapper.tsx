@@ -8,6 +8,7 @@ interface ScrollAnimationWrapperProps {
   delay?: number
   duration?: number
   threshold?: number
+  disabled?: boolean
 }
 
 export default function ScrollAnimationWrapper({
@@ -15,13 +16,14 @@ export default function ScrollAnimationWrapper({
   animation = 'fadeInUp',
   delay = 0,
   duration = 0.8,
-  threshold = 0.1
+  threshold = 0.1,
+  disabled = false
 }: ScrollAnimationWrapperProps) {
   const elementRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const element = elementRef.current
-    if (!element) return
+    if (!element || disabled) return
 
     // Set initial styles based on animation type
     const setInitialStyles = () => {
@@ -81,7 +83,7 @@ export default function ScrollAnimationWrapper({
         observer.unobserve(element)
       }
     }
-  }, [animation, delay, duration, threshold])
+  }, [animation, delay, duration, threshold, disabled])
 
   return (
     <div ref={elementRef}>

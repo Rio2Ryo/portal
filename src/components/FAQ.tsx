@@ -85,7 +85,7 @@ export default function FAQ() {
   return (
     <section id="faq" className="py-32 bg-black/50">
       <div className="container mx-auto px-4">
-        <ScrollAnimationWrapper animation="fadeInUp">
+        <ScrollAnimationWrapper disabled={true}>
           <h2 className="text-3xl md:text-4xl font-bold text-center text-emerald-400 mb-4">
             よくある質問
           </h2>
@@ -98,7 +98,7 @@ export default function FAQ() {
         {/* FAQ Categories */}
         <div className="max-w-4xl mx-auto">
           {faqCategories.map((category, categoryIndex) => (
-            <ScrollAnimationWrapper key={categoryIndex} animation="fadeInUp" delay={categoryIndex * 0.1}>
+            <ScrollAnimationWrapper key={categoryIndex} disabled={true}>
               <div className="mb-8">
                 <h3 className="text-xl font-bold text-emerald-400 mb-4">{category.category}</h3>
                 <div className="space-y-3">
@@ -142,7 +142,7 @@ export default function FAQ() {
         </div>
 
         {/* CTA */}
-        <ScrollAnimationWrapper animation="fadeInUp" delay={0.4}>
+        <ScrollAnimationWrapper disabled={true}>
           <div className="mt-12 text-center">
             <p className="text-gray-400 mb-4">ご不明な点がございましたら、お気軽にお問い合わせください</p>
             <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">

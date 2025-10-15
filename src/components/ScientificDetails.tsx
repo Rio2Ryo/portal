@@ -56,7 +56,7 @@ export default function ScientificDetails() {
   return (
     <section id="scientific-details" className="py-32 bg-black/50">
       <div className="container mx-auto px-4">
-        <ScrollAnimationWrapper animation="fadeInUp">
+        <ScrollAnimationWrapper disabled={true}>
           <h2 className="text-3xl md:text-4xl font-bold text-center text-emerald-400 mb-4">
             科学的メカニズム
           </h2>
@@ -67,7 +67,7 @@ export default function ScientificDetails() {
         </ScrollAnimationWrapper>
 
         {/* Technical Specifications Grid */}
-        <ScrollAnimationWrapper animation="fadeInUp" delay={0.2}>
+        <ScrollAnimationWrapper disabled={true}>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-16">
             {specifications.map((spec, index) => (
               <div
@@ -85,7 +85,7 @@ export default function ScientificDetails() {
         {/* Detailed Features */}
         <div className="grid md:grid-cols-2 gap-8">
           {features.map((feature, index) => (
-            <ScrollAnimationWrapper key={index} animation="fadeInUp" delay={index * 0.1}>
+            <ScrollAnimationWrapper key={index} disabled={true}>
               <div className="bg-black/40 backdrop-blur-md border border-emerald-500/20 rounded-xl p-6 hover:border-emerald-500/40 transition-all duration-300">
                 <h3 className="text-2xl font-bold text-emerald-400 mb-2">{feature.title}</h3>
                 <p className="text-gray-300 mb-4">{feature.description}</p>
@@ -105,7 +105,7 @@ export default function ScientificDetails() {
         </div>
 
         {/* Research Papers Link */}
-        <ScrollAnimationWrapper animation="fadeInUp" delay={0.4}>
+        <ScrollAnimationWrapper disabled={true}>
           <div className="mt-12 text-center">
             <a href="#research" className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
               📊 研究論文・データを見る
