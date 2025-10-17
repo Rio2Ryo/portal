@@ -12,10 +12,22 @@ const products = [
       JP: 'for Body',
       EN: 'for Body'
     },
-    retailPrice: '¥4,950',
-    rewardMP: '¥1,733',
-    rewardTM: '¥1,238',
-    secondaryAgent: '¥495'
+    retailPrice: {
+      JP: '¥4,950',
+      EN: '$33.00'
+    },
+    rewardMP: {
+      JP: '¥1,733',
+      EN: '$11.55'
+    },
+    rewardTM: {
+      JP: '¥1,238',
+      EN: '$8.25'
+    },
+    secondaryAgent: {
+      JP: '¥495',
+      EN: '$3.30'
+    }
   },
   {
     title: {
@@ -26,10 +38,22 @@ const products = [
       JP: 'for Pet',
       EN: 'for Pet'
     },
-    retailPrice: '¥4,950',
-    rewardMP: '¥1,733',
-    rewardTM: '¥1,238',
-    secondaryAgent: '¥495'
+    retailPrice: {
+      JP: '¥4,950',
+      EN: '$33.00'
+    },
+    rewardMP: {
+      JP: '¥1,733',
+      EN: '$11.55'
+    },
+    rewardTM: {
+      JP: '¥1,238',
+      EN: '$8.25'
+    },
+    secondaryAgent: {
+      JP: '¥495',
+      EN: '$3.30'
+    }
   },
   {
     title: {
@@ -40,10 +64,22 @@ const products = [
       JP: 'for All Skin',
       EN: 'for All Skin'
     },
-    retailPrice: '¥4,950',
-    rewardMP: '¥1,733',
-    rewardTM: '¥1,238',
-    secondaryAgent: '¥495'
+    retailPrice: {
+      JP: '¥4,950',
+      EN: '$33.00'
+    },
+    rewardMP: {
+      JP: '¥1,733',
+      EN: '$11.55'
+    },
+    rewardTM: {
+      JP: '¥1,238',
+      EN: '$8.25'
+    },
+    secondaryAgent: {
+      JP: '¥495',
+      EN: '$3.30'
+    }
   }
 ]
 
@@ -77,25 +113,25 @@ export default function ProjectOverview() {
                   <span className="text-gray-300 font-medium">
                     {t({ JP: '上代価格', EN: 'Retail Price' })}
                   </span>
-                  <span className="text-white font-bold text-lg">{product.retailPrice}</span>
+                  <span className="text-white font-bold text-lg">{t(product.retailPrice)}</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-gray-700">
                   <span className="text-gray-300 font-medium">
                     {t({ JP: '報酬（MP）', EN: 'Reward (MP)' })}
                   </span>
-                  <span className="text-green-400 font-bold text-lg">{product.rewardMP}</span>
+                  <span className="text-green-400 font-bold text-lg">{t(product.rewardMP)}</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-gray-700">
                   <span className="text-gray-300 font-medium">
                     {t({ JP: '報酬（TM）', EN: 'Reward (TM)' })}
                   </span>
-                  <span className="text-green-400 font-bold text-lg">{product.rewardTM}</span>
+                  <span className="text-green-400 font-bold text-lg">{t(product.rewardTM)}</span>
                 </div>
                 <div className="flex justify-between items-center py-3">
                   <span className="text-gray-300 font-medium">
                     {t({ JP: '2nd Dealer販売時', EN: '2nd Dealer Sales' })}
                   </span>
-                  <span className="text-blue-400 font-bold text-lg">{product.secondaryAgent}</span>
+                  <span className="text-blue-400 font-bold text-lg">{t(product.secondaryAgent)}</span>
                 </div>
               </div>
             </div>
