@@ -67,7 +67,12 @@ export default function Milestones() {
                       EN: 'Wholesale Profit'
                     })}
                   </h4>
-                  <p className="text-gray-300">35%（在庫管理・販管費・営業ツール不要）</p>
+                  <p className="text-gray-300">
+                    {t({
+                      JP: '35%（在庫管理・販管費・営業ツール不要）',
+                      EN: '35% (No inventory, sales expenses, or tools required)'
+                    })}
+                  </p>
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-white mb-2">
@@ -135,7 +140,12 @@ export default function Milestones() {
                       EN: 'Wholesale Profit'
                     })}
                   </h4>
-                  <p className="text-gray-300">25%（在庫管理・販管費・営業ツール不要）</p>
+                  <p className="text-gray-300">
+                    {t({
+                      JP: '25%（在庫管理・販管費・営業ツール不要）',
+                      EN: '25% (No inventory, sales expenses, or tools required)'
+                    })}
+                  </p>
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-white mb-2">
