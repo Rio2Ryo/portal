@@ -13,19 +13,19 @@ const products = [
       EN: 'for Body'
     },
     retailPrice: {
-      JP: '¥4,950',
+      JP: '$33.00',
       EN: '$33.00'
     },
     rewardMP: {
-      JP: '¥1,733',
+      JP: '$11.55',
       EN: '$11.55'
     },
     rewardTM: {
-      JP: '¥1,238',
+      JP: '$8.25',
       EN: '$8.25'
     },
     secondaryAgent: {
-      JP: '¥495',
+      JP: '$3.30',
       EN: '$3.30'
     }
   },
@@ -39,19 +39,19 @@ const products = [
       EN: 'for Pet'
     },
     retailPrice: {
-      JP: '¥4,950',
+      JP: '$33.00',
       EN: '$33.00'
     },
     rewardMP: {
-      JP: '¥1,733',
+      JP: '$11.55',
       EN: '$11.55'
     },
     rewardTM: {
-      JP: '¥1,238',
+      JP: '$8.25',
       EN: '$8.25'
     },
     secondaryAgent: {
-      JP: '¥495',
+      JP: '$3.30',
       EN: '$3.30'
     }
   },
@@ -65,19 +65,19 @@ const products = [
       EN: 'for All Skin'
     },
     retailPrice: {
-      JP: '¥4,950',
+      JP: '$33.00',
       EN: '$33.00'
     },
     rewardMP: {
-      JP: '¥1,733',
+      JP: '$11.55',
       EN: '$11.55'
     },
     rewardTM: {
-      JP: '¥1,238',
+      JP: '$8.25',
       EN: '$8.25'
     },
     secondaryAgent: {
-      JP: '¥495',
+      JP: '$3.30',
       EN: '$3.30'
     }
   }
