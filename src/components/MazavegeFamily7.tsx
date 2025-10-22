@@ -41,7 +41,7 @@ export default function MazavegeFamily() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-9 mt-12">
               {drinks.map((drink, index) => (
                 <div key={index} className="flex flex-col">
-                  <div className="flex items-baseline gap-2 mb-3">
+                  <div className="items-baseline gap-2 mb-3">
                     <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle}</p>
                     <p className="text-green-400 text-left text-xs md:text-sm font-semibold">{drink.bottomTitle}</p>
                   </div>
