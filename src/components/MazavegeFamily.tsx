@@ -65,7 +65,7 @@ export default function MazavegeFamily() {
                     SURIKOMU Confidence directly
                   </h3>
                   {/* 横並びの2つのセクション */}
-                  <div className="flex flex-col md:flex-row gap-6">
+                  <div className="flex flex-col md:flex-row gap-5">
                     {/* 傷用のセクション */}
                     <div className="flex-1 text-white space-y-2">
                       <p className="font-semibold">【Recommended amount for wounds】</p>
