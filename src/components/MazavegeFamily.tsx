@@ -70,8 +70,6 @@ export default function MazavegeFamily() {
                     <div className="flex-1 text-white space-y-2">
                       <p className="font-semibold">【Recommended amount for wounds】</p>
                       <p>Confidence - as needed</p>
-                      <p className="mt-4 text-sm">*After gently rubbing it in with clean hands, cover the area with gauze or a bandage.</p>
-                      <p className="mt-2 text-sm" style={{ color: '#ff6b6b' }}>*If the wound is large, deep, or shows signs of infection, do not apply Confidence alone. To help prevent essential wound fluids from drying out, mix Confidence with an ointment, cream, or water before use.</p>
                     </div>
 
                     {/* ニキビ用のセクション */}
@@ -79,6 +77,11 @@ export default function MazavegeFamily() {
                       <p className="font-semibold">【Recommended amount for acne】</p>
                       <p>Confidence - as needed</p>
                     </div>
+                  </div>
+                  {/* 全幅の注意書き */}
+                  <div className="text-white space-y-2">
+                    <p className="text-sm">*After gently rubbing it in with clean hands, cover the area with gauze or a bandage.</p>
+                    <p className="text-sm"><span style={{ color: '#ff6b6b' }}>*If the wound is large, deep,</span> or shows signs of infection, do not apply Confidence alone. To help prevent essential wound fluids from drying out, mix Confidence with an ointment, cream, or water before use.</p>
                   </div>
                 </div>
               </div>
