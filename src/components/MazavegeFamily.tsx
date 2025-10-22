@@ -27,7 +27,7 @@ export default function MazavegeFamily() {
               <div className="flex items-center justify-center gap-3 md:gap-6 my-6">
                 <img src="/mark.png" alt="Mother Vegetable Icon" className="w-12 md:w-20 h-auto" />
                 <div>
-                  <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-6 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
+                  <h2 className="text-base md:text-4xl lg:text-5xl font-bold mb-3 md:mb-6 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
                     {t({
                       JP: 'Mother Vegetable Drinks',
                       EN: 'Mother Vegetable Drinks'
@@ -41,8 +41,8 @@ export default function MazavegeFamily() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-9 mt-12">
               {drinks.map((drink, index) => (
                 <div key={index} className="flex flex-col">
-                  <p className="text-white text-left text-lg font-semibold">{drink.topTitle}</p>
-                  <p className="text-white text-left text-lg font-semibold mb-3">{drink.bottomTitle}</p>
+                  <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle}</p>
+                  <p className="text-white text-left text-base md:text-lg font-semibold mb-3">{drink.bottomTitle}</p>
                   <img
                     src={`/${drink.image}`}
                     alt={`${drink.topTitle} - ${drink.bottomTitle}`}
