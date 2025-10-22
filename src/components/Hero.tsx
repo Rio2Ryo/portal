@@ -53,10 +53,13 @@ export default function Hero() {
             }}
           >
             <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-semibold leading-tight">
-              <div>MOTHER VEGETABLE MENU</div>
+              <div>MOTHER VEGETABLE PRODUCTS</div>
             </h1>
           </div>
           <div className="w-40 md:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-6 opacity-80"></div>
+          <h2 className="text-lg sm:text-xl md:text-xl lg:text-2xl font-semibold leading-tight">
+              <div>Confidence</div>
+            </h2>
         </div>
 
 

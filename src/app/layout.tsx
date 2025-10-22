@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mother Vegetable Menu",
+  title: "Mother Vegetable Products Confidence",
   description: "Life from the beginning of Earth 3.5 billion years ago \"Mother Vegetable\" Bringing you the life force created by Earth.",
 };
 
