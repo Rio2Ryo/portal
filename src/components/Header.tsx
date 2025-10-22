@@ -17,57 +17,57 @@ export default function Header() {
               alt="MOTHER VEGETABLE"
               width={200}
               height={200}
-              className="w-[45px] h-auto sm:w-[60px] md:w-[100px]"
+              className="w-[30px] h-auto sm:w-[60px] md:w-[100px]"
             />
           </div>
 
           {/* Navigation Menu */}
-          <nav className="flex items-center justify-between w-full max-w-[220px] ml-2 sm:ml-4 md:space-x-2 md:justify-start md:w-auto md:max-w-none">
+          <nav className="flex items-center justify-between w-full max-w-[290px] ml-2 sm:ml-4 md:space-x-2 md:justify-start md:w-auto md:max-w-none">
             <button
               onClick={() => document.getElementById('s1')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
+              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
               {t({ JP: 'Drink', EN: 'Drink' })}
             </button>
             <button
               onClick={() => document.getElementById('s2')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
+              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
               {t({ JP: 'Izakaya', EN: 'Izakaya' })}
             </button>
-            <button
+              <button
               onClick={() => document.getElementById('s3')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm te[#4ade80] bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300"
+              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
               {t({ JP: 'Japanese', EN: 'Japanese' })}
             </button>
              <button
               onClick={() => document.getElementById('s4')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
+              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
               {t({ JP: 'Italian', EN: 'Italian' })}
             </button>
             <button
               onClick={() => document.getElementById('s5')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
+              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
               {t({ JP: 'French', EN: 'French' })}
             </button>
-            <button
+ <button
               onClick={() => document.getElementById('s6')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm te[#4ade80] bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300"
+              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
               {t({ JP: 'Chinese', EN: 'Chinese' })}
             </button>
              <button
               onClick={() => document.getElementById('s7')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
+              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
               {t({ JP: 'Korean', EN: 'Korean' })}
             </button>
-            <button
+             <button
               onClick={() => document.getElementById('s8')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs md:text-sm te[#4ade80] bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300"
+              className="px-1.5 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
               {t({ JP: 'Curry', EN: 'Curry' })}
             </button>
