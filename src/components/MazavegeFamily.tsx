@@ -24,7 +24,7 @@ export default function MazavegeFamily() {
         <div className="max-w-5xl mx-auto space-y-8">
           <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-20 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
-              <div className="flex items-center justify-center gap-6">
+              <div className="flex items-center justify-center gap-6 my-6">
                 <img src="/mark.png" alt="Mother Vegetable Icon" className="w-20 h-auto" />
                 <div>
                   <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
@@ -38,28 +38,29 @@ export default function MazavegeFamily() {
               </div>
 
             {/* 画像グリッド */}
-            <div className="grid grid-cols-2 gap-x-14 gap-y-9 mt-12">
+            <div className="grid grid-cols-2 gap-x-20 gap-y-9 mt-12">
               {drinks.map((drink, index) => (
                 <div key={index} className="flex flex-col">
-                  <p className="text-white text-left text-lg font-semibold mb-3">{drink.topTitle}</p>
+                  <p className="text-white text-left text-lg font-semibold">{drink.topTitle}</p>
                   <p className="text-white text-left text-lg font-semibold mb-3">{drink.bottomTitle}</p>
                   <img
                     src={`/${drink.image}`}
                     alt={`${drink.topTitle} - ${drink.bottomTitle}`}
-                    className="w-full h-auto rounded-lg shadow-lg"
+                    className="w-full h-auto shadow-lg"
                   />
                 </div>
               ))}
             </div>
 
-            {/* ロゴ画像 */}
-            <div className="flex justify-center mt-12">
-              <img src="/mazavege_logo_midori.png" alt="Mazavege Logo" className="h-16 w-auto" />
-            </div>
+            
             </div>
           </ScrollAnimationWrapper>
         </div>
       </div>
+      {/* ロゴ画像 */}
+            <div className="flex justify-center mt-12">
+              <img src="/mazavege_logo_midori.png" alt="Mazavege Logo" className="h-16 w-auto" />
+            </div>
     </section>
   )
 }
