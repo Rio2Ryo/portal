@@ -20,7 +20,7 @@ export default function MazavegeFamily() {
   return (
     <section id="mazavege-family" className="py-24 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black"></div>
-      <div className="container mx-auto px-4 relative z-10">
+      <div id="s7" className="container mx-auto px-4 relative z-10">
         <div className="max-w-5xl mx-auto space-y-8">
           <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-20 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">

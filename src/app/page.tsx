@@ -33,7 +33,7 @@ export default function Home() {
     <>
       {isLoading && <LoadingScreen />}
       <main className="min-h-screen text-white relative">
-        {/*<Header />*/}
+        <Header />
         <Hero />
         <MazavegeFamily />
         <MazavegeFamily2 />
