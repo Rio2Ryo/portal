@@ -38,9 +38,9 @@ export default function MazavegeFamily() {
               </div>
 
             {/* 画像グリッド */}
-            <div className="grid grid-cols-2 gap-6 mt-12">
+            <div className="grid grid-cols-2 gap-x-14 gap-y-9 mt-12">
               {drinks.map((drink, index) => (
-                <div key={index} className="flex flex-col items-center">
+                <div key={index} className="flex flex-col">
                   <p className="text-white text-left text-lg font-semibold mb-3">{drink.topTitle}</p>
                   <p className="text-white text-left text-lg font-semibold mb-3">{drink.bottomTitle}</p>
                   <img
@@ -50,6 +50,11 @@ export default function MazavegeFamily() {
                   />
                 </div>
               ))}
+            </div>
+
+            {/* ロゴ画像 */}
+            <div className="flex justify-center mt-12">
+              <img src="/mazavege_logo_midori.png" alt="Mazavege Logo" className="h-16 w-auto" />
             </div>
             </div>
           </ScrollAnimationWrapper>
