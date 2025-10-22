@@ -52,15 +52,14 @@ export default function MazavegeFamily() {
               ))}
             </div>
 
-            
+            {/* ロゴ画像 */}
+            <div className="flex justify-center mt-12">
+              <img src="/mazavege_logo_midori.png" alt="Mazavege Logo" className="h-16 w-auto" />
+            </div>
             </div>
           </ScrollAnimationWrapper>
         </div>
       </div>
-      {/* ロゴ画像 */}
-            <div className="flex justify-center mt-12">
-              <img src="/mazavege_logo_midori.png" alt="Mazavege Logo" className="h-16 w-auto" />
-            </div>
     </section>
   )
 }
