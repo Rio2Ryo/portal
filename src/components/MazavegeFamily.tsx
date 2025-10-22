@@ -25,23 +25,116 @@ export default function MazavegeFamily() {
           <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-20 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
-              <h2 className="text-white text-2xl md:text-3xl font-bold mb-8 text-center">
+              <h2 className="text-white text-2xl md:text-3xl font-bold mb-8 text-left">
                 Dark spots / Wrinkles
               </h2>
 
               {/* 画像とテキストのブロック */}
               <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center">
                 {/* 画像 */}
-                <div className="w-full md:w-1/2 flex-shrink-0">
+                <div className="w-full md:w-2/5 flex-shrink-0">
                   <img
                     src="/u1.jpg"
                     alt="Dark spots and wrinkles treatment"
-                    className="w-full h-auto rounded-lg"
+                    className="w-full h-auto"
                   />
                 </div>
 
                 {/* テキストブロック */}
-                <div className="w-full md:w-1/2 space-y-4">
+                <div className="w-full md:w-3/5 space-y-4">
+                  <h3 className="text-green-400 text-xl md:text-2xl font-bold">
+                    SURIKOMU Confidence directly
+                  </h3>
+                  <div className="text-white space-y-2">
+                    <p className="font-semibold">【Recommended amount】</p>
+                    <p>Confidence - as needed</p>
+                    <p className="mt-4">*Apply Confidence directly to affected areas.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-20 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
+              {/* タイトル */}
+              <h2 className="text-white text-2xl md:text-3xl font-bold mb-8 text-left">
+                Dark spots / Wrinkles
+              </h2>
+
+              {/* 画像とテキストのブロック */}
+              <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center">
+                {/* 画像 */}
+                <div className="w-full md:w-2/5 flex-shrink-0">
+                  <img
+                    src="/u1.jpg"
+                    alt="Dark spots and wrinkles treatment"
+                    className="w-full h-auto"
+                  />
+                </div>
+
+                {/* テキストブロック */}
+                <div className="w-full md:w-3/5 space-y-4">
+                  <h3 className="text-green-400 text-xl md:text-2xl font-bold">
+                    SURIKOMU Confidence directly
+                  </h3>
+                  <div className="text-white space-y-2">
+                    <p className="font-semibold">【Recommended amount】</p>
+                    <p>Confidence - as needed</p>
+                    <p className="mt-4">*Apply Confidence directly to affected areas.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-20 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
+              {/* タイトル */}
+              <h2 className="text-white text-2xl md:text-3xl font-bold mb-8 text-left">
+                Dark spots / Wrinkles
+              </h2>
+
+              {/* 画像とテキストのブロック */}
+              <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center">
+                {/* 画像 */}
+                <div className="w-full md:w-2/5 flex-shrink-0">
+                  <img
+                    src="/u1.jpg"
+                    alt="Dark spots and wrinkles treatment"
+                    className="w-full h-auto"
+                  />
+                </div>
+
+                {/* テキストブロック */}
+                <div className="w-full md:w-3/5 space-y-4">
+                  <h3 className="text-green-400 text-xl md:text-2xl font-bold">
+                    SURIKOMU Confidence directly
+                  </h3>
+                  <div className="text-white space-y-2">
+                    <p className="font-semibold">【Recommended amount】</p>
+                    <p>Confidence - as needed</p>
+                    <p className="mt-4">*Apply Confidence directly to affected areas.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-20 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
+              {/* タイトル */}
+              <h2 className="text-white text-2xl md:text-3xl font-bold mb-8 text-left">
+                Dark spots / Wrinkles
+              </h2>
+
+              {/* 画像とテキストのブロック */}
+              <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center">
+                {/* 画像 */}
+                <div className="w-full md:w-2/5 flex-shrink-0">
+                  <img
+                    src="/u1.jpg"
+                    alt="Dark spots and wrinkles treatment"
+                    className="w-full h-auto"
+                  />
+                </div>
+
+                {/* テキストブロック */}
+                <div className="w-full md:w-3/5 space-y-4">
                   <h3 className="text-green-400 text-xl md:text-2xl font-bold">
                     SURIKOMU Confidence directly
                   </h3>
