@@ -7,14 +7,14 @@ export default function MazavegeFamily() {
   const { t, language } = useLanguage()
 
   const drinks = [
-    { topTitle: 'Hiyayakko', bottomTitle: 'Use as a topping', image: 'i1.jpg' },
-    { topTitle: 'Mekabu', bottomTitle: 'Mix with seaweed', image: 'i2.jpg' },
-    { topTitle: 'Natto', bottomTitle: 'Mix together', image: 'i3.jpg' },
-    { topTitle: 'Vegetable Dip', bottomTitle: 'Mix into miso dip', image: 'i4.jpg' },
-    { topTitle: 'Potato Salad', bottomTitle: 'Mix into salad', image: 'i5.jpg' },
-    { topTitle: 'Fried Chicken', bottomTitle: 'Mix with salt', image: 'i6.jpg' },
-    { topTitle: 'Shrimp with Mayo', bottomTitle: 'Mix into sauce', image: 'i7.jpg' },
-    { topTitle: 'Ochazuke', bottomTitle: 'Mix into broth', image: 'i8.jpg' },
+    { topTitle: 'Hiyayakko', bottomTitle: 'Use as a topping', image: 'k1.jpg' },
+    { topTitle: 'Mekabu', bottomTitle: 'Mix with seaweed', image: 'k2.jpg' },
+    { topTitle: 'Natto', bottomTitle: 'Mix together', image: 'k3.jpg' },
+    { topTitle: 'Vegetable Dip', bottomTitle: 'Mix into miso dip', image: 'k4.jpg' },
+    { topTitle: 'Potato Salad', bottomTitle: 'Mix into salad', image: 'k5.jpg' },
+    { topTitle: 'Fried Chicken', bottomTitle: 'Mix with salt', image: 'k6.jpg' },
+    { topTitle: 'Shrimp with Mayo', bottomTitle: 'Mix into sauce', image: 'k7.jpg' },
+    { topTitle: 'Ochazuke', bottomTitle: 'Mix into broth', image: 'k8.jpg' },
   ]
 
   return (
