@@ -66,7 +66,7 @@ export default function Hero() {
             <p className="text-sm md:text-2xl text-[#4ade80] leading-relaxed">
               {t({
                 JP: '35億年前の地球のはじまりの生命',
-                EN: 'The Life from 3.5 billion years ago'
+                EN: 'Life at Earth’s dawn, 3.5 billion years ago.'
               })}
             </p>
             <p className="text-sm md:text-2xl text-[#4ade80] leading-relaxed">
@@ -78,13 +78,11 @@ export default function Hero() {
             <p className="text-sm md:text-2xl text-[#4ade80] leading-relaxed">
               {t({
                 JP: '地球が生み出した生命力を、あなたに。',
-                EN: 'Earth’s life force, for you.'
+                EN: 'Earth-born vitality, for you.'
               })}
             </p>
           </div>
         </div>
-
-
 
       </div>
     </section>
