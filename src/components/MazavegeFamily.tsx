@@ -30,7 +30,7 @@ export default function MazavegeFamily() {
               </h2>
 
               {/* 画像とテキストのブロック */}
-              <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center">
+              <div className="flex flex-col md:flex-row gap-6 md:gap-8">
                 {/* 画像 */}
                 <div className="w-full md:w-2/5 flex-shrink-0">
                   <img
@@ -42,7 +42,7 @@ export default function MazavegeFamily() {
 
                 {/* テキストブロック */}
                 <div className="w-full md:w-3/5 space-y-4">
-                  <h3 className="text-green-400 text-xl md:text-2xl font-bold">
+                  <h3 className="text-green-400 text-xl md:text-2xl font-bold text-center">
                     SURIKOMU Confidence directly
                   </h3>
                   <div className="text-white space-y-2">
@@ -53,7 +53,6 @@ export default function MazavegeFamily() {
                 </div>
               </div>
             </div>
-
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-20 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-2xl md:text-3xl font-bold mb-8 text-left">
@@ -61,7 +60,7 @@ export default function MazavegeFamily() {
               </h2>
 
               {/* 画像とテキストのブロック */}
-              <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center">
+              <div className="flex flex-col md:flex-row gap-6 md:gap-8">
                 {/* 画像 */}
                 <div className="w-full md:w-2/5 flex-shrink-0">
                   <img
@@ -73,7 +72,7 @@ export default function MazavegeFamily() {
 
                 {/* テキストブロック */}
                 <div className="w-full md:w-3/5 space-y-4">
-                  <h3 className="text-green-400 text-xl md:text-2xl font-bold">
+                  <h3 className="text-green-400 text-xl md:text-2xl font-bold text-center">
                     SURIKOMU Confidence directly
                   </h3>
                   <div className="text-white space-y-2">
@@ -84,7 +83,6 @@ export default function MazavegeFamily() {
                 </div>
               </div>
             </div>
-
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-20 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-2xl md:text-3xl font-bold mb-8 text-left">
@@ -92,7 +90,7 @@ export default function MazavegeFamily() {
               </h2>
 
               {/* 画像とテキストのブロック */}
-              <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center">
+              <div className="flex flex-col md:flex-row gap-6 md:gap-8">
                 {/* 画像 */}
                 <div className="w-full md:w-2/5 flex-shrink-0">
                   <img
@@ -104,7 +102,7 @@ export default function MazavegeFamily() {
 
                 {/* テキストブロック */}
                 <div className="w-full md:w-3/5 space-y-4">
-                  <h3 className="text-green-400 text-xl md:text-2xl font-bold">
+                  <h3 className="text-green-400 text-xl md:text-2xl font-bold text-center">
                     SURIKOMU Confidence directly
                   </h3>
                   <div className="text-white space-y-2">
@@ -115,7 +113,6 @@ export default function MazavegeFamily() {
                 </div>
               </div>
             </div>
-
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-20 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-2xl md:text-3xl font-bold mb-8 text-left">
@@ -123,7 +120,7 @@ export default function MazavegeFamily() {
               </h2>
 
               {/* 画像とテキストのブロック */}
-              <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center">
+              <div className="flex flex-col md:flex-row gap-6 md:gap-8">
                 {/* 画像 */}
                 <div className="w-full md:w-2/5 flex-shrink-0">
                   <img
@@ -135,7 +132,7 @@ export default function MazavegeFamily() {
 
                 {/* テキストブロック */}
                 <div className="w-full md:w-3/5 space-y-4">
-                  <h3 className="text-green-400 text-xl md:text-2xl font-bold">
+                  <h3 className="text-green-400 text-xl md:text-2xl font-bold text-center">
                     SURIKOMU Confidence directly
                   </h3>
                   <div className="text-white space-y-2">
