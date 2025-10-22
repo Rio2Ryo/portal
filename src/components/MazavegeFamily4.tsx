@@ -7,14 +7,14 @@ export default function MazavegeFamily() {
   const { t, language } = useLanguage()
 
   const drinks = [
-    { topTitle: 'Hiyayakko', bottomTitle: 'Use as a topping', image: 'e1.jpg' },
-    { topTitle: 'Mekabu', bottomTitle: 'Mix with seaweed', image: 'e2.jpg' },
-    { topTitle: 'Natto', bottomTitle: 'Mix together', image: 'e3.jpg' },
-    { topTitle: 'Vegetable Dip', bottomTitle: 'Mix into miso dip', image: 'e4.jpg' },
-    { topTitle: 'Potato Salad', bottomTitle: 'Mix into salad', image: 'e5.jpg' },
-    { topTitle: 'Fried Chicken', bottomTitle: 'Mix with salt', image: 'e6.jpg' },
-    { topTitle: 'Shrimp with Mayo', bottomTitle: 'Mix into sauce', image: 'e7.jpg' },
-    { topTitle: 'Ochazuke', bottomTitle: 'Mix into broth', image: 'e8.jpg' },
+    { topTitle: 'Caprese', bottomTitle: 'Use as a topping', image: 'e1.jpg' },
+    { topTitle: 'Salad', bottomTitle: 'Sprinkle on salad', image: 'e2.jpg' },
+    { topTitle: 'Bruschetta', bottomTitle: 'Mix into paste', image: 'e3.jpg' },
+    { topTitle: 'Lasagna', bottomTitle: 'Knead Achieve into dough', image: 'e4.jpg' },
+    { topTitle: 'Genovese', bottomTitle: 'Mix into basil sauce', image: 'e5.jpg' },
+    { topTitle: 'Peperoncino', bottomTitle: 'Mix into oil- based sauce', image: 'e6.jpg' },
+    { topTitle: 'Margherita', bottomTitle: 'Use as a topping', image: 'e7.jpg' },
+    { topTitle: 'Risotto', bottomTitle: 'Mix as a finishing touch', image: 'e8.jpg' },
   ]
 
   return (

@@ -7,14 +7,14 @@ export default function MazavegeFamily() {
   const { t, language } = useLanguage()
 
   const drinks = [
-    { topTitle: 'Hiyayakko', bottomTitle: 'Use as a topping', image: 'c1.jpg' },
-    { topTitle: 'Mekabu', bottomTitle: 'Mix with seaweed', image: 'c2.jpg' },
-    { topTitle: 'Natto', bottomTitle: 'Mix together', image: 'c3.jpg' },
-    { topTitle: 'Vegetable Dip', bottomTitle: 'Mix into miso dip', image: 'c4.jpg' },
-    { topTitle: 'Potato Salad', bottomTitle: 'Mix into salad', image: 'c5.jpg' },
-    { topTitle: 'Fried Chicken', bottomTitle: 'Mix with salt', image: 'c6.jpg' },
-    { topTitle: 'Shrimp with Mayo', bottomTitle: 'Mix into sauce', image: 'c7.jpg' },
-    { topTitle: 'Ochazuke', bottomTitle: 'Mix into broth', image: 'c8.jpg' },
+    { topTitle: 'Egg Drop Soup', bottomTitle: 'Mix as a finishing touch', image: 'c1.jpg' },
+    { topTitle: 'Glass Noodle Salad', bottomTitle: 'Mix in as a finishing touch and sprinkle on top', image: 'c2.jpg' },
+    { topTitle: 'Mapo Tofu', bottomTitle: 'Use as a topping', image: 'c3.jpg' },
+    { topTitle: 'Xiaolongbao', bottomTitle: 'Mix with sauce', image: 'c4.jpg' },
+    { topTitle: 'Bang Bang Chicken', bottomTitle: 'Mix with sauce', image: 'c5.jpg' },
+    { topTitle: 'Fried Rice', bottomTitle: 'Add in as a finishing touch while stir-frying', image: 'c6.jpg' },
+    { topTitle: 'Shrimp in Chili Sauce', bottomTitle: 'Use as a topping', image: 'c7.jpg' },
+    { topTitle: 'Stir-Fried Green Pepper and Beef', bottomTitle: 'Toss together as a finishing touch', image: 'c8.jpg' },
   ]
 
   return (

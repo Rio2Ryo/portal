@@ -7,14 +7,14 @@ export default function MazavegeFamily() {
   const { t, language } = useLanguage()
 
   const drinks = [
-    { topTitle: 'Hiyayakko', bottomTitle: 'Use as a topping', image: 'j1.jpg' },
-    { topTitle: 'Mekabu', bottomTitle: 'Mix with seaweed', image: 'j2.jpg' },
-    { topTitle: 'Natto', bottomTitle: 'Mix together', image: 'j3.jpg' },
-    { topTitle: 'Vegetable Dip', bottomTitle: 'Mix into miso dip', image: 'j4.jpg' },
-    { topTitle: 'Potato Salad', bottomTitle: 'Mix into salad', image: 'j5.jpg' },
-    { topTitle: 'Fried Chicken', bottomTitle: 'Mix with salt', image: 'j6.jpg' },
-    { topTitle: 'Shrimp with Mayo', bottomTitle: 'Mix into sauce', image: 'j7.jpg' },
-    { topTitle: 'Ochazuke', bottomTitle: 'Mix into broth', image: 'j8.jpg' },
+    { topTitle: 'Miso Soup', bottomTitle: 'Use as a topping', image: 'j1.jpg' },
+    { topTitle: 'Grilled Pacific Saury', bottomTitle: 'Mix with grated daikon radish', image: 'j2.jpg' },
+    { topTitle: 'Tororo Rice', bottomTitle: 'Mix with tororo', image: 'j3.jpg' },
+    { topTitle: 'Zaru Soba', bottomTitle: 'Knead into soba dough', image: 'j4.jpg' },
+    { topTitle: 'Tempura', bottomTitle: 'Mix with salt', image: 'j5.jpg' },
+    { topTitle: 'Sushi', bottomTitle: 'Mix with soy sauce', image: 'j6.jpg' },
+    { topTitle: 'Shabu-shabu', bottomTitle: 'Mix with sauce', image: 'j7.jpg' },
+    { topTitle: 'Teppanyaki', bottomTitle: 'Mix with sauce', image: 'j8.jpg' },
   ]
 
   return (

@@ -7,14 +7,14 @@ export default function MazavegeFamily() {
   const { t, language } = useLanguage()
 
   const drinks = [
-    { topTitle: 'Hiyayakko', bottomTitle: 'Use as a topping', image: 'k1.jpg' },
-    { topTitle: 'Mekabu', bottomTitle: 'Mix with seaweed', image: 'k2.jpg' },
-    { topTitle: 'Natto', bottomTitle: 'Mix together', image: 'k3.jpg' },
-    { topTitle: 'Vegetable Dip', bottomTitle: 'Mix into miso dip', image: 'k4.jpg' },
-    { topTitle: 'Potato Salad', bottomTitle: 'Mix into salad', image: 'k5.jpg' },
-    { topTitle: 'Fried Chicken', bottomTitle: 'Mix with salt', image: 'k6.jpg' },
-    { topTitle: 'Shrimp with Mayo', bottomTitle: 'Mix into sauce', image: 'k7.jpg' },
-    { topTitle: 'Ochazuke', bottomTitle: 'Mix into broth', image: 'k8.jpg' },
+    { topTitle: 'Kimchi', bottomTitle: 'Use as a topping', image: 'k1.jpg' },
+    { topTitle: 'Tteokbokki', bottomTitle: 'Mix into sauce', image: 'k2.jpg' },
+    { topTitle: 'Kimbap', bottomTitle: 'Mix into rice', image: 'k3.jpg' },
+    { topTitle: 'Samgyetang', bottomTitle: 'Mix into soup', image: 'k4.jpg' },
+    { topTitle: 'Samgyeopsal', bottomTitle: 'Mix into the seasoned miso', image: 'k5.jpg' },
+    { topTitle: 'Bibimbap', bottomTitle: 'Use as a topping', image: 'k6.jpg' },
+    { topTitle: 'Cheese Dak-galbi', bottomTitle: 'Mix with cheese', image: 'k7.jpg' },
+    { topTitle: 'Naengmyeon', bottomTitle: 'Mix into soup', image: 'k8.jpg' },
   ]
 
   return (

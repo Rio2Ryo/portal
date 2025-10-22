@@ -7,14 +7,14 @@ export default function MazavegeFamily() {
   const { t, language } = useLanguage()
 
   const drinks = [
-    { topTitle: 'Hiyayakko', bottomTitle: 'Use as a topping', image: 'f1.jpg' },
-    { topTitle: 'Mekabu', bottomTitle: 'Mix with seaweed', image: 'f2.jpg' },
-    { topTitle: 'Natto', bottomTitle: 'Mix together', image: 'f3.jpg' },
-    { topTitle: 'Vegetable Dip', bottomTitle: 'Mix into miso dip', image: 'f4.jpg' },
-    { topTitle: 'Potato Salad', bottomTitle: 'Mix into salad', image: 'f5.jpg' },
-    { topTitle: 'Fried Chicken', bottomTitle: 'Mix with salt', image: 'f6.jpg' },
-    { topTitle: 'Shrimp with Mayo', bottomTitle: 'Mix into sauce', image: 'f7.jpg' },
-    { topTitle: 'Ochazuke', bottomTitle: 'Mix into broth', image: 'f8.jpg' },
+    { topTitle: 'Baguette', bottomTitle: 'Mix into butter', image: 'f1.jpg' },
+    { topTitle: 'Tabbouleh', bottomTitle: 'Mix into salad', image: 'f2.jpg' },
+    { topTitle: 'Potage', bottomTitle: 'Mix as a finishing touch', image: 'f3.jpg' },
+    { topTitle: 'Avocado and Scallop Appetizer', bottomTitle: 'Mix into sauce', image: 'f4.jpg' },
+    { topTitle: 'Ratatouille', bottomTitle: 'Mix into stewed dishes', image: 'f5.jpg' },
+    { topTitle: 'Quiche', bottomTitle: 'Mix into the filling', image: 'f6.jpg' },
+    { topTitle: 'Salmon Tartare', bottomTitle: 'Mix into the filling', image: 'f7.jpg' },
+    { topTitle: 'White Fish Meunière', bottomTitle: 'Mix into sauce', image: 'f8.jpg' },
   ]
 
   return (
