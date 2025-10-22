@@ -6,6 +6,7 @@ import Hero from '@/components/Hero'
 import Milestones from '@/components/Milestones'
 import ProductLineup from '@/components/ProductLineup'
 import MazavegeFamily from '@/components/MazavegeFamily'
+import MazavegeFamily2 from '@/components/MazavegeFamily2'
 import ProjectOverview from '@/components/ProjectOverview'
 import Footer from '@/components/Footer'
 import LoadingScreen from '@/components/LoadingScreen'
@@ -29,6 +30,7 @@ export default function Home() {
         {/*<Header />*/}
         <Hero />
         <MazavegeFamily />
+        <MazavegeFamily2 />
       </main>
     </>
   )

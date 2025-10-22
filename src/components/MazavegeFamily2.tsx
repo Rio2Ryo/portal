@@ -7,14 +7,14 @@ export default function MazavegeFamily() {
   const { t, language } = useLanguage()
 
   const drinks = [
-    { topTitle: 'マザベジピュアウォーター', bottomTitle: 'Mazavege Pure Water', image: 'd1.jpg' },
-    { topTitle: 'マザベジビール', bottomTitle: 'Mazavege Beer', image: 'd2.jpg' },
-    { topTitle: 'マザベジサワー', bottomTitle: 'Mazavege Sour', image: 'd3.jpg' },
-    { topTitle: 'マザベジ梅酒', bottomTitle: 'Mazavege Plum Wine', image: 'd4.jpg' },
-    { topTitle: 'マザベジハイボール', bottomTitle: 'Mazavege Highball', image: 'd5.jpg' },
-    { topTitle: 'マザベジ日本酒', bottomTitle: 'Mazavege Sake', image: 'd6.jpg' },
-    { topTitle: 'マザベジワイン', bottomTitle: 'Mazavege Wine', image: 'd7.jpg' },
-    { topTitle: 'マザベジジュース各種', bottomTitle: 'Mazavege Juice - Blend', image: 'd8.jpg' },
+    { topTitle: 'マザベジピュアウォーター', bottomTitle: 'Mazavege Pure Water', image: 'i1.jpg' },
+    { topTitle: 'マザベジビール', bottomTitle: 'Mazavege Beer', image: 'i2.jpg' },
+    { topTitle: 'マザベジサワー', bottomTitle: 'Mazavege Sour', image: 'i3.jpg' },
+    { topTitle: 'マザベジ梅酒', bottomTitle: 'Mazavege Plum Wine', image: 'i4.jpg' },
+    { topTitle: 'マザベジハイボール', bottomTitle: 'Mazavege Highball', image: 'i5.jpg' },
+    { topTitle: 'マザベジ日本酒', bottomTitle: 'Mazavege Sake', image: 'i6.jpg' },
+    { topTitle: 'マザベジワイン', bottomTitle: 'Mazavege Wine', image: 'i7.jpg' },
+    { topTitle: 'マザベジジュース各種', bottomTitle: 'Mazavege Juice - Blend', image: 'i8.jpg' },
   ]
 
   return (
@@ -29,8 +29,8 @@ export default function MazavegeFamily() {
                 <div>
                   <h2 className="text-base md:text-4xl lg:text-5xl font-bold mb-3 md:mb-6 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
                     {t({
-                      JP: 'Mother Vegetable Drinks',
-                      EN: 'Mother Vegetable Drinks'
+                      JP: 'Izakaya menu × Achieve',
+                      EN: 'Izakaya menu × Achieve'
                     })}
                   </h2>
                   <div className="w-32 md:w-40 lg:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-3 md:mt-6 opacity-80"></div>
@@ -41,8 +41,10 @@ export default function MazavegeFamily() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-9 mt-12">
               {drinks.map((drink, index) => (
                 <div key={index} className="flex flex-col">
-                  <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle}</p>
-                  <p className="text-white text-left text-base md:text-lg font-semibold mb-3">{drink.bottomTitle}</p>
+                  <div className="flex items-baseline gap-2 mb-3">
+                    <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle}</p>
+                    <p className="text-green-400 text-left text-xs md:text-sm font-semibold">{drink.bottomTitle}</p>
+                  </div>
                   <img
                     src={`/${drink.image}`}
                     alt={`${drink.topTitle} - ${drink.bottomTitle}`}
