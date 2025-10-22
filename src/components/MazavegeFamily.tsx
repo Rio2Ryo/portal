@@ -24,21 +24,21 @@ export default function MazavegeFamily() {
         <div className="max-w-5xl mx-auto space-y-8">
           <ScrollAnimationWrapper disabled={true}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-20 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
-              <div className="flex items-center justify-center gap-6 my-6">
-                <img src="/mark.png" alt="Mother Vegetable Icon" className="w-20 h-auto" />
+              <div className="flex items-center justify-center gap-3 md:gap-6 my-6">
+                <img src="/mark.png" alt="Mother Vegetable Icon" className="w-12 md:w-20 h-auto" />
                 <div>
-                  <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
+                  <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-6 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
                     {t({
                       JP: 'Mother Vegetable Drinks',
                       EN: 'Mother Vegetable Drinks'
                     })}
                   </h2>
-                  <div className="w-40 md:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-6 opacity-80"></div>
+                  <div className="w-32 md:w-40 lg:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-3 md:mt-6 opacity-80"></div>
                 </div>
               </div>
 
             {/* 画像グリッド */}
-            <div className="grid grid-cols-2 gap-x-20 gap-y-9 mt-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-9 mt-12">
               {drinks.map((drink, index) => (
                 <div key={index} className="flex flex-col">
                   <p className="text-white text-left text-lg font-semibold">{drink.topTitle}</p>
@@ -51,13 +51,12 @@ export default function MazavegeFamily() {
                 </div>
               ))}
             </div>
-
-            {/* ロゴ画像 */}
-            <div className="flex justify-center mt-12">
-              <img src="/mazavege_logo_midori.png" alt="Mazavege Logo" className="h-16 w-auto" />
-            </div>
             </div>
           </ScrollAnimationWrapper>
+          {/* ロゴ画像 */}
+          <div className="flex justify-center mt-12">
+            <img src="/mazavege_logo_midori.png" alt="Mazavege Logo" className="h-16 w-auto" />
+          </div>
         </div>
       </div>
     </section>
