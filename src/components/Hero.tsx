@@ -58,7 +58,7 @@ export default function Hero() {
           </div>
           <div className="w-40 md:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-6 opacity-80"></div>
           <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight text-[#4ade80] mt-8">
-              <div>Confidence</div>
+              <div>Forever</div>
             </h2>
         </div>
 
