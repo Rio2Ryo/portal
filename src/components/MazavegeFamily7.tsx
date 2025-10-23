@@ -100,14 +100,14 @@ export default function MazavegeFamily() {
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
                     {/* 直接使用のセクション */}
-                    <div className="flex-1 text-white space-y-2">
+                    <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                       <p>{t({ JP: "①ボディクリーム - 適量", EN: "①Body Cream - as needed" })}</p>
                       <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
                     </div>
 
                     {/* ボトルに混ぜる場合のセクション */}
-                    <div className="flex-1 text-white space-y-2">
+                    <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【ボトルに混ぜる場合の推奨量】", EN: "【Recommended amount for mixing in a bottle】" })}</p>
                       <p>{t({ JP: "①ボディクリーム - 100ml", EN: "①Body Cream - 100ml" })}</p>
                       <p>{t({ JP: "②Confidence  1本", EN: "②Confidence  1 stick" })}</p>
