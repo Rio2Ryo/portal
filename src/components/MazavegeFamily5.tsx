@@ -144,7 +144,7 @@ export default function MazavegeFamily() {
                   </div>
                   {/* 全幅の注意書き */}
                   <div className="text-white space-y-2 text-xs md:text-base">
-                    <p className="text-sm">{t({ JP: "*Confidenceはフェイスパウダーとして単独で使用することもできます。", EN: "*Confidence can also be used on its own as a face powder." })}</p>
+                    <p className="text-xs md:text-sm">{t({ JP: "*Confidenceはフェイスパウダーとして単独で使用することもできます。", EN: "*Confidence can also be used on its own as a face powder." })}</p>
                   </div>
                 </div>
               </div>

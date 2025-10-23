@@ -55,7 +55,7 @@ export default function MazavegeFamily() {
                   </div>
                   {/* 全幅の注意書き */}
                   <div className="text-white space-y-2 text-xs md:text-base">
-                    <p className="text-sm">{t({ JP: "*少量のConfidenceをブラシに取り、爪全体に優しく広げます。または、Confidenceを爪に擦り込むこともできます。", EN: "*Apply a small amount of Confidence to the brush and gently spread it over the entire nail. Alternatively, SURIKOMU Confidence onto the nail." })}</p>
+                    <p className="text-xs md:text-sm">{t({ JP: "*少量のConfidenceをブラシに取り、爪全体に優しく広げます。または、Confidenceを爪に擦り込むこともできます。", EN: "*Apply a small amount of Confidence to the brush and gently spread it over the entire nail. Alternatively, SURIKOMU Confidence onto the nail." })}</p>
                   </div>
                 </div>
               </div>
@@ -172,7 +172,7 @@ export default function MazavegeFamily() {
                   </div>
                   {/* 全幅の注意書き */}
                   <div className="text-white space-y-2 text-xs md:text-base">
-                    <p className="text-sm">{t({ JP: "*Confidenceは米国FDA Premium Food Grade規格に準拠しているため、上記の量を誤って飲み込んでも健康に害はないと考えられています。", EN: "*Because Confidence complies with U.S. FDA Premium Food Grade standards, accidental ingestion of the above amount is not considered harmful to health." })}</p>
+                    <p className="text-xs md:text-sm">{t({ JP: "*Confidenceは米国FDA Premium Food Grade規格に準拠しているため、上記の量を誤って飲み込んでも健康に害はないと考えられています。", EN: "*Because Confidence complies with U.S. FDA Premium Food Grade standards, accidental ingestion of the above amount is not considered harmful to health." })}</p>
                   </div>
                 </div>
               </div>

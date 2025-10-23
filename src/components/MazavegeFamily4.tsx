@@ -55,7 +55,7 @@ export default function MazavegeFamily() {
                   </div>
                   {/* 全幅の注意書き */}
                   <div className="text-white space-y-2 text-xs md:text-base">
-                    <p className="text-sm">{t({ JP: "*Confidenceが沈殿する可能性があるため、使用前によく振ってください", EN: "*Shake well before use, as Confidence may settle" })}</p>
+                    <p className="text-xs md:text-sm">{t({ JP: "*Confidenceが沈殿する可能性があるため、使用前によく振ってください", EN: "*Shake well before use, as Confidence may settle" })}</p>
                   </div>
                 </div>
               </div>
