@@ -64,7 +64,7 @@ export default function MazavegeFamily() {
 
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
-                  <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
+                  <h3 className="text-green-400 text-sm md:text-2xl font-bold text-center">
                     {t({ JP: "Confidenceを直接擦り込む", EN: "SURIKOMU Confidence directly" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
@@ -82,7 +82,7 @@ export default function MazavegeFamily() {
                     </div>
                   </div>
                   {/* 全幅の注意書き */}
-                  <div className="text-white space-y-2">
+                  <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="text-sm">{t({ JP: "*清潔な手で優しく擦り込んだ後、ガーゼや絆創膏で覆ってください。", EN: "*After gently rubbing it in with clean hands, cover the area with gauze or a bandage." })}</p>
                     <p className="text-sm"><span style={{ color: '#ff6b6b' }}>{t({ JP: "*傷が大きい、深い、", EN: "*If the wound is large, deep," })}</span>{t({ JP: "または感染の兆候がある場合は、Confidence単独で使用しないでください。傷の治癒に必要な液体が乾燥しないよう、Confidenceを軟膏、クリーム、または水と混ぜてから使用してください。", EN: " or shows signs of infection, do not apply Confidence alone. To help prevent essential wound fluids from drying out, mix Confidence with an ointment, cream, or water before use." })}</p>
                   </div>
@@ -108,7 +108,7 @@ export default function MazavegeFamily() {
 
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
-                  <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
+                  <h3 className="text-green-400 text-sm md:text-2xl font-bold text-center">
                     {t({ JP: "Confidenceを直接擦り込むまたは混ぜ込む", EN: "SURIKOMU or MAZEKOMU Confidence directly" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
@@ -127,7 +127,7 @@ export default function MazavegeFamily() {
                     </div>
                   </div>
                   {/* 全幅の注意書き */}
-                  <div className="text-white space-y-2">
+                  <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="text-sm">{t({ JP: "*臭いが気になる箇所に塗布してください。", EN: "*Apply to areas where odor is a concern." })}</p>
                   </div>
                 </div>
@@ -152,7 +152,7 @@ export default function MazavegeFamily() {
 
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
-                  <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
+                  <h3 className="text-green-400 text-sm md:text-2xl font-bold text-center">
                     {t({ JP: "Confidenceを直接擦り込むまたは混ぜ込む", EN: "SURIKOMU or MAZEKOMU Confidence directly" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
@@ -171,7 +171,7 @@ export default function MazavegeFamily() {
                     </div>
                   </div>
                   {/* 全幅の注意書き */}
-                  <div className="text-white space-y-2">
+                  <div className="text-white space-y-2 text-xs md:text-base">
                   </div>
                 </div>
               </div>
