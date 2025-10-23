@@ -17,7 +17,7 @@ export default function Header() {
               alt="MOTHER VEGETABLE"
               width={200}
               height={200}
-              className="w-[30px] h-auto sm:w-[60px] md:w-[100px]"
+              className="w-[60px] h-auto sm:w-[60px] md:w-[100px]"
             />
           </div>
 
