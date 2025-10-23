@@ -45,7 +45,6 @@ export default function MazavegeFamily() {
                       <p>{t({ JP: "①魚の餌 - 適量", EN: "①Fish food – as needed" })}</p>
                       <p>{t({ JP: "②", EN: "②" })}Forever - <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本 (10ℓ)", EN: "1/10 stick (10ℓ)" })}</span></p>
                       <p className="text-xs md:text-sm">{t({ JP: "*1日2〜3回給餌してください。", EN: "*Feed 2-3 times a day." })}</p>
-                      <p className="text-xs md:text-sm">{t({ JP: "*余ったForeverは水槽内の植物の栄養源となります。", EN: "*Any leftover Forever will serve as nutrients for the plants in the tank." })}</p>
                     </div>
 
                     {/* 餌袋に混ぜる場合のセクション */}
@@ -55,6 +54,10 @@ export default function MazavegeFamily() {
                       <p>{t({ JP: "②", EN: "②" })}Forever - <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
                       <p className="text-xs md:text-sm">{t({ JP: "*使用前によく振ってください。", EN: "*Shake well before use." })}</p>
                     </div>
+                  </div>
+                  {/* 全幅の注意書き */}
+                  <div className="text-white space-y-2 text-xs md:text-base">
+                    <p className="text-xs md:text-sm">{t({ JP: "*余ったForeverは水槽内の植物の栄養源となります。", EN: "*Any leftover Forever will serve as nutrients for the plants in the tank." })}</p>
                   </div>
                 </div>
               </div>
