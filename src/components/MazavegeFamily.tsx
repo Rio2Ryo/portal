@@ -37,7 +37,7 @@ export default function MazavegeFamily() {
                   <h3 className="text-green-400 text-sm md:text-2xl font-bold text-center">
                     {t({ JP: "Confidenceを直接擦り込む", EN: "SURIKOMU Confidence directly" })}
                   </h3>
-                  <div className="text-white space-y-2 text-xs">
+                  <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
                     <p>Confidence - <span style={{ color: '#4ade80' }}>{t({ JP: "適量", EN: "as needed" })}</span></p>
                     <p className="mt-4">{t({ JP: "*気になる箇所に直接Confidenceを塗ってください。", EN: "*Apply Confidence directly to affected areas." })}</p>
