@@ -43,7 +43,7 @@ export default function MazavegeFamily() {
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【水槽に直接入れる場合の推奨量】", EN: "【Recommended amount if adding directly to the tank】" })}</p>
                       <p>{t({ JP: "①魚の餌 - 適量", EN: "①Fish food – as needed" })}</p>
-                      <p>{t({ JP: "②", EN: "②" })}Forever - <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本 (10℄)", EN: "1/10 stick (10℄)" })}</span></p>
+                      <p>{t({ JP: "②", EN: "②" })}Forever - <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本 (10ℓ)", EN: "1/10 stick (10ℓ)" })}</span></p>
                       <p className="text-xs md:text-sm">{t({ JP: "*1日2〜3回給餌してください。", EN: "*Feed 2-3 times a day." })}</p>
                       <p className="text-xs md:text-sm">{t({ JP: "*余ったForeverは水槽内の植物の栄養源となります。", EN: "*Any leftover Forever will serve as nutrients for the plants in the tank." })}</p>
                     </div>
@@ -51,7 +51,7 @@ export default function MazavegeFamily() {
                     {/* 餌袋に混ぜる場合のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【餌袋に混ぜる場合の推奨量】", EN: "【Recommended amount if mixing into the food bag】" })}</p>
-                      <p>{t({ JP: "①魚の餌 - ", EN: "①Fish food – " })}<span style={{ color: '#4ade80' }}>100g</span></p>
+                      <p>{t({ JP: "①魚の餌 - ", EN: "①Fish food – " })}100g</p>
                       <p>{t({ JP: "②", EN: "②" })}Forever - <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
                       <p className="text-xs md:text-sm">{t({ JP: "*使用前によく振ってください。", EN: "*Shake well before use." })}</p>
                     </div>
@@ -94,7 +94,7 @@ export default function MazavegeFamily() {
                     {/* 餌袋に混ぜる場合のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【餌袋に混ぜる場合の推奨量】", EN: "【Recommended amount if mixing into the food bag】" })}</p>
-                      <p>{t({ JP: "①鳥の餌 - ", EN: "①Bird Food – " })}<span style={{ color: '#4ade80' }}>100g</span></p>
+                      <p>{t({ JP: "①鳥の餌 - ", EN: "①Bird Food – " })}100g</p>
                       <p>{t({ JP: "②", EN: "②" })}Forever - <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
                       <p className="text-xs md:text-sm">{t({ JP: "*使用前によく振ってください。", EN: "*Shake well before use." })}</p>
                     </div>
@@ -182,7 +182,7 @@ export default function MazavegeFamily() {
                     {/* 餌袋に混ぜる場合のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【餌袋に混ぜる場合の推奨量】", EN: "【Recommended amount if mixing into the food bag】" })}</p>
-                      <p>{t({ JP: "①ハムスターの餌 - ", EN: "①Hamster food – " })}<span style={{ color: '#4ade80' }}>100g</span></p>
+                      <p>{t({ JP: "①ハムスターの餌 - ", EN: "①Hamster food – " })}100g</p>
                       <p>{t({ JP: "②", EN: "②" })}Forever - <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
                       <p className="text-xs md:text-sm">{t({ JP: "*使用前によく振ってください。", EN: "*Shake well before use." })}</p>
                     </div>

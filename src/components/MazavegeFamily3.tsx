@@ -84,7 +84,7 @@ export default function MazavegeFamily() {
                   </h3>
                   <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
-                    <p>{t({ JP: "①ゼリー - ", EN: "①Jelly – " })}<span style={{ color: '#4ade80' }}>{t({ JP: "1個", EN: "1 piece" })}</span></p>
+                    <p>{t({ JP: "①ゼリー - ", EN: "①Jelly – " })}{t({ JP: "1個", EN: "1 piece" })}</p>
                     <p>{t({ JP: "②", EN: "②" })}Forever - <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                   </div>
                 </div>
