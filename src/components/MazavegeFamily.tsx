@@ -39,7 +39,7 @@ export default function MazavegeFamily() {
                   </h3>
                   <div className="text-white space-y-2 text-xs">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
-                    <p>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</p>
+                    <p><span style={{ color: '#4ade80' }}>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</span></p>
                     <p className="mt-4">{t({ JP: "*気になる箇所に直接Confidenceを塗ってください。", EN: "*Apply Confidence directly to affected areas." })}</p>
                   </div>
                 </div>
@@ -72,13 +72,13 @@ export default function MazavegeFamily() {
                     {/* 傷用のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【傷の推奨量】", EN: "【Recommended amount for wounds】" })}</p>
-                      <p>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</p>
+                      <p><span style={{ color: '#4ade80' }}>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</span></p>
                     </div>
 
                     {/* ニキビ用のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【ニキビの推奨量】", EN: "【Recommended amount for acne】" })}</p>
-                      <p>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</p>
+                      <p><span style={{ color: '#4ade80' }}>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</span></p>
                     </div>
                   </div>
                   {/* 全幅の注意書き */}
@@ -116,7 +116,7 @@ export default function MazavegeFamily() {
                     {/* 傷用のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【直接擦り込むの推奨量】", EN: "【Recommended amount for SURIKOMU directly】" })}</p>
-                      <p>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</p>
+                      <p><span style={{ color: '#4ade80' }}>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</span></p>
                     </div>
 
                     {/* ニキビ用のセクション */}
@@ -160,7 +160,7 @@ export default function MazavegeFamily() {
                     {/* 傷用のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【直接擦り込むの推奨量】", EN: "【Recommended amount for SURIKOMU directly】" })}</p>
-                      <p>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</p>
+                      <p><span style={{ color: '#4ade80' }}>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</span></p>
                     </div>
 
                     {/* ニキビ用のセクション */}

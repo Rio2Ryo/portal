@@ -132,7 +132,7 @@ export default function MazavegeFamily() {
                     {/* 直接使用のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
-                      <p>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</p>
+                      <p><span style={{ color: '#4ade80' }}>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</span></p>
                     </div>
 
                     {/* フェイスパウダーに混ぜる場合のセクション */}
