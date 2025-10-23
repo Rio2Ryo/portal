@@ -153,7 +153,7 @@ export default function MazavegeFamily() {
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
                     <p>{t({ JP: "①リップクリーム - 適量", EN: "①Lip balm - as needed" })}</p>
                     <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
-                    <p className="text-sm mt-4">{t({ JP: "*Confidenceをリップクリームに軽く塗り、唇全体に広げます。または、先にConfidenceを直接唇に塗布してから、その上にリップクリームを塗ることもできます。", EN: "*Lightly apply Confidence to the lip balm and smooth it over your lips. Alternatively, apply Confidence directly to the lips first, then follow with lip balm." })}</p>
+                    <p className="text-xs md:text-sm mt-4">{t({ JP: "*Confidenceをリップクリームに軽く塗り、唇全体に広げます。または、先にConfidenceを直接唇に塗布してから、その上にリップクリームを塗ることもできます。", EN: "*Lightly apply Confidence to the lip balm and smooth it over your lips. Alternatively, apply Confidence directly to the lips first, then follow with lip balm." })}</p>
                   </div>
                 </div>
               </div>
