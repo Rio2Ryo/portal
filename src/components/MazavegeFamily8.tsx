@@ -35,7 +35,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをネイルオイルにマゼコム", EN: "MAZEKOMU Confidence into a nail oil" })}
+                    {t({ JP: "Confidenceをネイルオイルに混ぜ込む", EN: "MAZEKOMU Confidence into a nail oil" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
@@ -55,7 +55,7 @@ export default function MazavegeFamily() {
                   </div>
                   {/* 全幅の注意書き */}
                   <div className="text-white space-y-2">
-                    <p className="text-sm">{t({ JP: "*少量のConfidenceをブラシに取り、爪全体に優しく広げます。または、Confidenceを爪にスリコムこともできます。", EN: "*Apply a small amount of Confidence to the brush and gently spread it over the entire nail. Alternatively, SURIKOMU Confidence onto the nail." })}</p>
+                    <p className="text-sm">{t({ JP: "*少量のConfidenceをブラシに取り、爪全体に優しく広げます。または、Confidenceを爪に擦り込むこともできます。", EN: "*Apply a small amount of Confidence to the brush and gently spread it over the entire nail. Alternatively, SURIKOMU Confidence onto the nail." })}</p>
                   </div>
                 </div>
               </div>
@@ -80,7 +80,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをハンドクリームにマゼコム", EN: "MAZEKOMU Confidence into a hand cream" })}
+                    {t({ JP: "Confidenceをハンドクリームに混ぜ込む", EN: "MAZEKOMU Confidence into a hand cream" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
@@ -121,7 +121,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを歯磨き粉にマゼコム", EN: "MAZEKOMU Confidence into a toothpaste" })}
+                    {t({ JP: "Confidenceを歯磨き粉に混ぜ込む", EN: "MAZEKOMU Confidence into a toothpaste" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
@@ -152,7 +152,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをマウスウォッシュにマゼコム", EN: "MAZEKOMU Confidence into a mouthwash" })}
+                    {t({ JP: "Confidenceをマウスウォッシュに混ぜ込む", EN: "MAZEKOMU Confidence into a mouthwash" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">

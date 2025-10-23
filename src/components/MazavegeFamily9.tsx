@@ -35,7 +35,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを水虫クリームにマゼコム", EN: "MAZEKOMU Confidence into an athlete's foot cream" })}
+                    {t({ JP: "Confidenceを水虫クリームに混ぜ込む", EN: "MAZEKOMU Confidence into an athlete's foot cream" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
@@ -76,7 +76,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを消毒薬にマゼコム", EN: "MAZEKOMU Confidence into an antiseptic" })}
+                    {t({ JP: "Confidenceを消毒薬に混ぜ込む", EN: "MAZEKOMU Confidence into an antiseptic" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
@@ -117,7 +117,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを虫刺されクリームにマゼコム", EN: "MAZEKOMU Confidence into an insect bite cream" })}
+                    {t({ JP: "Confidenceを虫刺されクリームに混ぜ込む", EN: "MAZEKOMU Confidence into an insect bite cream" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
@@ -147,7 +147,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをリップクリームにマゼコム", EN: "MAZEKOMU Confidence into lip balm" })}
+                    {t({ JP: "Confidenceをリップクリームに混ぜ込む", EN: "MAZEKOMU Confidence into lip balm" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>

@@ -35,7 +35,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを美容液にマゼコム", EN: "MAZEKOMU Confidence into a serum" })}
+                    {t({ JP: "Confidenceを美容液に混ぜ込む", EN: "MAZEKOMU Confidence into a serum" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
@@ -80,7 +80,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを軟膏にマゼコム", EN: "MAZEKOMU Confidence into ointment" })}
+                    {t({ JP: "Confidenceを軟膏に混ぜ込む", EN: "MAZEKOMU Confidence into ointment" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
@@ -110,7 +110,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをフェイスクリームにマゼコム", EN: "MAZEKOMU Confidence into a face cream" })}
+                    {t({ JP: "Confidenceをフェイスクリームに混ぜ込む", EN: "MAZEKOMU Confidence into a face cream" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
@@ -151,7 +151,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "フェイスマスク使用前にConfidenceをスリコム", EN: "SURIKOMU Confidence before using a face mask" })}
+                    {t({ JP: "フェイスマスク使用前にConfidenceを擦り込む", EN: "SURIKOMU Confidence before using a face mask" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>

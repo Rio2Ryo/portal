@@ -35,7 +35,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを日焼け止めにマゼコム", EN: "MAZEKOMU Confidence into sunscreen" })}
+                    {t({ JP: "Confidenceを日焼け止めに混ぜ込む", EN: "MAZEKOMU Confidence into sunscreen" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
@@ -65,7 +65,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを化粧下地にマゼコム", EN: "MAZEKOMU Confidence into primer" })}
+                    {t({ JP: "Confidenceを化粧下地に混ぜ込む", EN: "MAZEKOMU Confidence into primer" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
@@ -95,7 +95,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをリキッドファンデーションにマゼコム", EN: "MAZEKOMU Confidence into liquid foundation" })}
+                    {t({ JP: "Confidenceをリキッドファンデーションに混ぜ込む", EN: "MAZEKOMU Confidence into liquid foundation" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
@@ -125,7 +125,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをフェイスパウダーにマゼコム", EN: "MAZEKOMU Confidence into face powder" })}
+                    {t({ JP: "Confidenceをフェイスパウダーに混ぜ込む", EN: "MAZEKOMU Confidence into face powder" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">

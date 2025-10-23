@@ -35,7 +35,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをボディソープにマゼコム", EN: "MAZEKOMU Confidence into body soap" })}
+                    {t({ JP: "Confidenceをボディソープに混ぜ込む", EN: "MAZEKOMU Confidence into body soap" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
@@ -65,7 +65,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをハンドソープにマゼコム", EN: "MAZEKOMU Confidence into hand soap" })}
+                    {t({ JP: "Confidenceをハンドソープに混ぜ込む", EN: "MAZEKOMU Confidence into hand soap" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
@@ -95,7 +95,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをボディクリームにマゼコム", EN: "MAZEKOMU Confidence into body cream" })}
+                    {t({ JP: "Confidenceをボディクリームに混ぜ込む", EN: "MAZEKOMU Confidence into body cream" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
@@ -136,7 +136,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをシェービングフォームにマゼコム", EN: "MAZEKOMU Confidence into shaving foam" })}
+                    {t({ JP: "Confidenceをシェービングフォームに混ぜ込む", EN: "MAZEKOMU Confidence into shaving foam" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>

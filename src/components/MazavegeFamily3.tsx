@@ -35,7 +35,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをクレンジングにマゼコム", EN: "MAZEKOMU Confidence into cleanser" })}
+                    {t({ JP: "Confidenceをクレンジングに混ぜ込む", EN: "MAZEKOMU Confidence into cleanser" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
@@ -65,7 +65,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを洗顔料にマゼコム", EN: "MAZEKOMU Confidence into face wash" })}
+                    {t({ JP: "Confidenceを洗顔料に混ぜ込む", EN: "MAZEKOMU Confidence into face wash" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
@@ -95,7 +95,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを化粧水にマゼコム", EN: "MAZEKOMU Confidence into a lotion" })}
+                    {t({ JP: "Confidenceを化粧水に混ぜ込む", EN: "MAZEKOMU Confidence into a lotion" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
@@ -140,7 +140,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを乳液にマゼコム", EN: "MAZEKOMU Confidence into an emulsion" })}
+                    {t({ JP: "Confidenceを乳液に混ぜ込む", EN: "MAZEKOMU Confidence into an emulsion" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">

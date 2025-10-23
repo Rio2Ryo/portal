@@ -35,7 +35,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをシャンプーにマゼコム", EN: "MAZEKOMU Confidence into shampoo" })}
+                    {t({ JP: "Confidenceをシャンプーに混ぜ込む", EN: "MAZEKOMU Confidence into shampoo" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
@@ -65,7 +65,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをヘアトリートメントにマゼコム", EN: "MAZEKOMU Confidence into Hair treatment" })}
+                    {t({ JP: "Confidenceをヘアトリートメントに混ぜ込む", EN: "MAZEKOMU Confidence into Hair treatment" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
@@ -95,7 +95,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをヘアパックにマゼコム", EN: "MAZEKOMU Confidence into hair pack" })}
+                    {t({ JP: "Confidenceをヘアパックに混ぜ込む", EN: "MAZEKOMU Confidence into hair pack" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
@@ -125,7 +125,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをトリートメントにマゼコム", EN: "MAZEKOMU Confidence into treatment" })}
+                    {t({ JP: "Confidenceをトリートメントに混ぜ込む", EN: "MAZEKOMU Confidence into treatment" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>

@@ -35,7 +35,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを軟膏にマゼコム", EN: "MAZEKOMU Confidence into ointment" })}
+                    {t({ JP: "Confidenceを軟膏に混ぜ込む", EN: "MAZEKOMU Confidence into ointment" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【ローションまたはクリームと一緒に使用する場合の推奨量】", EN: "【Recommended amount when using with lotion or cream】" })}</p>
@@ -65,7 +65,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをシャンプーまたは育毛剤にマゼコム", EN: "MAZEKOMU Confidence into shampoo or hair tonic" })}
+                    {t({ JP: "Confidenceをシャンプーまたは育毛剤に混ぜ込む", EN: "MAZEKOMU Confidence into shampoo or hair tonic" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
@@ -110,7 +110,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを直接スリコム", EN: "SURIKOMU Confidence directly" })}
+                    {t({ JP: "Confidenceを直接擦り込む", EN: "SURIKOMU Confidence directly" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
@@ -154,7 +154,7 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを直接スリコム", EN: "SURIKOMU Confidence directly" })}
+                    {t({ JP: "Confidenceを直接擦り込む", EN: "SURIKOMU Confidence directly" })}
                   </h3>
                   <div className="text-white space-y-2">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
