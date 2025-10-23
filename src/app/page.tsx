@@ -13,6 +13,7 @@ import MazavegeFamily5 from '@/components/MazavegeFamily5'
 import MazavegeFamily6 from '@/components/MazavegeFamily6'
 import MazavegeFamily7 from '@/components/MazavegeFamily7'
 import MazavegeFamily8 from '@/components/MazavegeFamily8'
+import MazavegeFamily9 from '@/components/MazavegeFamily9'
 import ProjectOverview from '@/components/ProjectOverview'
 import Footer from '@/components/Footer'
 import LoadingScreen from '@/components/LoadingScreen'
@@ -43,6 +44,7 @@ export default function Home() {
         <MazavegeFamily6 />
         <MazavegeFamily7 />
         <MazavegeFamily8 />
+         <MazavegeFamily9 />
       </main>
     </>
   )
