@@ -126,7 +126,7 @@ export default function MazavegeFamily() {
                   <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
                     <p>{t({ JP: "①歯磨き粉 - 適量", EN: "①Toothpaste - as needed" })}</p>
-                    <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                     <p className="mt-4">{t({ JP: "*Confidenceは米国FDA Premium Food Grade規格に準拠しているため、上記の量を誤って飲み込んでも健康に害はないと考えられています。", EN: "*Because Confidence complies with U.S. FDA Premium Food Grade standards, accidental ingestion of the above amount is not considered harmful to health." })}</p>
                   </div>
                 </div>
