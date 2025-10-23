@@ -18,7 +18,7 @@ export default function MazavegeFamily() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                Dark spots / Wrinkles
+                {t({ JP: "シミ / シワ", EN: "Dark spots / Wrinkles" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -35,12 +35,12 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    SURIKOMU Confidence directly
+                    {t({ JP: "Confidenceを直接スリコム", EN: "SURIKOMU Confidence directly" })}
                   </h3>
                   <div className="text-white space-y-2">
-                    <p className="font-semibold">【Recommended amount】</p>
-                    <p>Confidence - as needed</p>
-                    <p className="mt-4">*Apply Confidence directly to affected areas.</p>
+                    <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
+                    <p>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</p>
+                    <p className="mt-4">{t({ JP: "*気になる箇所に直接Confidenceを塗ってください。", EN: "*Apply Confidence directly to affected areas." })}</p>
                   </div>
                 </div>
               </div>
@@ -48,7 +48,7 @@ export default function MazavegeFamily() {
             <div className="u2 mt-10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                Wounds / Acne
+                {t({ JP: "傷 / ニキビ", EN: "Wounds / Acne" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -65,26 +65,26 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    SURIKOMU Confidence directly
+                    {t({ JP: "Confidenceを直接スリコム", EN: "SURIKOMU Confidence directly" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
                     {/* 傷用のセクション */}
                     <div className="flex-1 text-white space-y-2">
-                      <p className="font-semibold">【Recommended amount for wounds】</p>
-                      <p>Confidence - as needed</p>
+                      <p className="font-semibold">{t({ JP: "【傷の推奨量】", EN: "【Recommended amount for wounds】" })}</p>
+                      <p>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</p>
                     </div>
 
                     {/* ニキビ用のセクション */}
                     <div className="flex-1 text-white space-y-2">
-                      <p className="font-semibold">【Recommended amount for acne】</p>
-                      <p>Confidence - as needed</p>
+                      <p className="font-semibold">{t({ JP: "【ニキビの推奨量】", EN: "【Recommended amount for acne】" })}</p>
+                      <p>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</p>
                     </div>
                   </div>
                   {/* 全幅の注意書き */}
                   <div className="text-white space-y-2">
-                    <p className="text-sm">*After gently rubbing it in with clean hands, cover the area with gauze or a bandage.</p>
-                    <p className="text-sm"><span style={{ color: '#ff6b6b' }}>*If the wound is large, deep,</span> or shows signs of infection, do not apply Confidence alone. To help prevent essential wound fluids from drying out, mix Confidence with an ointment, cream, or water before use.</p>
+                    <p className="text-sm">{t({ JP: "*清潔な手で優しく擦り込んだ後、ガーゼや絆創膏で覆ってください。", EN: "*After gently rubbing it in with clean hands, cover the area with gauze or a bandage." })}</p>
+                    <p className="text-sm"><span style={{ color: '#ff6b6b' }}>{t({ JP: "*傷が大きい、深い、", EN: "*If the wound is large, deep," })}</span>{t({ JP: "または感染の兆候がある場合は、Confidence単独で使用しないでください。傷の治癒に必要な液体が乾燥しないよう、Confidenceを軟膏、クリーム、または水と混ぜてから使用してください。", EN: " or shows signs of infection, do not apply Confidence alone. To help prevent essential wound fluids from drying out, mix Confidence with an ointment, cream, or water before use." })}</p>
                   </div>
                 </div>
               </div>
@@ -92,7 +92,7 @@ export default function MazavegeFamily() {
             <div className="u3 mt-10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                Odor
+                {t({ JP: "臭い", EN: "Odor" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -109,26 +109,26 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    SURIKOMU or MAZEKOMU Confidence directly
+                    {t({ JP: "Confidenceを直接スリコムまたはマゼコム", EN: "SURIKOMU or MAZEKOMU Confidence directly" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
                     {/* 傷用のセクション */}
                     <div className="flex-1 text-white space-y-2">
-                      <p className="font-semibold">【Recommended amount for SURIKOMU directly】</p>
-                      <p>Confidence - as needed</p>
+                      <p className="font-semibold">{t({ JP: "【直接スリコムの推奨量】", EN: "【Recommended amount for SURIKOMU directly】" })}</p>
+                      <p>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</p>
                     </div>
 
                     {/* ニキビ用のセクション */}
                     <div className="flex-1 text-white space-y-2">
-                      <p className="font-semibold">【Recommended amount for SURIKOMU directly】</p>
-                      <p>①Body Lotion - as needed</p>
-                      <p>②Confidence  1/10 stick</p>
+                      <p className="font-semibold">{t({ JP: "【直接スリコムの推奨量】", EN: "【Recommended amount for SURIKOMU directly】" })}</p>
+                      <p>{t({ JP: "①ボディローション - 適量", EN: "①Body Lotion - as needed" })}</p>
+                      <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
                     </div>
                   </div>
                   {/* 全幅の注意書き */}
                   <div className="text-white space-y-2">
-                    <p className="text-sm">*Apply to areas where odor is a concern.</p>
+                    <p className="text-sm">{t({ JP: "*臭いが気になる箇所に塗布してください。", EN: "*Apply to areas where odor is a concern." })}</p>
                   </div>
                 </div>
               </div>
@@ -136,7 +136,7 @@ export default function MazavegeFamily() {
             <div className="u4 mt-10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                Allergy-prone skin
+                {t({ JP: "アレルギー肌", EN: "Allergy-prone skin" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -153,21 +153,21 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    SURIKOMU or MAZEKOMU Confidence directly
+                    {t({ JP: "Confidenceを直接スリコムまたはマゼコム", EN: "SURIKOMU or MAZEKOMU Confidence directly" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
                     {/* 傷用のセクション */}
                     <div className="flex-1 text-white space-y-2">
-                      <p className="font-semibold">【Recommended amount for SURIKOMU directly】</p>
-                      <p>Confidence - as needed</p>
+                      <p className="font-semibold">{t({ JP: "【直接スリコムの推奨量】", EN: "【Recommended amount for SURIKOMU directly】" })}</p>
+                      <p>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</p>
                     </div>
 
                     {/* ニキビ用のセクション */}
                     <div className="flex-1 text-white space-y-2">
-                      <p className="font-semibold">【Recommended amount when mixing with an ointment】</p>
-                      <p>①Ointment - as needed</p>
-                      <p>②Confidence  1/10 stick</p>
+                      <p className="font-semibold">{t({ JP: "【軟膏と混ぜる場合の推奨量】", EN: "【Recommended amount when mixing with an ointment】" })}</p>
+                      <p>{t({ JP: "①軟膏 - 適量", EN: "①Ointment - as needed" })}</p>
+                      <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
                     </div>
                   </div>
                   {/* 全幅の注意書き */}

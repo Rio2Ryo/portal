@@ -18,7 +18,7 @@ export default function MazavegeFamily() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                Nail Oil
+                {t({ JP: "ネイルオイル", EN: "Nail Oil" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -35,27 +35,27 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    MAZEKOMU Confidence into a nail oil
+                    {t({ JP: "Confidenceをネイルオイルにマゼコム", EN: "MAZEKOMU Confidence into a nail oil" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
                     {/* 直接使用のセクション */}
                     <div className="flex-1 text-white space-y-2">
-                      <p className="font-semibold">【Recommended amount for direct application】</p>
-                      <p>①Nail Oil - as needed</p>
-                      <p>②Confidence  1/10 stick</p>
+                      <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
+                      <p>{t({ JP: "①ネイルオイル - 適量", EN: "①Nail Oil - as needed" })}</p>
+                      <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
                     </div>
 
                     {/* ボトルに混ぜる場合のセクション */}
                     <div className="flex-1 text-white space-y-2">
-                      <p className="font-semibold">【Recommended amount for mixing in a bottle】</p>
-                      <p>①Nail Oil - 100ml</p>
-                      <p>②Confidence  1 stick</p>
+                      <p className="font-semibold">{t({ JP: "【ボトルに混ぜる場合の推奨量】", EN: "【Recommended amount for mixing in a bottle】" })}</p>
+                      <p>{t({ JP: "①ネイルオイル - 100ml", EN: "①Nail Oil - 100ml" })}</p>
+                      <p>{t({ JP: "②Confidence  1本", EN: "②Confidence  1 stick" })}</p>
                     </div>
                   </div>
                   {/* 全幅の注意書き */}
                   <div className="text-white space-y-2">
-                    <p className="text-sm">*Apply a small amount of Confidence to the brush and gently spread it over the entire nail. Alternatively, SURIKOMU Confidence onto the nail.</p>
+                    <p className="text-sm">{t({ JP: "*少量のConfidenceをブラシに取り、爪全体に優しく広げます。または、Confidenceを爪にスリコムこともできます。", EN: "*Apply a small amount of Confidence to the brush and gently spread it over the entire nail. Alternatively, SURIKOMU Confidence onto the nail." })}</p>
                   </div>
                 </div>
               </div>
@@ -63,7 +63,7 @@ export default function MazavegeFamily() {
             <div className="u2 mt-10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                Hand Cream
+                {t({ JP: "ハンドクリーム", EN: "Hand Cream" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -80,22 +80,22 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    MAZEKOMU Confidence into a hand cream
+                    {t({ JP: "Confidenceをハンドクリームにマゼコム", EN: "MAZEKOMU Confidence into a hand cream" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
                     {/* 直接使用のセクション */}
                     <div className="flex-1 text-white space-y-2">
-                      <p className="font-semibold">【Recommended amount for direct application】</p>
-                      <p>①Hand Cream - as needed</p>
-                      <p>②Confidence  1/10 stick</p>
+                      <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
+                      <p>{t({ JP: "①ハンドクリーム - 適量", EN: "①Hand Cream - as needed" })}</p>
+                      <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
                     </div>
 
                     {/* ボトルに混ぜる場合のセクション */}
                     <div className="flex-1 text-white space-y-2">
-                      <p className="font-semibold">【Recommended amount for mixing in a bottle】</p>
-                      <p>①Hand Cream - 100ml</p>
-                      <p>②Confidence  1 stick</p>
+                      <p className="font-semibold">{t({ JP: "【ボトルに混ぜる場合の推奨量】", EN: "【Recommended amount for mixing in a bottle】" })}</p>
+                      <p>{t({ JP: "①ハンドクリーム - 100ml", EN: "①Hand Cream - 100ml" })}</p>
+                      <p>{t({ JP: "②Confidence  1本", EN: "②Confidence  1 stick" })}</p>
                     </div>
                   </div>
                 </div>
@@ -104,7 +104,7 @@ export default function MazavegeFamily() {
             <div className="u3 mt-10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                Tooth Paste
+                {t({ JP: "歯磨き粉", EN: "Tooth Paste" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -121,13 +121,13 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    MAZEKOMU Confidence into a toothpaste
+                    {t({ JP: "Confidenceを歯磨き粉にマゼコム", EN: "MAZEKOMU Confidence into a toothpaste" })}
                   </h3>
                   <div className="text-white space-y-2">
-                    <p className="font-semibold">【Recommended amount】</p>
-                    <p>①Toothpaste - as needed</p>
-                    <p>②Confidence  1/10 stick</p>
-                    <p className="mt-4">*Because Confidence complies with U.S. FDA Premium Food Grade standards, accidental ingestion of the above amount is not considered harmful to health.</p>
+                    <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
+                    <p>{t({ JP: "①歯磨き粉 - 適量", EN: "①Toothpaste - as needed" })}</p>
+                    <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                    <p className="mt-4">{t({ JP: "*Confidenceは米国FDA Premium Food Grade規格に準拠しているため、上記の量を誤って飲み込んでも健康に害はないと考えられています。", EN: "*Because Confidence complies with U.S. FDA Premium Food Grade standards, accidental ingestion of the above amount is not considered harmful to health." })}</p>
                   </div>
                 </div>
               </div>
@@ -135,7 +135,7 @@ export default function MazavegeFamily() {
             <div className="mt-10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                Mouthwash
+                {t({ JP: "マウスウォッシュ", EN: "Mouthwash" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -152,27 +152,27 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-lg md:text-2xl font-bold text-center">
-                    MAZEKOMU Confidence into a mouthwash
+                    {t({ JP: "Confidenceをマウスウォッシュにマゼコム", EN: "MAZEKOMU Confidence into a mouthwash" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
                     {/* 直接使用のセクション */}
                     <div className="flex-1 text-white space-y-2">
-                      <p className="font-semibold">【Recommended amount for direct application】</p>
-                      <p>①Mouthwash - as needed</p>
-                      <p>②Confidence  1/10 stick</p>
+                      <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
+                      <p>{t({ JP: "①マウスウォッシュ - 適量", EN: "①Mouthwash - as needed" })}</p>
+                      <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
                     </div>
 
                     {/* ボトルに混ぜる場合のセクション */}
                     <div className="flex-1 text-white space-y-2">
-                      <p className="font-semibold">【Recommended amount for mixing in a bottle】</p>
-                      <p>①Mouthwash - 100m L</p>
-                      <p>②Confidence  1 stick</p>
+                      <p className="font-semibold">{t({ JP: "【ボトルに混ぜる場合の推奨量】", EN: "【Recommended amount for mixing in a bottle】" })}</p>
+                      <p>{t({ JP: "①マウスウォッシュ - 100ml", EN: "①Mouthwash - 100m L" })}</p>
+                      <p>{t({ JP: "②Confidence  1本", EN: "②Confidence  1 stick" })}</p>
                     </div>
                   </div>
                   {/* 全幅の注意書き */}
                   <div className="text-white space-y-2">
-                    <p className="text-sm">*Because Confidence complies with U.S. FDA Premium Food Grade standards, accidental ingestion of the above amount is not considered harmful to health.</p>
+                    <p className="text-sm">{t({ JP: "*Confidenceは米国FDA Premium Food Grade規格に準拠しているため、上記の量を誤って飲み込んでも健康に害はないと考えられています。", EN: "*Because Confidence complies with U.S. FDA Premium Food Grade standards, accidental ingestion of the above amount is not considered harmful to health." })}</p>
                   </div>
                 </div>
               </div>
