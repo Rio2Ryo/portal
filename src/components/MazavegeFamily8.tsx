@@ -40,14 +40,14 @@ export default function MazavegeFamily() {
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
                     {/* 直接使用のセクション */}
-                    <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                       <p>{t({ JP: "①ネイルオイル - 適量", EN: "①Nail Oil - as needed" })}</p>
                       <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                     </div>
 
                     {/* ボトルに混ぜる場合のセクション */}
-                    <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【ボトルに混ぜる場合の推奨量】", EN: "【Recommended amount for mixing in a bottle】" })}</p>
                       <p>{t({ JP: "①ネイルオイル - 100ml", EN: "①Nail Oil - 100ml" })}</p>
                       <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
@@ -85,14 +85,14 @@ export default function MazavegeFamily() {
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
                     {/* 直接使用のセクション */}
-                    <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                       <p>{t({ JP: "①ハンドクリーム - 適量", EN: "①Hand Cream - as needed" })}</p>
                       <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                     </div>
 
                     {/* ボトルに混ぜる場合のセクション */}
-                    <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【ボトルに混ぜる場合の推奨量】", EN: "【Recommended amount for mixing in a bottle】" })}</p>
                       <p>{t({ JP: "①ハンドクリーム - 100ml", EN: "①Hand Cream - 100ml" })}</p>
                       <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
@@ -157,14 +157,14 @@ export default function MazavegeFamily() {
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
                     {/* 直接使用のセクション */}
-                    <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                       <p>{t({ JP: "①マウスウォッシュ - 適量", EN: "①Mouthwash - as needed" })}</p>
                       <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                     </div>
 
                     {/* ボトルに混ぜる場合のセクション */}
-                    <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【ボトルに混ぜる場合の推奨量】", EN: "【Recommended amount for mixing in a bottle】" })}</p>
                       <p>{t({ JP: "①マウスウォッシュ - 100ml", EN: "①Mouthwash - 100m L" })}</p>
                       <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>

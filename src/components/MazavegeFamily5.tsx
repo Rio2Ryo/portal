@@ -130,13 +130,13 @@ export default function MazavegeFamily() {
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
                     {/* 直接使用のセクション */}
-                    <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                       <p>Confidence - <span style={{ color: '#4ade80' }}>{t({ JP: "適量", EN: "as needed" })}</span></p>
                     </div>
 
                     {/* フェイスパウダーに混ぜる場合のセクション */}
-                    <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【フェイスパウダーに混ぜる場合の推奨量】", EN: "【Recommended amount for mixing into face powder】" })}</p>
                       <p>{t({ JP: "①フェイスパウダー - 100 mg", EN: "①Face Powder - 100 mg" })}</p>
                       <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
