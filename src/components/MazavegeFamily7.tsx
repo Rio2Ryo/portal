@@ -40,7 +40,7 @@ export default function MazavegeFamily() {
                   <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                     <p>{t({ JP: "①ボディソープ - 適量", EN: "①Body Soap - as needed" })}</p>
-                    <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                   </div>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function MazavegeFamily() {
                   <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                     <p>{t({ JP: "①ハンドソープ - 適量", EN: "①Hand Soap - as needed" })}</p>
-                    <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                   </div>
                 </div>
               </div>
@@ -103,14 +103,14 @@ export default function MazavegeFamily() {
                     <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                       <p>{t({ JP: "①ボディクリーム - 適量", EN: "①Body Cream - as needed" })}</p>
-                      <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                     </div>
 
                     {/* ボトルに混ぜる場合のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【ボトルに混ぜる場合の推奨量】", EN: "【Recommended amount for mixing in a bottle】" })}</p>
                       <p>{t({ JP: "①ボディクリーム - 100ml", EN: "①Body Cream - 100ml" })}</p>
-                      <p>{t({ JP: "②Confidence  1本", EN: "②Confidence  1 stick" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
                     </div>
                   </div>
                 </div>
@@ -141,7 +141,7 @@ export default function MazavegeFamily() {
                   <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                     <p>{t({ JP: "①シェービングフォーム - 適量", EN: "①Shaving Foam - as needed" })}</p>
-                    <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                   </div>
                 </div>
               </div>

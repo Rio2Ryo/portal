@@ -40,7 +40,7 @@ export default function MazavegeFamily() {
                   <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                     <p>{t({ JP: "①シャンプー - 適量", EN: "①Shampoo - as needed" })}</p>
-                    <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                   </div>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function MazavegeFamily() {
                   <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                     <p>{t({ JP: "①トリートメント - 適量", EN: "①Treatment - as needed" })}</p>
-                    <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                   </div>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export default function MazavegeFamily() {
                   <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                     <p>{t({ JP: "①ヘアパック - 適量", EN: "①Hair Pack - as needed" })}</p>
-                    <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                   </div>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function MazavegeFamily() {
                   <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                     <p>{t({ JP: "①洗い流さないヘアトリートメント - 適量", EN: "①Leave-in Hair Treatment - as needed" })}</p>
-                    <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                   </div>
                 </div>
               </div>

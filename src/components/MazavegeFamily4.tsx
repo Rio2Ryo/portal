@@ -43,14 +43,14 @@ export default function MazavegeFamily() {
                     <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                       <p>{t({ JP: "①美容液 - 適量", EN: "①Serum - as needed" })}</p>
-                      <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                     </div>
 
                     {/* ボトルに混ぜる場合のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【ボトルに混ぜる場合の推奨量】", EN: "【Recommended amount for mixing in a bottle】" })}</p>
                       <p>{t({ JP: "①美容液 - 100ml", EN: "①Serum - 100ml" })}</p>
-                      <p>{t({ JP: "②Confidence  1本", EN: "②Confidence  1 stick" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
                     </div>
                   </div>
                   {/* 全幅の注意書き */}
@@ -118,14 +118,14 @@ export default function MazavegeFamily() {
                     <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
                       <p>{t({ JP: "①フェイスクリーム - 適量", EN: "①Face Cream - as needed" })}</p>
-                      <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                     </div>
 
                     {/* ボトルに混ぜる場合のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【ボトルに混ぜる場合の推奨量】", EN: "【Recommended amount for mixing in a bottle】" })}</p>
                       <p>{t({ JP: "①フェイスクリーム - 100ml", EN: "①Face Cream - 100ml" })}</p>
-                      <p>{t({ JP: "②Confidence  1本", EN: "②Confidence  1 stick" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
                     </div>
                   </div>
                 </div>

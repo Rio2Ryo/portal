@@ -40,7 +40,7 @@ export default function MazavegeFamily() {
                   <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
                     <p>{t({ JP: "①日焼け止めクリーム - 適量", EN: "①Sunscreen Cream - as needed" })}</p>
-                    <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                   </div>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function MazavegeFamily() {
                   <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
                     <p>{t({ JP: "①化粧下地 - 適量", EN: "①Primer - as needed" })}</p>
-                    <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                   </div>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export default function MazavegeFamily() {
                   <div className="text-white space-y-2 text-xs md:text-base">
                     <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
                     <p>{t({ JP: "①リキッドファンデーション - 適量", EN: "①Liquid Foundation - as needed" })}</p>
-                    <p>{t({ JP: "②Confidence  1/10本", EN: "②Confidence  1/10 stick" })}</p>
+                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                   </div>
                 </div>
               </div>
@@ -132,14 +132,14 @@ export default function MazavegeFamily() {
                     {/* 直接使用のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
-                      <p><span style={{ color: '#4ade80' }}>{t({ JP: "Confidence - 適量", EN: "Confidence - as needed" })}</span></p>
+                      <p>Confidence - <span style={{ color: '#4ade80' }}>{t({ JP: "適量", EN: "as needed" })}</span></p>
                     </div>
 
                     {/* フェイスパウダーに混ぜる場合のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:taxt-base">
                       <p className="font-semibold">{t({ JP: "【フェイスパウダーに混ぜる場合の推奨量】", EN: "【Recommended amount for mixing into face powder】" })}</p>
                       <p>{t({ JP: "①フェイスパウダー - 100 mg", EN: "①Face Powder - 100 mg" })}</p>
-                      <p>{t({ JP: "②Confidence  1本", EN: "②Confidence  1 stick" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
                     </div>
                   </div>
                   {/* 全幅の注意書き */}
