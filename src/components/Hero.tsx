@@ -7,7 +7,7 @@ export default function Hero() {
   const { t, language } = useLanguage()
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
@@ -21,16 +21,16 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center max-w-7xl mx-auto px-4 transition-all duration-1500 pt-40 md:pt-48 lg:pt-56">
+      <div className="relative z-10 text-center max-w-7xl mx-auto px-4 transition-all duration-1500 pt-32 md:pt-48 lg:pt-56">
         {/* Title Section - Single Component */}
         <div className="mb-12">
-        <div className="mb-6 flex justify-center">
+        <div className="mb-4 lg:mb-6 flex justify-center">
             <Image
               src="/mazavege_logo_midori.png"
               alt="mazavege Logo"
               width={200}
               height={200}
-              className="w-[130px] h-auto"
+              className="w-[70px] lg:w-[130px] h-auto"
             />
           </div>
           {/*<div className="mb-6 flex justify-center">
@@ -52,7 +52,7 @@ export default function Hero() {
               filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3)) drop-shadow(0 2px 4px rgba(34, 197, 94, 0.2))',
             }}
           >
-            <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-semibold leading-tight">
+            <h1 className="text-sm sm:text-2xl md:text-4xl lg:text-5xl font-semibold leading-tight">
               <div>MOTHER VEGETABLE PRODUCTS</div>
             </h1>
           </div>
@@ -62,21 +62,21 @@ export default function Hero() {
 
 
         {/* Description - Not in Box */}
-        <div className="max-w-4xl mx-auto mb-12 mt-20 px-4">
+        <div className="max-w-4xl mx-auto mb-12 mt-10 lg:mt-20 px-4">
           <div className="space-y-3">
-            <p className="text-sm md:text-2xl text-[#4ade80] leading-relaxed">
+            <p className="text-xs md:text-2xl text-[#4ade80] leading-relaxed">
               {t({
                 JP: '35億年前の地球のはじまりの生命',
                 EN: 'Life at Earth’s dawn, 3.5 billion years ago.'
               })}
             </p>
-            <p className="text-sm md:text-2xl text-[#4ade80] leading-relaxed">
+            <p className="text-xs md:text-2xl text-[#4ade80] leading-relaxed">
               {t({
                 JP: '「マザーベジタブル」',
                 EN: '"Mother Vegetable".'
               })}
             </p>
-            <p className="text-sm md:text-2xl text-[#4ade80] leading-relaxed">
+            <p className="text-xs md:text-2xl text-[#4ade80] leading-relaxed">
               {t({
                 JP: '地球が生み出した生命力を、あなたに。',
                 EN: 'Earth-born vitality, for you.'
