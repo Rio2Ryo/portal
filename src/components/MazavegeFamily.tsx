@@ -40,11 +40,11 @@ export default function MazavegeFamily() {
                         <p className="text-green-600 text-[8px] leading-tight">for Body</p>
                       </div>
                       <div className="w-[55%]">
-                        <div className="text-white text-[7px] flex items-start leading-[1.2]">
+                        <div className="text-white text-[9px] flex items-start leading-[1.2]">
                           <span className="text-green-600 mr-0.5 flex-shrink-0 text-[8px]">✓</span>
                           <span>{t({ JP: "健康な腸をサポート、全身の細胞再生", EN: "Supports a healthy gut, Regeneration of cells throughout the body." })}</span>
                         </div>
-                        <div className="text-white text-[7px] flex items-start leading-[1.2] mt-0.5">
+                        <div className="text-white text-[9px] flex items-start leading-[1.2] mt-0.5">
                           <span className="text-green-600 mr-0.5 flex-shrink-0 text-[8px]">✓</span>
                           <span>{t({ JP: "便秘を和らげ、睡眠を改善し、減量を補助", EN: "Helps relieve constipation, improve sleep, and aid weight management." })}</span>
                         </div>
@@ -53,11 +53,11 @@ export default function MazavegeFamily() {
                     <div className="flex flex-row gap-2">
                       <div className="w-[45%]">
                         <p className="text-red-500 font-bold text-[8px] leading-tight">TORIKOMU</p>
-                        <p className="text-white text-[7px] leading-[1.2]">{t({ JP: "48種類の栄養素を一度に", EN: "48 different nutrients at once." })}</p>
+                        <p className="text-white text-[9px] leading-[1.2]">{t({ JP: "48種類の栄養素を一度に", EN: "48 different nutrients at once." })}</p>
                       </div>
                       <div className="w-[55%]">
                         <h4 className="text-green-600 font-bold text-[8px] leading-tight">{t({ JP: "使い方", EN: "How to use" })}</h4>
-                        <div className="text-white text-[7px] flex items-start leading-[1.2]">
+                        <div className="text-white text-[9px] flex items-start leading-[1.2]">
                           <span className="text-green-600 mr-0.5 flex-shrink-0 text-[8px]">✓</span>
                           <span>{t({ JP: "1カプセルを飲み物や食事に’TORIKOMU’", EN: "Simply, TORIKOMU one capsule into your drink or meal." })}</span>
                         </div>
@@ -117,11 +117,11 @@ export default function MazavegeFamily() {
                         <p className="text-green-600 text-[8px] leading-tight">for Pet</p>
                       </div>
                       <div className="w-[55%]">
-                        <div className="text-white text-[7px] flex items-start leading-[1.2]">
+                        <div className="text-white text-[9px] flex items-start leading-[1.2]">
                           <span className="text-green-600 mr-0.5 flex-shrink-0 text-[8px]">✓</span>
                           <span>{t({ JP: "涙やけの軽減と腸の健康をサポート", EN: "Supports tear-stain reduction and gut health." })}</span>
                         </div>
-                        <div className="text-white text-[7px] flex items-start leading-[1.2] mt-0.5">
+                        <div className="text-white text-[9px] flex items-start leading-[1.2] mt-0.5">
                           <span className="text-green-600 mr-0.5 flex-shrink-0 text-[8px]">✓</span>
                           <span>{t({ JP: "体臭を軽減し、無駄吠えや食欲減退を改善", EN: "Helps reduce body and waste odors; boosts appetite." })}</span>
                         </div>
@@ -129,11 +129,11 @@ export default function MazavegeFamily() {
                     </div>
                     <div className="flex flex-row gap-2">
                       <div className="w-[45%]">
-                        <p className="text-red-500 font-bold text-[8px] leading-tight">MAZEKOMU</p>
+                        <p className="text-red-500 font-bold text-[9px] leading-tight">MAZEKOMU</p>
                         <p className="text-white text-[7px] leading-[1.2]">{t({ JP: "ペットの健康寿命を延ばす", EN: "to extend your pet's healthy life." })}</p>
                       </div>
                       <div className="w-[55%]">
-                        <h4 className="text-green-600 font-bold text-[8px] leading-tight">{t({ JP: "使い方", EN: "How to use" })}</h4>
+                        <h4 className="text-green-600 font-bold text-[9px] leading-tight">{t({ JP: "使い方", EN: "How to use" })}</h4>
                         <div className="text-white text-[7px] flex items-start leading-[1.2]">
                           <span className="text-green-600 mr-0.5 flex-shrink-0 text-[8px]">✓</span>
                           <span>{t({ JP: "ペットフードに1ケース'MAZEKOMU'", EN: "Simply, MAZEKOMU one capsule into your pet's food." })}</span>
@@ -194,11 +194,11 @@ export default function MazavegeFamily() {
                         <p className="text-green-600 text-[8px] leading-tight">For All Skin</p>
                       </div>
                       <div className="w-[55%]">
-                        <div className="text-white text-[7px] flex items-start leading-[1.2]">
+                        <div className="text-white text-[9px] flex items-start leading-[1.2]">
                           <span className="text-green-600 mr-0.5 flex-shrink-0 text-[8px]">✓</span>
                           <span>{t({ JP: "強力な抗老化効果", EN: "Powerful anti-aging benefits." })}</span>
                         </div>
-                        <div className="text-white text-[7px] flex items-start leading-[1.2] mt-0.5">
+                        <div className="text-white text-[9px] flex items-start leading-[1.2] mt-0.5">
                           <span className="text-green-600 mr-0.5 flex-shrink-0 text-[8px]">✓</span>
                           <span>{t({ JP: "シミ、ニキビ、臭い、肌のダメージを改善", EN: "Helps improve dark spots, acne, odor, and skin damage." })}</span>
                         </div>
@@ -206,11 +206,11 @@ export default function MazavegeFamily() {
                     </div>
                     <div className="flex flex-row gap-2">
                       <div className="w-[45%]">
-                        <p className="text-red-500 font-bold text-[8px] leading-tight">SURIKOMU , MAZEKOMU</p>
+                        <p className="text-red-500 font-bold text-[9px] leading-tight">SURIKOMU , MAZEKOMU</p>
                         <p className="text-white text-[7px] leading-[1.2]">{t({ JP: "肌の治癒効果", EN: "Skin Healing Effect" })}</p>
                       </div>
                       <div className="w-[55%]">
-                        <h4 className="text-green-600 font-bold text-[8px] leading-tight">{t({ JP: "使い方", EN: "How to use" })}</h4>
+                        <h4 className="text-green-600 font-bold text-[9px] leading-tight">{t({ JP: "使い方", EN: "How to use" })}</h4>
                         <div className="text-white text-[7px] flex items-start leading-[1.2]">
                           <span className="text-green-600 mr-0.5 flex-shrink-0 text-[8px]">✓</span>
                           <span>{t({ JP: "直接'SURIKOMU'又はコスメに'MAZEKOMU'", EN: "SURIKOMU directly or MAZEKOMU into your current cosmetics." })}</span>
